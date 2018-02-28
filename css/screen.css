@@ -525,6 +525,11 @@ body.nav-opened .site-wrapper {
     font-family: 'Open Sans', sans-serif;
 }
 
+.banner {
+    text-align: center;
+    background: #7B1C82;
+}
+
 /* Navigation */
 body.nav-opened .nav-cover {
     position: fixed;
