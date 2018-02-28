@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Strange Labs</title>
-    <link>http://www.strangelabs.io/index.xml</link>
+    <link>https://strange-labs-uk.github.io/index.xml</link>
     <description>Recent content on Strange Labs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2018</copyright>
-    <atom:link href="http://www.strangelabs.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://strange-labs-uk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>http://www.strangelabs.io/post/one/</link>
+      <link>https://strange-labs-uk.github.io/post/one/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.strangelabs.io/post/one/</guid>
+      <guid>https://strange-labs-uk.github.io/post/one/</guid>
       <description>&lt;h3&gt;Are you a programmer? A gamer? A custom PC builder or hardware hobbyist?&lt;/h3&gt;
 
 &lt;p&gt;If you are involved in any of these activities, you probably mostly do your work and your hobby related socialising online. It is hard to meet up other than at peoples houses, or in big corporate offices or desk spaces. Fortunately the world is changing and physical hubs for digital activities are starting to emerge in our cities. PC and console gamers have the likes of gaming cyber-cafes but where can the other PC enthusiasts go? The coders, hardware modders and the hackers?&lt;/p&gt;
