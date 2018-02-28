@@ -784,6 +784,26 @@ body.nav-opened .nav {
     */
 }
 
+.nav-button {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    height: 38px;
+    padding: 0 15px;
+    opacity: 0.9;
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 35px;
+    white-space: nowrap;
+    border-radius: 3px;
+    background: rgba(0,0,0,0);
+    transition: all 0.5s ease;
+}
+
 .menu-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -792,7 +812,6 @@ body.nav-opened .nav {
     float: right;
     height: 38px;
     padding: 0 15px;
-    border: #bfc8cd 1px solid;
     opacity: 1;
     color: #9EABB3;
     text-align: center;
@@ -852,8 +871,8 @@ body.nav-opened .menu-button .word {
 
 .main-nav.overlay a:hover {
     color: #222;
-    border-color: #fff;
-    background: #fff;
+    border-color: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.9);
 }
 
 /* Add a border to the buttons on hover */
@@ -1983,13 +2002,13 @@ body:not(.post-template) .post-title {
 
 body {
   margin: 0;
-  /*font: normal 75% Arial, Helvetica, sans-serif;*/
 }
 
 canvas {
   display: block;
   vertical-align: bottom;
 }
+
 /* ---- particles.js container ---- */
 
 #particles-js {
