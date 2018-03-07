@@ -97,6 +97,7 @@ button::-moz-focus-inner,
 input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; }
 table { border-collapse: collapse; border-spacing: 0; }
+
 /* ==========================================================================
    1. Icons - Sets up the icon font and respective classes
    ========================================================================== */
@@ -808,7 +809,7 @@ body.nav-opened .nav {
     background: rgba(0,0,0,0);
     transition: all 0.5s ease;
 }
-
+/*
 .menu-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -850,7 +851,7 @@ body.nav-opened .menu-button .word {
     opacity: 0;
     transition: all 0.3s ease;
 }
-
+*/
 /* Special styles when overlaid on an image*/
 .main-nav.overlay {
     position: absolute;
