@@ -97,7 +97,6 @@ button::-moz-focus-inner,
 input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; }
 table { border-collapse: collapse; border-spacing: 0; }
-
 /* ==========================================================================
    1. Icons - Sets up the icon font and respective classes
    ========================================================================== */
@@ -527,13 +526,8 @@ body.nav-opened .site-wrapper {
 }
 
 .banner {
-    height: 100%;
     text-align: center;
-    background: linear-gradient(240deg, #7B1C82, #5C1B91);
-    background-size: 100% 100%;
-    -webkit-animation: Gradient 60s ease infinite;
-    -moz-animation: Gradient 60s ease infinite;
-    animation: Gradient 60s ease infinite;
+    background: #7B1C82;
 }
 
 /* Navigation */
@@ -1667,13 +1661,7 @@ body:not(.post-template) .post-title {
     }
 
     article.post.post {
-        background: linear-gradient(
-          rgba(0, 0, 0, 1), 
-          rgba(0, 0, 0, 0.3)
-        ),
-        url("../images/banner.png");
-        -webkit-transition: -webkit-transform 0.5s ease;
-                transition: transform 0.5s ease;
+        background-color: #fff;
         margin: 0;
     }
 
@@ -1687,13 +1675,7 @@ body:not(.post-template) .post-title {
 @media only screen and (max-width: 500px) {
 
     article.post.post {
-        background: linear-gradient(
-          rgba(0, 0, 0, 1), 
-          rgba(0, 0, 0, 0.3)
-        ),
-        url("../images/banner.png");
-        -webkit-transition: -webkit-transform 0.5s ease;
-                transition: transform 0.5s ease;
+        background-color: #fff;
         padding: 20px;
         margin: 0;
     }
