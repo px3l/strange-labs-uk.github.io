@@ -1478,6 +1478,8 @@ body:not(.post-template) .post-title {
     float: left;
 }
 
+@font-face {font-family:"Bio-disc Thin";src:url("BIOST.eot?") format("eot"),url("BIOST.woff") format("woff"),url("BIOST.ttf") format("truetype"),url("BIOST.svg#Bio-discThin") format("svg");font-weight:normal;font-style:normal;}
+
 .btn-bootstrap-2 {
     /* display: block; */
     /* position: absolute; */
@@ -1506,7 +1508,7 @@ body:not(.post-template) .post-title {
     opacity: 1; */
     /* color: #9EABB3; */
     text-align: center;
-    font-family:'Bio-disc Thin';
+    font-family:"Bio-disc Thin";
     -webkit-text-stroke: 1px #fff;
     font-size: 250%;
     text-transform: uppercase;
