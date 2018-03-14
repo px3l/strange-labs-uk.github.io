@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2018</copyright>
-    <lastBuildDate>Fri, 11 Jul 2014 10:54:24 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Mar 2018 10:54:24 +0200</lastBuildDate>
     
 	<atom:link href="https://strange-labs-uk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,19 +15,10 @@
     <item>
       <title></title>
       <link>https://strange-labs-uk.github.io/post/about/</link>
-      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      <pubDate>Sun, 11 Mar 2018 10:54:24 +0200</pubDate>
       
       <guid>https://strange-labs-uk.github.io/post/about/</guid>
       <description>Are you a programmer? A gamer? A custom PC builder or hardware hobbyist? Please support us by sending ETH to this address 0x83b08da8fb4960ca260dd6b86b51357be69580d2 If you are involved in any of these activities, you probably mostly do your work and your hobby related socialising online. It is hard to meet up other than at peoples houses, or in big corporate offices or desk spaces. Fortunately the world is changing and physical hubs for digital activities are starting to emerge in our cities.</description>
-    </item>
-    
-    <item>
-      <title>Post title</title>
-      <link>https://strange-labs-uk.github.io/post/post-title/</link>
-      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
-      
-      <guid>https://strange-labs-uk.github.io/post/post-title/</guid>
-      <description></description>
     </item>
     
   </channel>
