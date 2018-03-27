@@ -49,7 +49,6 @@ h4, h5, h6 {
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     color: rgba(255, 255, 255, 0.8);
-    line-height: 1.15em;
     margin: 0 0 0.4em 0;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     text-rendering: geometricPrecision;
@@ -234,6 +233,18 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: none;
     font-family: "Bio-disc Thin";
+    color: rgba(255,255,255,0.5);
+    -webkit-text-stroke: 2px #fff;
+    font-size: 1000% !important;
+    text-transform: uppercase;
+}
+
+header .header-content .header-content-inner h1:hover {
+    color: rgba(255, 255, 255, 1);
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
 }
 
 header .header-content .header-content-inner hr {
@@ -242,7 +253,7 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
@@ -271,7 +282,7 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 18px;
+        font-size: 30px;
     }
 }
 
@@ -374,15 +385,6 @@ header .header-content .header-content-inner p {
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
-}
-
-#model #services #footer {
-    z-index: 100;
-}
-
-#footer {
-    color: #fff;
-
 }
 
 /* ==========================================================================
@@ -549,7 +551,6 @@ body {
   position: fixed;
   width: 100%;
   height: 100%;
-  z-index: 0;
   background-color: #000000;
   background-image: url("../images/banner.png");
   background-attachment: fixed;
