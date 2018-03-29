@@ -6,6 +6,11 @@
 
     0 - Fonts/Icons - Sets up the icon font and respective classes
     1 - General - Setting up the basic elements
+    2 - Headers
+    3 - Sections - Styling the partials
+    4 - Buttons
+    5 - Forms
+    6 - End Of File - Animations should be the last thing here.
 
 */
 
@@ -59,7 +64,7 @@ h2 {
 }
 
 a {
-    color: #7B1C82;
+    color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -302,7 +307,7 @@ header .header-content .header-content-inner p {
 }
 
 /* ==========================================================================
-   3. Sections
+   3. Sections - Styling the partials
    ========================================================================== */
 
 .section-heading {
@@ -409,8 +414,14 @@ header .header-content .header-content-inner p {
     padding-left: 0;
 }
 
+.footer {
+    position: absolute;
+    width: 100%;
+    right: 0px;
+}
+
 /* ==========================================================================
-   Buttons
+   4. Buttons
    ========================================================================== */
 
 .btn-default {
@@ -564,7 +575,41 @@ body {
 }
 
 /* ==========================================================================
-   End of file. Animations should be the last thing here.
+   5. Forms
+   ========================================================================== */
+
+/* Style inputs, select elements and textareas */
+input[type=email], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin-bottom: 2%;
+}
+
+/* Style the submit button */
+button[type=submit] {
+  background-color: #5C1B91;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+button[type=submit]:hover {
+  background-color: #fff;
+  color: #5C1B91;
+}
+
+/* ==========================================================================
+   6. End of file. Animations should be the last thing here.
    ========================================================================== */
 
 /* ---- particles.js container ---- */
