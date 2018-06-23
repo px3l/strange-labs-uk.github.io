@@ -53,7 +53,7 @@ h4, h5, h6 {
     -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
     margin: 0 0 0.4em 0;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     text-rendering: geometricPrecision;
@@ -86,9 +86,9 @@ a:focus {
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 1.5em;
     line-height: 1.5;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 #buffy-box {
