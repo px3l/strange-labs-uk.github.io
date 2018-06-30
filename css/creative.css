@@ -76,12 +76,15 @@ a:focus {
 }
 
 #about a {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 1);
 }
 
 #about a:hover,
 #about a:focus {
-    color: rgb(255, 255, 255);
+    color: #5C1B91;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
 }
 
 p {
