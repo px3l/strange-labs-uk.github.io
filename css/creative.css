@@ -91,7 +91,7 @@ p {
     margin-bottom: 20px;
     font-size: 1.5em;
     line-height: 1.5;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 1);
 }
 
 #buffy-box {
@@ -355,7 +355,8 @@ header .header-content .header-content-inner p {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 650px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -367,7 +368,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: rgba(0,0,0,.9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -438,7 +439,16 @@ header .header-content .header-content-inner p {
 }
 
 /* ==========================================================================
-   4. Buttons
+   4. Sections - Styling the Models
+   ========================================================================== */
+
+.modal-content {
+    background: #000;
+    color: #fff;
+}
+
+/* ==========================================================================
+   5. Buttons
    ========================================================================== */
 
 .btn-default {
@@ -592,7 +602,7 @@ body {
 }
 
 /* ==========================================================================
-   5. Forms
+   6. Forms
    ========================================================================== */
 
 /* Style inputs, select elements and textareas */
@@ -626,7 +636,7 @@ button[type=submit]:hover {
 }
 
 /* ==========================================================================
-   6. End of file. Animations should be the last thing here.
+   7. End of file. Animations should be the last thing here.
    ========================================================================== */
 
 /* ---- particles.js container ---- */
