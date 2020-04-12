@@ -428,20 +428,103 @@
                     <hr class="primary">
                 
                 
-                    <p>Are you ready to start the design process?</p>
+                    <p>Are you ready to start the design process? Simply submit the form below!</p>
                 
             </div>
         </div>
+      
+      <br>
+       
         
 
-        <br>
-        <div>
-            <a class="btn btn-primary btn-xl">Click Me</a>
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#formModal">Open Form</button>
+            </div>
+
+            <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Strange Labs Custom PCs</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Fill in the form below to start tailoring your new computer:</p>
+                            <form id="spec-form" name="spec-form" accept-charset="utf-8" action="https://formspree.io/info@strangelabs.io" method="post">
+                              <fieldset id="fs-frm-inputs">
+                                <label for="full-name">Full Name:</label>
+                                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                                
+                                <br>
+                          
+                                <label for="email-address">Email Address:</label>
+                                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                                
+                                <br>
+                          
+                                <label for="budget">What is your maximum budget:</label>
+                                <input type="number" name="budget" id="budget" placeholder="£GBP" required="">
+                          
+                                <br>
+                          
+                                <label for="message"> What are you purposes for this PC:</label>
+                                <textarea rows="3" name="message" id="message" placeholder="Gaming? Video editing? Simulations? Programming? General use? Etc." required=""></textarea>
+                          
+                                <br>
+                          
+                                <label for="message">Requirements:</label>
+                                <input type="checkbox" name="looks"/><label class="checkbox" for="looks">Looks Amazing</label>
+                                <input type="checkbox" name="wifi"/><label class="checkbox" for="wifi">Wi-Fi</label>
+                                <input type="checkbox" name="silent"/><label class="checkbox" for="silent">Soundproofing</label>
+                                <input type="checkbox" name="rgb"/><label class="checkbox" for="rgb">RGB Lighting</label>
+                                <input type="checkbox" name="dvd"/><label class="checkbox" for="dvd">DVD Drive</label>
+                                <input type="checkbox" name="largedata"/><label class="checkbox" for="largedata">Large Data Storage</label>
+                                <input type="checkbox" name="sff"/><label class="checkbox" for="sff">Small physical size (Small form factor)</label>
+                                <textarea rows="3" name="message" id="message" placeholder="Anything that is vital the PC has which isn't listed?" required=""></textarea>
+                          
+                                <br>
+                          
+                                <label for="message">Do you want it to have a custom water cooling loop:</label>
+                                <input type="radio" id="wateryes" name="gender" value="wateryes">
+                                <label class="checkbox" for="wateryes">Yes</label>
+                                <input type="radio" id="waterno" name="gender" value="waterno">
+                                <label class="checkbox" for="waterno">No</label>
+                          
+                                <br>
+                          
+                                <label for="message">Which Operating System do you need:</label>
+                                <input type="checkbox" name="win10home"/><label class="checkbox">Windows 10 Home</label>
+                                <input type="checkbox" name="win10pro"/><label class="checkbox">Windows 10 Pro</label>
+                                <input type="checkbox" name="mint"/><label class="checkbox">Linux Mint</label>
+                                <input type="checkbox" name="ubuntu"/><label class="checkbox">Ubuntu</label>
+                                <br>
+                                <textarea rows="3" name="message" id="message" placeholder="Do you need any other specific operating system"></textarea>
+                          
+                                <br>
+                          
+                                <label for="message">Anything else you need us to know:</label>
+                                <textarea rows="3" name="message" id="message" placeholder="Want to use a specific component? Or have something else we need to know!" required=""></textarea>
+                          
+                                <br>
+                          
+                                <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+                              </fieldset>
+                              <input class="btn btn-primary" type="submit" value="Send Responses"> 
+                            </form>
+                        </div>
+                    
+                </div>
+            </div>
+          </div>
         </div>
         
+        <br><br><br>
 
         
-        <br>
+
         <div>
             
                 <div class="
@@ -464,8 +547,11 @@
                 </div>
             
         </div>
+
     </div>
 </section>
+
+
 
         
 

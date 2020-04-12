@@ -606,15 +606,34 @@ body {
    6. Forms
    ========================================================================== */
 
+form {
+    background: rgba(0,0,0,0.1);
+}
+
 /* Style inputs, select elements and textareas */
-input[type=email], select, textarea{
-  width: 100%;
+label{
+    color: rgba(255,255,255,0.8);
+    font-size: 1.3em;
+}
+
+input[type=email], input[type=number], input[type=text], input[type=checkbox], input[type=radio]{
+  margin: 2%;
+}
+
+select, textarea{
+  width: 70%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
-  margin-bottom: 2%;
+  margin: 2%;
+}
+
+.checkbox {
+    display: inline-block;
+    color: rgba(255,255,255,0.5);
+    font-size: 1em;
 }
 
 /* Style the submit button */
