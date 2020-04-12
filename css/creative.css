@@ -618,6 +618,7 @@ label{
 
 input[type=email], input[type=number], input[type=text], input[type=checkbox], input[type=radio]{
   margin: 2%;
+  color: #000;
 }
 
 select, textarea{
@@ -628,6 +629,7 @@ select, textarea{
   box-sizing: border-box;
   resize: vertical;
   margin: 2%;
+  color: #000;
 }
 
 .checkbox {
