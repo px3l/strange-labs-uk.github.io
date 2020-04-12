@@ -439,7 +439,7 @@
 
         <div class="col-lg-8 col-lg-offset-2 text-center">
             <div>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#formModal">Open Form</button>
+                <button type="button" class="btn btn-xl btn-primary" data-toggle="modal" data-target="#formModal">Open Form</button>
             </div>
 
             <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -451,7 +451,7 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body modal-form">
                             <p>Fill in the form below to start tailoring your new computer:</p>
                             <form id="spec-form" name="spec-form" accept-charset="utf-8" action="https://formspree.io/info@strangelabs.io" method="post">
                               <fieldset id="fs-frm-inputs">
@@ -468,47 +468,45 @@
                                 <label for="budget">What is your maximum budget:</label>
                                 <input type="number" name="budget" id="budget" placeholder="£GBP" required="">
                           
-                                <br>
+                                <br><br><br>
                           
                                 <label for="message"> What are you purposes for this PC:</label>
                                 <textarea rows="3" name="message" id="message" placeholder="Gaming? Video editing? Simulations? Programming? General use? Etc." required=""></textarea>
                           
-                                <br>
+                                <br><br><br>
                           
-                                <label for="message">Requirements:</label>
-                                <input type="checkbox" name="looks"/><label class="checkbox" for="looks">Looks Amazing</label>
-                                <input type="checkbox" name="wifi"/><label class="checkbox" for="wifi">Wi-Fi</label>
-                                <input type="checkbox" name="silent"/><label class="checkbox" for="silent">Soundproofing</label>
-                                <input type="checkbox" name="rgb"/><label class="checkbox" for="rgb">RGB Lighting</label>
-                                <input type="checkbox" name="dvd"/><label class="checkbox" for="dvd">DVD Drive</label>
-                                <input type="checkbox" name="largedata"/><label class="checkbox" for="largedata">Large Data Storage</label>
-                                <input type="checkbox" name="sff"/><label class="checkbox" for="sff">Small physical size (Small form factor)</label>
+                                <label for="message">Requirements:</label><br>
+                                <label class="checkbox" for="looksGood">Looks Amazing</label><input type="checkbox" name="looks"/>
+                                <label class="checkbox" for="wifi">Wi-Fi</label><input type="checkbox" name="wifi"/>
+                                <label class="checkbox" for="silent">Soundproofing</label><input type="checkbox" name="soundproofing"/>
+                                <label class="checkbox" for="rgb">RGB Lighting</label><input type="checkbox" name="rgb"/>
+                                <label class="checkbox" for="dvd">DVD Drive</label><input type="checkbox" name="dvd"/>
+                                <label class="checkbox" for="largedata">Large Data Storage</label><input type="checkbox" name="largeDataStorage"/>
+                                <label class="checkbox" for="sff">Small physical size (Small form factor)</label><input type="checkbox" name="sff"/>
                                 <textarea rows="3" name="message" id="message" placeholder="Anything that is vital the PC has which isn't listed?" required=""></textarea>
                           
-                                <br>
+                                <br><br><br>
                           
-                                <label for="message">Do you want it to have a custom water cooling loop:</label>
-                                <input type="radio" id="wateryes" name="gender" value="wateryes">
-                                <label class="checkbox" for="wateryes">Yes</label>
-                                <input type="radio" id="waterno" name="gender" value="waterno">
-                                <label class="checkbox" for="waterno">No</label>
+                                <label for="message">Do you want it to have a custom water cooling loop:</label><br>
+                                <label class="checkbox" for="watercoolingLoopYes">Yes</label><input type="radio" id="watercoolingLoopYes" name="watercoolingLoop" value="wateryes">
+                                <label class="checkbox" for="watercoolingLoopNo">No</label><input type="radio" id="watercoolingLoopNo" name="watercoolingLoop" value="waterno">
                           
-                                <br>
+                                <br><br><br>
                           
-                                <label for="message">Which Operating System do you need:</label>
-                                <input type="checkbox" name="win10home"/><label class="checkbox">Windows 10 Home</label>
-                                <input type="checkbox" name="win10pro"/><label class="checkbox">Windows 10 Pro</label>
-                                <input type="checkbox" name="mint"/><label class="checkbox">Linux Mint</label>
-                                <input type="checkbox" name="ubuntu"/><label class="checkbox">Ubuntu</label>
+                                <label for="message">Which Operating System do you need:</label><br>
+                                <label class="checkbox">Windows 10 Home</label><input type="checkbox" name="win10home"/>
+                                <label class="checkbox">Windows 10 Pro</label><input type="checkbox" name="win10pro"/>
+                                <label class="checkbox">Linux Mint</label><input type="checkbox" name="mint"/>
+                                <label class="checkbox">Ubuntu</label><input type="checkbox" name="ubuntu"/>
                                 <br>
                                 <textarea rows="3" name="message" id="message" placeholder="Do you need any other specific operating system"></textarea>
                           
-                                <br>
+                                <br><br><br>
                           
                                 <label for="message">Anything else you need us to know:</label>
                                 <textarea rows="3" name="message" id="message" placeholder="Want to use a specific component? Or have something else we need to know!" required=""></textarea>
                           
-                                <br>
+                                <br><br><br>
                           
                                 <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
                               </fieldset>

@@ -606,10 +606,6 @@ body {
    6. Forms
    ========================================================================== */
 
-form {
-    background: rgba(0,0,0,0.1);
-}
-
 /* Style inputs, select elements and textareas */
 label{
     color: rgba(255,255,255,0.8);
@@ -636,25 +632,6 @@ select, textarea{
     display: inline-block;
     color: rgba(255,255,255,0.5);
     font-size: 1em;
-}
-
-/* Style the submit button */
-button[type=submit] {
-  background-color: #5C1B91;
-  color: #fff;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  transition: all .5s;
-}
-
-button[type=submit]:hover {
-  background-color: #fff;
-  color: #5C1B91;
 }
 
 /* ==========================================================================
