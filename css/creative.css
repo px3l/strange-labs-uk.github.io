@@ -453,8 +453,8 @@ header .header-content .header-content-inner p {
 }
 
 #gallery {
-    position: absolute;
-    right: 0;
+    position: fixed;
+    right: 20%;
 }
 
 /* ==========================================================================
