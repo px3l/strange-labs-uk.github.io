@@ -351,6 +351,13 @@ header .header-content .header-content-inner p {
     padding: 10px;
 }
 
+.portfoliobg {
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .portfolio-box {
     display: block;
     position: relative;
