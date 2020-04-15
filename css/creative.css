@@ -459,8 +459,9 @@ header .header-content .header-content-inner p {
     padding: 5%;
 }
 
-#gallery {
+#btn-gallery {
     position: fixed;
+    top: 1%;
     right: 10%;
 }
 

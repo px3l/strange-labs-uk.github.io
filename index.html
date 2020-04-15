@@ -544,20 +544,22 @@
                                 <br><br><br>
                           
                                 <label for="message">Requirements:</label><br>
-                                <label class="checkbox" for="looksGood">Looks Amazing</label><input type="checkbox" name="looks"/>
+                                <label class="checkbox" for="cuda">CUDA</label><input type="checkbox" name="cuda"/>
+                                <label class="checkbox" for="dvdDrive">DVD Drive</label><input type="checkbox" name="dvdDrive"/>
+                                <label class="checkbox" for="fanController">Fan Controller</label><input type="checkbox" name="fanController"/>
+                                <label class="checkbox" for="largeDataStorage">Large Data Storage</label><input type="checkbox" name="largeDataStorage"/>
+                                <label class="checkbox" for="looksAmazing">Looks Amazing</label><input type="checkbox" name="looksAmazing"/>
+                                <label class="checkbox" for="rgbLighting">RGB Lighting</label><input type="checkbox" name="rgbLighting"/>
+                                <label class="checkbox" for="smallFormFactor">Small physical size (Small form factor)</label><input type="checkbox" name="smallFormFactor"/>
+                                <label class="checkbox" for="soundproofing">Soundproofing</label><input type="checkbox" name="soundproofing"/>
                                 <label class="checkbox" for="wifi">Wi-Fi</label><input type="checkbox" name="wifi"/>
-                                <label class="checkbox" for="silent">Soundproofing</label><input type="checkbox" name="soundproofing"/>
-                                <label class="checkbox" for="rgb">RGB Lighting</label><input type="checkbox" name="rgb"/>
-                                <label class="checkbox" for="dvd">DVD Drive</label><input type="checkbox" name="dvd"/>
-                                <label class="checkbox" for="largedata">Large Data Storage</label><input type="checkbox" name="largeDataStorage"/>
-                                <label class="checkbox" for="sff">Small physical size (Small form factor)</label><input type="checkbox" name="sff"/>
-                                <textarea rows="3" name="message" id="message" placeholder="Anything that is vital the PC has which isn't listed?" required=""></textarea>
+                                <textarea rows="3" name="message" id="message" placeholder="Anything that is vital the PC has which isn't listed?" ></textarea>
                           
                                 <br><br><br>
                           
                                 <label for="message">Do you want it to have a custom water cooling loop:</label><br>
-                                <label class="checkbox" for="watercoolingLoopYes">Yes</label><input type="radio" id="watercoolingLoopYes" name="watercoolingLoop" value="wateryes">
-                                <label class="checkbox" for="watercoolingLoopNo">No</label><input type="radio" id="watercoolingLoopNo" name="watercoolingLoop" value="waterno">
+                                <label class="checkbox" for="watercoolingLoopYes">Yes</label><input type="radio" id="watercoolingLoopYes" name="watercoolingLoop" value="wateryes" required="">
+                                <label class="checkbox" for="watercoolingLoopNo">No</label><input type="radio" id="watercoolingLoopNo" name="watercoolingLoop" value="waterno" required="">
                           
                                 <br><br><br>
                           
@@ -632,7 +634,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         
-                            <button type="button" class="btn btn-primary" id="gallery" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn-gallery" data-dismiss="modal">Close</button>
                         
                         
                             <h2>Observatory</h2>
@@ -680,7 +682,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         
-                            <button type="button" class="btn btn-primary" id="gallery" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn-gallery" data-dismiss="modal">Close</button>
                         
                         
                             <h2>Sleeper</h2>
@@ -726,7 +728,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         
-                            <button type="button" class="btn btn-primary" id="gallery" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn-gallery" data-dismiss="modal">Close</button>
                         
                         
                             <h2>PC11</h2>
@@ -772,7 +774,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         
-                            <button type="button" class="btn btn-primary" id="gallery" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn-gallery" data-dismiss="modal">Close</button>
                         
                         
                             <h2>View37</h2>
@@ -816,7 +818,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         
-                            <button type="button" class="btn btn-primary" id="gallery" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn-gallery" data-dismiss="modal">Close</button>
                         
                         
                             <h2>Portal</h2>
@@ -864,7 +866,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         
-                            <button type="button" class="btn btn-primary" id="gallery" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn-gallery" data-dismiss="modal">Close</button>
                         
                         
                             <h2>RGB Squared</h2>
@@ -916,7 +918,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         
-                            <button type="button" class="btn btn-primary" id="gallery" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn-gallery" data-dismiss="modal">Close</button>
                         
                         
                             <h2>Evolve X Aqua</h2>
@@ -978,7 +980,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         
-                            <button type="button" class="btn btn-primary" id="gallery" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn-gallery" data-dismiss="modal">Close</button>
                         
                         
                             <h2>Sentinel</h2>
@@ -1032,7 +1034,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         
-                            <button type="button" class="btn btn-primary" id="gallery" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn-gallery" data-dismiss="modal">Close</button>
                         
                         
                             <h2>Azza Crystal</h2>
@@ -1082,7 +1084,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         
-                            <button type="button" class="btn btn-primary" id="gallery" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn-gallery" data-dismiss="modal">Close</button>
                         
                         
                             <h2>AMD 5700XT</h2>
@@ -1130,7 +1132,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         
-                            <button type="button" class="btn btn-primary" id="gallery" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn-gallery" data-dismiss="modal">Close</button>
                         
                         
                             <h2>Golden Cube</h2>
@@ -1176,7 +1178,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         
-                            <button type="button" class="btn btn-primary" id="gallery" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="btn-gallery" data-dismiss="modal">Close</button>
                         
                         
                             <h2>S2</h2>
