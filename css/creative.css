@@ -461,7 +461,6 @@ header .header-content .header-content-inner p {
 
 #btn-gallery {
     position: fixed;
-    top: 1%;
     right: 10%;
 }
 
@@ -624,6 +623,10 @@ body {
    ========================================================================== */
 
 /* Style inputs, select elements and textareas */
+.modal-form {
+    background-color: rgb(10,10,10);
+}
+
 label{
     color: rgba(255,255,255,0.8);
     font-size: 1.3em;
