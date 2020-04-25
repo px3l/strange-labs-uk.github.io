@@ -3,11 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://strangelabs.io/categories/</loc>
+    <loc>https://strangelabs.io/blog/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/helloworld/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://strangelabs.io/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/categories/</loc>
   </url>
   
   <url>

@@ -46,12 +46,13 @@
                 <span class="icon-bar"></span>
             </button>
             
-                <a class="navbar-brand page-scroll" href="#page-top">Strange Labs</a>
+                <a class="navbar-brand page-scroll" href="/#page-top">Strange Labs</a>
             
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+                
                 
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -70,6 +71,11 @@
                 
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="/blog">Blog</a>
                     </li>
                 
                 <li>
@@ -150,6 +156,12 @@
     <div class="container-fluid">
         <div class="row no-gutter">
             <br>
+            <div class="col-lg-12 text-center">
+                
+                    <h2 class="section-heading">Our portfolio</h2>
+                
+                    <hr class="primary">
+                </div>
             
                 <div class="col-lg-2 col-sm-6 portfoliobg">
                     <a href="#portfolioModal1" class="portfolio-box portfolio-link" data-toggle="modal">
@@ -521,6 +533,7 @@
                         </div>
                         <div class="modal-body modal-form">
                             <p>Fill in the form below to start tailoring your new computer:</p>
+                            <p style="font-size: 1em">Please note that our PCs start from roughly £600 and choosing certain requirements will push the price up significantly. If you are unsure of what your ideal PC will cost, we will let you know if it is possible or not to work within your budget. Currently we only ship PCs within the UK</p>
                             <form id="spec-form" name="spec-form" accept-charset="utf-8" action="https://formspree.io/info@strangelabs.io" method="post">
                               <fieldset id="fs-frm-inputs">
                                 <label for="full-name">Full Name:</label>
@@ -535,29 +548,57 @@
                           
                                 <label for="budget">What is your maximum budget:</label>
                                 <input type="number" name="budget" id="budget" placeholder="£GBP" required="">
+
+                                <br>
+                          
+                                <label for="postcode">What is your postcode:</label>
+                                <input type="text" name="postcode" id="postcode" placeholder="UK postcode" required="">
                           
                                 <br><br><br>
                           
                                 <label for="message"> What are you purposes for this PC:</label>
-                                <textarea rows="3" name="message" id="message" placeholder="Gaming? Video editing? Simulations? Programming? General use? Etc." required=""></textarea>
+                                <li>
+                                    <ul>
+                                        <label class="checkbox" for="gaming">General Gaming</label><input type="checkbox" name="gaming"/>
+                                        <label class="checkbox" for="highEndGaming">Ultra High End Gaming</label><input type="checkbox" name="highEndGaming"/>
+                                        <label class="checkbox" for="audioProduction">Audio Production</label><input type="checkbox" name="audioProduction"/>
+                                        <label class="checkbox" for="videoEditing">Video Editing/Animation</label><input type="checkbox" name="videoEditing"/>
+                                        <label class="checkbox" for="simulations">Simulations</label><input type="checkbox" name="simulations"/>
+                                    </ul>
+                                    <ul>
+                                        <label class="checkbox" for="programming">Programming</label><input type="checkbox" name="programming"/>
+                                        <label class="checkbox" for="vitualReality">Virtual Reality</label><input type="checkbox" name="vitualReality"/>
+                                        <label class="checkbox" for="streaming">Streaming</label><input type="checkbox" name="streaming"/>
+                                        <label class="checkbox" for="generalUse">General Use</label><input type="checkbox" name="generalUse"/>
+                                    </ul>
+                                </li>
+                                <textarea rows="3" name="message" id="message" placeholder="Please use this space for any specific uses. Ie. Something not listed above, or particular games you play." required=""></textarea>
                           
                                 <br><br><br>
                           
                                 <label for="message">Requirements:</label><br>
-                                <label class="checkbox" for="cuda">CUDA</label><input type="checkbox" name="cuda"/>
-                                <label class="checkbox" for="dvdDrive">DVD Drive</label><input type="checkbox" name="dvdDrive"/>
-                                <label class="checkbox" for="fanController">Fan Controller</label><input type="checkbox" name="fanController"/>
-                                <label class="checkbox" for="largeDataStorage">Large Data Storage</label><input type="checkbox" name="largeDataStorage"/>
-                                <label class="checkbox" for="looksAmazing">Looks Amazing</label><input type="checkbox" name="looksAmazing"/>
-                                <label class="checkbox" for="rgbLighting">RGB Lighting</label><input type="checkbox" name="rgbLighting"/>
-                                <label class="checkbox" for="smallFormFactor">Small physical size (Small form factor)</label><input type="checkbox" name="smallFormFactor"/>
-                                <label class="checkbox" for="soundproofing">Soundproofing</label><input type="checkbox" name="soundproofing"/>
-                                <label class="checkbox" for="wifi">Wi-Fi</label><input type="checkbox" name="wifi"/>
+                                <li>
+                                    <ul>
+                                        <label class="checkbox" for="cuda">CUDA</label><input type="checkbox" name="cuda"/>
+                                        <label class="checkbox" for="dvdDrive">DVD Drive</label><input type="checkbox" name="dvdDrive"/>
+                                        <label class="checkbox" for="fanController">Fan Controller</label><input type="checkbox" name="fanController"/>
+                                        <label class="checkbox" for="largeDataStorage">Large Data Storage</label><input type="checkbox" name="largeDataStorage"/>
+                                    </ul>
+                                    <ul>
+                                        <label class="checkbox" for="looksAmazing">Looks Amazing</label><input type="checkbox" name="looksAmazing"/>
+                                        <label class="checkbox" for="rgbLighting">RGB Lighting</label><input type="checkbox" name="rgbLighting"/>
+                                        <label class="checkbox" for="smallFormFactor">Small physical size (Small form factor)</label><input type="checkbox" name="smallFormFactor"/>
+                                        <label class="checkbox" for="soundproofing">Soundproofing</label><input type="checkbox" name="soundproofing"/>
+                                        <label class="checkbox" for="wifi">Wi-Fi</label><input type="checkbox" name="wifi"/>
+                                    </ul>
+                                </li>
                                 <textarea rows="3" name="message" id="message" placeholder="Anything that is vital the PC has which isn't listed?" ></textarea>
                           
                                 <br><br><br>
                           
-                                <label for="message">Do you want it to have a custom water cooling loop:</label><br>
+                                <label for="message">Do you want it to have a custom water cooling loop:</label>
+                                <p style="font-size: 1em">Please note if you choose yes this will be an expensive PC.</p>
+                                <br>
                                 <label class="checkbox" for="watercoolingLoopYes">Yes</label><input type="radio" id="watercoolingLoopYes" name="watercoolingLoop" value="wateryes" required="">
                                 <label class="checkbox" for="watercoolingLoopNo">No</label><input type="radio" id="watercoolingLoopNo" name="watercoolingLoop" value="waterno" required="">
                           

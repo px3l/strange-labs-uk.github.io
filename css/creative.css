@@ -8,9 +8,11 @@
     1 - General - Setting up the basic elements
     2 - Headers
     3 - Sections - Styling the partials
-    4 - Buttons
-    5 - Forms
-    6 - End Of File - Animations should be the last thing here.
+    4 - Sections - Styling the Models
+    5 - Buttons
+    6 - Forms
+    7 - Blog
+    8 - End Of File - Animations should be the last thing here.
 
 */
 
@@ -655,7 +657,26 @@ select, textarea{
 }
 
 /* ==========================================================================
-   7. End of file. Animations should be the last thing here.
+   7. Blog
+   ========================================================================== */
+
+.post-title {
+    font-size: 2em;
+    color: #fff;
+}
+
+.post-date, .post-author {
+    font-size: 1em;
+    color: rgba(255,255,255,.9);
+}
+
+.archive-post-title{
+    font-size: 2em;
+    padding: 10px;
+}
+
+/* ==========================================================================
+   8. End of file. Animations should be the last thing here.
    ========================================================================== */
 
 /* ---- particles.js container ---- */
