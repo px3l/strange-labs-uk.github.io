@@ -660,6 +660,19 @@ select, textarea{
    7. Blog
    ========================================================================== */
 
+/* Post list view */
+
+.archive-post-title{
+    font-size: 2em;
+    padding-left: 10px;
+}
+
+.archive-post {
+    margin-bottom: 40px;
+}
+
+/* Single post view */
+
 .post-title {
     display: inline-block; 
     font-size: 2em;
@@ -669,11 +682,6 @@ select, textarea{
 .post-date, .post-author {
     font-size: 1em;
     color: rgba(255,255,255,.9);
-}
-
-.archive-post-title{
-    font-size: 2em;
-    padding: 10px;
 }
 
 .post-content {
