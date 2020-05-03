@@ -6,7 +6,7 @@
     <description>Recent content in Blogs on Strange Labs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://strangelabs.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,194 @@
     <item>
       <title>Hello World</title>
       <link>https://strangelabs.io/blog/helloworld/</link>
-      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/helloworld/</guid>
-      <description>Hello world, this blog is coming soon&amp;hellip;</description>
+      <description>Hello world Welcome to Strange Labs blog. Below are the archived posts which have been imported from my previous websites. Writing blog posts is a weird thing to do. They can be a mixture of essays, considered and referenced, or they can be rambling thoughts like that in a personal diary. Strange Labs encorporates all, and excludes none. Posts may be revisted many times, edited and updated - such is the beauty of the digital copy.</description>
+    </item>
+    
+    <item>
+      <title>Arguing for Open Source</title>
+      <link>https://strangelabs.io/blog/arguing-for-open-source-code/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/arguing-for-open-source-code/</guid>
+      <description>Why should we trust what people hide from us? Open source tachnology could help us trust in each other, and the spread from computer science to other aspects of society and cultural development may be very beneficial.
+What is open source? Open source in it&amp;rsquo;s most literal definition is software in which the source code (ie. the instruction set which describes the functions that make it) is freely available to view, edit and then redistribute.</description>
+    </item>
+    
+    <item>
+      <title>Beginners Guide to Windows 10</title>
+      <link>https://strangelabs.io/blog/beginners-guide-to-windows-10/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/beginners-guide-to-windows-10/</guid>
+      <description>If you have bought a computer through us, or even if you haven&#39;t, you may want to know how to get started with it. This is a brief guide on using Windows 10. Just the fundamentals.
+Introduction I have been asked many times for some help in getting started and achieving a basic understanding of the Windows 10 operating system (OS). Windows 10 came out on the 29th July 2015 but still people have some trouble finding their way around.</description>
+    </item>
+    
+    <item>
+      <title>BSOD scams on windows 10</title>
+      <link>https://strangelabs.io/blog/bsod-scams-on-windows-10/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/bsod-scams-on-windows-10/</guid>
+      <description>Getting scammed is a growing threat in our connected world. Here are a couple of old BSOD examples that try to scare you into giving away control or money.
+If you&amp;rsquo;ve been using Windows for a long time, you&amp;rsquo;ve probably heard of or witnessed the infamous Blue Screen of Death, or BSOD for short.
+It was a problem that set windows apart from other OS&amp;rsquo;s in the tech fail arena, and even occurred on a live demo by Bill Gates himself of Windows 98</description>
+    </item>
+    
+    <item>
+      <title>Code, data and understanding each other</title>
+      <link>https://strangelabs.io/blog/colour-and-understanding/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/colour-and-understanding/</guid>
+      <description>Our understanding of each other can only ever converge. We cannot step into each others consciousness for a true experience. Knowing no-one will ever truly understand you, how does that affect your experiences? We must take the time to learn our stories and be open minded to converge our understanding as close as possible. In real life this is hard enough, so what about the digital realm. Our data is often static, non-contextual and not truly representative of understanding but if we are to rely on it, we must try to make it so.</description>
+    </item>
+    
+    <item>
+      <title>Designing a space for technology enthusiasts</title>
+      <link>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</guid>
+      <description>Hello world From 2017 to 2020, I had a physical shop, the idea was to convert it from a boring PC repair shop into a social space where programmers could meet to work on projects. This was a post made part way through that development. For the last pics before I closed, go to the end
+We are half way through a refurbishment in store. So far, the first half has been very successful I would say, both in it&amp;rsquo;s own aesthetic, and how it reflects the computer enthusiasm nature of the space.</description>
+    </item>
+    
+    <item>
+      <title>EGX Rezzed 2019 - Our most interesting picks!</title>
+      <link>https://strangelabs.io/blog/egx-rezzed-2019-best-of-the-bunch/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/egx-rezzed-2019-best-of-the-bunch/</guid>
+      <description>EGX Rezzed, London’s biggest gaming event, concluded a week ago. Strange Labs was in attendance and amongst the various qualities of cosplayers wandering around, excellent merchandise and endless games to play, there were also some pretty cool talks from the developers themselves. We managed to get to a few (annoyingly everything inevitably overlaps at these sorts of events) and thought we would share our favourite picks of brand new, up and coming games.</description>
+    </item>
+    
+    <item>
+      <title>Ever wondered about desktop backgrounds?</title>
+      <link>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</guid>
+      <description>Backgrounds are often taken for granted. At least the ones that come pre-shipped with new computers. Well let&#39;s put them into the spotlight like they deserve!
+Windows 10 When I first upgraded a PC to Windows 10 many years ago, I was greeted with the new Windows desktop wallpaper. Pretty cool, I thought. A sort of futuristic Windows icon made out of light at a 3 dimensional angle in neon blues.</description>
+    </item>
+    
+    <item>
+      <title>Evil Genius Gaming Tales</title>
+      <link>https://strangelabs.io/blog/evil-genius-gaming-tales/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/evil-genius-gaming-tales/</guid>
+      <description>Gaming is great, but what&#39;s really great is when you devise a plan to &#34;hack&#34; the game using nothing but the engine itself, No cheats, no actually hacking, just working out a genius plan. Here are some tales to take note of.
+How you play a game in the privacy of your own home, or the anonymity behind the monitor can say a lot about who you are and what you are like.</description>
+    </item>
+    
+    <item>
+      <title>Forgotten your Windows 7 password?</title>
+      <link>https://strangelabs.io/blog/forgotten-your-windows-password/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/forgotten-your-windows-password/</guid>
+      <description>Forgetting a password is a pain. Most accounts now have some online link which allows you to take back control through your email and security questions, but Windows 7 is different. This is before the online account became the norm. Fortunately there is a simple backdoor to get back in!
+It is every Windows users nightmare: one day you try to log in and every attempt is denied. Whether you have forgotten your password or it has been changed or you need to get in and don&amp;rsquo;t have the password, there is a way to break in.</description>
+    </item>
+    
+    <item>
+      <title>Full Stack Buildings Design</title>
+      <link>https://strangelabs.io/blog/full-stack-buildings-design/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/full-stack-buildings-design/</guid>
+      <description>A new type of architect is coming. One with greater vision, greater influence and greater understanding. This architect of the future understands the building she/he/they/it will design not only from the material to the philosophy in the traditional sense, but from the electron in the wiring to the connectivity of the internet and the languages to converse these layers to the building user as part of a new, technological world.</description>
+    </item>
+    
+    <item>
+      <title>How to avoid the bait and not get phished!</title>
+      <link>https://strangelabs.io/blog/dont-get-phished/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/dont-get-phished/</guid>
+      <description>One of the most common way to get scammed or hacked is through a method called “Phishing”. It is very easy to fall foul of this type of con and can result in loss of control over your data and identity to the hackers. The following is a guest article by Techwarn which goes some way to help you avoid this sort of attack and educate yourselves in this method of cybercrime.</description>
+    </item>
+    
+    <item>
+      <title>How to think in the world of cyber crime</title>
+      <link>https://strangelabs.io/blog/how-to-think-in-the-world-of-cyber-crime/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/how-to-think-in-the-world-of-cyber-crime/</guid>
+      <description>Cybrecrime will become more prevailant the more we build technology and networking into our lives. It is pretty scary and rightly so. If you are paranoid, chances are you should be. Here is how I think, and how you should probably think, in this scary technological world
+It seems over the last few years we are increasingly frequently being informed of this cyber attack, that ransomware infection, this data leak&amp;hellip; To me it does make sense that these events would increase.</description>
+    </item>
+    
+    <item>
+      <title>Imagining with Deep Dream</title>
+      <link>https://strangelabs.io/blog/imagining-with-deep-dream/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/imagining-with-deep-dream/</guid>
+      <description>Google&#39;s Deep Dream shows us how simple pattern play in visuals with some iterative dynamic can create experiences which previously felt exclusively human, spiritual and deeply conscious. This reinforces the idea of our mind as a complex network of networks and ultimately recreatable by technology.
+I think I am late to the party here, but better late than never! I read the recently released white paper by Google: PathNet: Evolution Channels Gradient Descent in Super Neural Networks and became fascinated on the conceptual simplicity of the underpinning algorithms which build narrow artificial intelligence.</description>
+    </item>
+    
+    <item>
+      <title>Interesting Hacks on your PC or Mac</title>
+      <link>https://strangelabs.io/blog/interesting-hacks-on-your-pc-or-mac/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/interesting-hacks-on-your-pc-or-mac/</guid>
+      <description>Why not spend a little time playing about with some interesting and cool hacks we have found for you to try :)
+Activate GOD MODE in Windows God mode has been a &amp;ldquo;feature&amp;rdquo; of Windows since 7 and has remained throughout to our current Windows 10. It is essentially a collection of every setting for your computer in a single folder on the Desktop labelled God Mode. To activate it, first you need to be an Administrator, so check that you are in Settings/Control Panel.</description>
+    </item>
+    
+    <item>
+      <title>Louqe Ghost S1 - Case Review</title>
+      <link>https://strangelabs.io/blog/louqe-ghost-s1-case-review/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/louqe-ghost-s1-case-review/</guid>
+      <description>The Loque Ghost S1 is a superb piece of design for building the smallest possible ITX build by volume whilst maintaining great airflow and temperatures. This is our customer build transferring their original PC into the new case.
+We’ve always had a thing for small PCs. The ITX form factor is just so cute and compact and there are some really cool ITX cases to play with. The Strange Labs every day use PC is in a Bitfenix Portal which is still one of more interesting looking cases out there.</description>
+    </item>
+    
+    <item>
+      <title>Sick of Windows 10? Try Linux!</title>
+      <link>https://strangelabs.io/blog/sick-of-windows-10-try-linux/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/sick-of-windows-10-try-linux/</guid>
+      <description>Since Windows 10 free upgrade, our customers have complained about the sneaky tactics used by Microsoft to install their latest OS. They&amp;rsquo;ve complained about further updates breaking their systems. They&amp;rsquo;ve complained about the lack of various driver support for wifi, printers, bluetooth and more in Windows 10. They&amp;rsquo;ve complained about the abstracted ways to use the PC becoming confusing and unnecessary! It doesn&amp;rsquo;t seem like Windows 10 is winning many hearts!</description>
+    </item>
+    
+    <item>
+      <title>Speeding up Windows 10 startup</title>
+      <link>https://strangelabs.io/blog/speeding-up-windows-10-startup/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/speeding-up-windows-10-startup/</guid>
+      <description>Often I find that PCs running Windows 10 (and 8 and 8.1) have to be left for up to 15 minutes on startup before they calm down enough to actually use. What I mean by this is the PC is too slow to do anything for the first 15 minutes, as it starts up the various services that Windows 10 uses, or other installed applications use. Well why is this?</description>
+    </item>
+    
+    <item>
+      <title>Strengthening relationships weakened by the internet</title>
+      <link>https://strangelabs.io/blog/strengthening-relationships-weakened-by-the-internet/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/strengthening-relationships-weakened-by-the-internet/</guid>
+      <description>Introduction When I was a teenager, I rebelled against the mobile phone. I don&amp;rsquo;t know what it was about it but I just didn&amp;rsquo;t want one. Without really thinking too much about it then, I believe I foresaw a future of increasing social connections and as a result, imagined each connection becoming weaker. It may have been a bit of that, but it was definitely a bit of relunctance to being able to be contacted 24&amp;frasl;7.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting keyboard and mouse issues on Windows 10</title>
+      <link>https://strangelabs.io/blog/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</guid>
+      <description>UPDATE - If your cursor is working, no need to edit the mouse settings. If your keyboard is working, no need to edit your keyboard settings. Just follow the steps for the device(s) which are not working.
+Windows 10 isn&amp;rsquo;t the most robust Operating System out there. Often, the updates can break the computer in some way or another. They can clash with manufacturer updates, specifically they can attempt to replace the drivers installed by manufacturers with their own versions.</description>
     </item>
     
   </channel>
