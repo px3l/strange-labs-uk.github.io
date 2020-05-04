@@ -662,9 +662,18 @@ select, textarea{
 
 /* Post list view */
 
-.archive-post-title{
+.archive {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.archive-post-title {
     font-size: 2em;
     padding-left: 10px;
+    padding-right: 10px;
+}
+
+.archive-post-link {
+    padding-left: 20px;
 }
 
 .archive-post {
