@@ -662,22 +662,22 @@ select, textarea{
 
 /* Post list view */
 
-.archive {
-    background-color: rgba(0,0,0,0.8);
-}
-
 .archive-post-title {
     font-size: 2em;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.archive-post-link {
-    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    margin-left: 200px;
 }
 
 .archive-post {
     margin-bottom: 40px;
+}
+
+.archive-post-time {
+    width: 200px;
+    float:left;
+    display: block;
+    padding-left: 20px;
 }
 
 /* Single post view */
