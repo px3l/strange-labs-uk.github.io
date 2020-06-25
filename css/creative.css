@@ -448,10 +448,9 @@ header .header-content .header-content-inner p {
     padding-left: 0;
 }
 
-.footer {
-    position: absolute;
-    width: 100%;
-    left: 0;
+#footer {
+    background-color: #000;
+    padding: 10px;
 }
 
 /* ==========================================================================
