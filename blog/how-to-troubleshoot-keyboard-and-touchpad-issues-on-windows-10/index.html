@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Strange Labs Custom PCs">
 <meta name="description" content="We build bespoke, high-end custom PCs to order">
-<meta name="generator" content="Hugo 0.59.1" />
+<meta name="generator" content="Hugo 0.68.3" />
 <title>Strange Labs</title>
 
 <!-- Favicon -->
@@ -93,10 +93,13 @@
                     </li>
                 
                 <li>
-                    <a href="https://www.facebook.com/strangelabsuk" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/480px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" style="max-height: 20px;"></a>
+                    <a href="https://github.com/strange-labs-uk" target="blank"><img src="https://icon-library.com/images/github-icon/github-icon-4.jpg" alt="GitHub-Logo" style="max-height: 20px;"></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/StrangeLabsUK" target="blank"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/738px-Twitter_Bird.svg.png" alt="Twitter" style="max-height: 20px;"></a>
+                    <a href="https://twitter.com/StrangeLabsUK" target="blank"><img src="https://iconsplace.com/wp-content/uploads/_icons/800080/256/png/twitter-icon-13-256.png" alt="Twitter-Logo" style="max-height: 20px;"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/strangelabsuk/" target="blank"><img src="https://iconsplace.com/wp-content/uploads/_icons/800080/256/png/facebook-2-icon-13-256.png" alt="Fb-Logo" style="max-height: 20px;"></a>
                 </li>
             </ul>
         </div>
@@ -128,60 +131,46 @@
   <br/>
   <hr />
   <div class="post-content">
-    
-
-<p class="tldr"></p>
-
+    <!-- raw HTML omitted -->
 <p><strong>UPDATE - If your cursor is working, no need to edit the mouse settings. If your keyboard is working, no need to edit your keyboard settings. Just follow the steps for the device(s) which are not working.</strong></p>
-
-<p><img src="/images/blog/keyboard-issues-1.png" alt="whyYouNoWork" /></p>
-
+<p><img src="/images/blog/keyboard-issues-1.png" alt="whyYouNoWork"></p>
 <p>Windows 10 isn&rsquo;t the most robust Operating System out there. Often, the updates can break the computer in some way or another. They can clash with manufacturer updates, specifically they can attempt to replace the drivers installed by manufacturers with their own versions. Wi-Fi, optical drives and other devices can be affected, but today we will cover the keyboard and mouse - probably the most irritating of devices to fail on your laptop! Be warned, you may need a USB mouse and/or keyboard to complete this suggestions.</p>
-
 <h2 id="first-some-background">First some background.</h2>
-
 <p>A driver is a piece of software which allows the operating system to communicate with hardware devices. You can think of a driver like a translator, taking commands from the operating system and relaying them to the hardware in the language that hardware speaks.</p>
-
 <p>If any device stops working randomly, the first place to check is the device manager. To do so, right click on the start menu and select Device Manager from the list.</p>
-
 <p>You will likely be presented with one of a few scenarios.</p>
-
 <ul>
-<li><p>The device is not listed at all</p></li>
-
-<li><p>The device is listed with a yellow !</p></li>
-
-<li><p>The device is listed with no warnings</p></li>
-
-<li><p>Multiple devices are listed, with or without warnings</p></li>
+<li>
+<p>The device is not listed at all</p>
+</li>
+<li>
+<p>The device is listed with a yellow !</p>
+</li>
+<li>
+<p>The device is listed with no warnings</p>
+</li>
+<li>
+<p>Multiple devices are listed, with or without warnings</p>
+</li>
 </ul>
-
-<h2 id="let-s-fix-the-keyboard-and-mouse">Let&rsquo;s fix the Keyboard and Mouse</h2>
-
+<h2 id="lets-fix-the-keyboard-and-mouse">Let&rsquo;s fix the Keyboard and Mouse</h2>
 <p>If there is no listing for the keyboard or mouse, or if there is a listing for the keyboard and mouse, but with a yellow warning sign, then we need to work out the error. Right click on the device and go to properties. You will see a message hopefully containing an error code. The common codes are code 10, code 12 and code 43. To fix them follow this procedure.</p>
-
 <p><strong>1. Uninstall and delete the drivers.</strong></p>
-
 <p>Right click on the device and go to &ldquo;Uninstall device&rdquo;. If you get the option to delete the driver software, check the box and delete it. Click &ldquo;Ok&rdquo;. This might be enough to fix the problems. Restart the laptop and check to see if the keyboard or mouse works. If not, move on to 2.</p>
-
 <p><strong>2. Install the latest drivers.</strong></p>
-
 <p>If that hasn&rsquo;t worked, see if there are updated drivers from Windows Update or the manufacturers website. If that doesn&rsquo;t work, move on to 3.</p>
-
 <p><strong>3. Locate the registry entries.</strong></p>
-
 <p>Press Windows+r to open the Run prompt. Enter &ldquo;regedit&rdquo; and click &ldquo;Ok&rdquo;. Once the registry editor is open, find the following entries.</p>
-
 <ul>
-<li><p><strong>Keyboard:</strong> <code>HKEY_LOCAL_MACHINES\System\CurrentControlSet\Control\Class\</code></p></li>
-
-<li><p><strong>Mouse:</strong> <code>HKEY_LOCAL_MACHINES\System\CurrentControlSet\Control\Class\</code></p></li>
+<li>
+<p><strong>Keyboard:</strong> <code>HKEY_LOCAL_MACHINES\System\CurrentControlSet\Control\Class\</code></p>
+</li>
+<li>
+<p><strong>Mouse:</strong> <code>HKEY_LOCAL_MACHINES\System\CurrentControlSet\Control\Class\</code></p>
+</li>
 </ul>
-
 <p>On either of them, click on the entry and on the right window, you should see the registry value files. If you see UpperFilters or/and LowerFilters, delete them. Restart the laptop and see if the keyboard and mouse work. If not, move onto 4.</p>
-
 <p><strong>4. Re-enter the registry values.</strong></p>
-
 <p>Open regedit again and find the above entries. This time, we are going to manually add the UpperFilters values back into them. With the entries selected, right click on the empty space in the right window. Click &ldquo;new&rdquo; -&gt; &ldquo;Multi-String Value&rdquo;. Call the value &ldquo;UpperFilters&rdquo; and give it the value &ldquo;mouclass&rdquo; for the mouse, and &ldquo;kbdclass&rdquo;.Restart the laptop and see if the keyboard and mouse work.</p>
 
   </div>

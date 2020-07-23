@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Strange Labs Custom PCs">
 <meta name="description" content="We build bespoke, high-end custom PCs to order">
-<meta name="generator" content="Hugo 0.59.1" />
+<meta name="generator" content="Hugo 0.68.3" />
 <title>Strange Labs</title>
 
 <!-- Favicon -->
@@ -93,10 +93,13 @@
                     </li>
                 
                 <li>
-                    <a href="https://www.facebook.com/strangelabsuk" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/480px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" style="max-height: 20px;"></a>
+                    <a href="https://github.com/strange-labs-uk" target="blank"><img src="https://icon-library.com/images/github-icon/github-icon-4.jpg" alt="GitHub-Logo" style="max-height: 20px;"></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/StrangeLabsUK" target="blank"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/738px-Twitter_Bird.svg.png" alt="Twitter" style="max-height: 20px;"></a>
+                    <a href="https://twitter.com/StrangeLabsUK" target="blank"><img src="https://iconsplace.com/wp-content/uploads/_icons/800080/256/png/twitter-icon-13-256.png" alt="Twitter-Logo" style="max-height: 20px;"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/strangelabsuk/" target="blank"><img src="https://iconsplace.com/wp-content/uploads/_icons/800080/256/png/facebook-2-icon-13-256.png" alt="Fb-Logo" style="max-height: 20px;"></a>
                 </li>
             </ul>
         </div>
@@ -128,86 +131,82 @@
   <br/>
   <hr />
   <div class="post-content">
-    
-
-<p class="tldr">Often I find that PCs running Windows 10 (and 8 and 8.1) have to be left for up to 15 minutes on startup before they calm down enough to actually use. What I mean by this is the PC is too slow to do anything for the first 15 minutes, as it starts up the various services that Windows 10 uses, or other installed applications use. Well why is this? And what can we do to get the PC up and running faster?</p>
-
-<p><img src="/images/blog/windows-10-startup-1.png" alt="Windows is slow to start" /></p>
-
+    <!-- raw HTML omitted -->
+<p><img src="/images/blog/windows-10-startup-1.png" alt="Windows is slow to start"></p>
 <h2 id="hardware">Hardware</h2>
-
 <p>So the first and easiest method (though unfortunately most expensive) is to upgrade the hardware. Adding a Solid State Drive (SSD) will greatly speed up the load times of Windows and all programs and files. An SSD has no moving parts, unlike traditional mechanical Hard Disk Drives and the read and write times are ten fold faster. NVMe SSDs are faster still as they no longer use the slower SATA protocol. Increasing the Random Access Memory (RAM) will also improve the performance of the PC. Windows itself will eat through at least 2GB of RAM just in running itself, and more GB will be taken the more startup services and applications you have installed. Finally, increasing the specifications of your CPU or motherboard will help too, though this is mostly impossible on laptops.</p>
-
 <p>One of the most common reasons if your PC suddenly seems a whole bunch slower than it was before, is a failing hard drive. If your hard drive begins to fail, it is a game of Russian Roulette before it breaks forever. <strong>Make sure all your important data, files, etc is backed up!</strong></p>
-
 <h2 id="software">Software</h2>
-
 <p>If you have already got the hardware setup you want, you should look to optimising the software on your PC. Windows itself comes not very optimised and if you bought your laptop or PC from a major retailer or direct from the manufacturer, it is likely to have arrived with a whole range of preinstalled software which you don&rsquo;t need, slowing your PC down. In the industry this is known as &ldquo;bloatware&rdquo; and is best removed!</p>
-
 <h2 id="100-disk-usage-on-startup">100% Disk Usage on startup</h2>
-
 <p>A common issue with Windows 8 and 10 is that for the first 15 minutes, disk usage is running at 100%. You can check this by going to the process viewer (press CTRL + Shift + Esc to open). There are a few things you can try to get this percentage down. The first is to open the service viewer.</p>
-
 <ul>
-<li><p>Press the Windows key + r</p></li>
-
-<li><p>type &ldquo;services.msc&rdquo; and press enter</p></li>
-
-<li><p>Find the two entries &ldquo;superfetch&rdquo; and &ldquo;Windows Search&rdquo;</p></li>
-
-<li><p>Right click on the entry and select &ldquo;properties&rdquo;</p></li>
-
-<li><p>On the dropdown menu for &ldquo;Startup type&rdquo;, select &ldquo;Disabled&rdquo;</p></li>
-
-<li><p>Then click &ldquo;stop&rdquo; and wait for the service to stop</p></li>
-
-<li><p>Finally, click on &ldquo;OK&rdquo;</p></li>
+<li>
+<p>Press the Windows key + r</p>
+</li>
+<li>
+<p>type &ldquo;services.msc&rdquo; and press enter</p>
+</li>
+<li>
+<p>Find the two entries &ldquo;superfetch&rdquo; and &ldquo;Windows Search&rdquo;</p>
+</li>
+<li>
+<p>Right click on the entry and select &ldquo;properties&rdquo;</p>
+</li>
+<li>
+<p>On the dropdown menu for &ldquo;Startup type&rdquo;, select &ldquo;Disabled&rdquo;</p>
+</li>
+<li>
+<p>Then click &ldquo;stop&rdquo; and wait for the service to stop</p>
+</li>
+<li>
+<p>Finally, click on &ldquo;OK&rdquo;</p>
+</li>
 </ul>
-
 <p>These two services are indexing services that help Cortana and Search to find files on the disk. They will try to list everything on startup and often are not used.</p>
-
 <h2 id="startup-applications">Startup Applications</h2>
-
 <p>The more applications you have installed, the chances are the more services they run at startup. Usually they are totally un-needed and only slow things down. Updater services and syncing services might not be utilised until you actually want to use the application and will run when you do anyway. To see what is running at startup, go to the process viewer (CTRL+Shift+Esc) and click the startup tab. You can see the applications with highest startup impact and disable them by right clicking on the entry.</p>
-
 <h2 id="chrome-skype-cleaning-tools-and-anti-virus">Chrome, Skype, Cleaning Tools and Anti-virus</h2>
-
 <p>Check the startup applications for entries to do with Chrome and Skype as they are notorious for eating resources. If you have either of these two programs installed you should also change the settings for both to lessen the drain on startup resources.</p>
-
 <p>First for Chrome,</p>
-
 <ul>
-<li><p>Open Chrome and click the menu icon in the top right (three dots)</p></li>
-
-<li><p>Go to Settings, then Advanced Settings</p></li>
-
-<li><p>In Privacy, deselect &ldquo;Use a prediction service to load pages more quickly&rdquo;</p></li>
+<li>
+<p>Open Chrome and click the menu icon in the top right (three dots)</p>
+</li>
+<li>
+<p>Go to Settings, then Advanced Settings</p>
+</li>
+<li>
+<p>In Privacy, deselect &ldquo;Use a prediction service to load pages more quickly&rdquo;</p>
+</li>
 </ul>
-
 <p>For Skype, Cleaning Tools and Antivirus, check the settings of each to ensure that they are not starting when Windows starts.</p>
-
 <h2 id="pagefile-settings">Pagefile Settings</h2>
-
 <p>The pagefile is Windows version of the swap file (for Linux users). This file is used as virtual memory, hard drive space that is used when the RAM is full. Editing the pagefile can cause weird issues with programs and games not working, so this is a last resort! Sometimes the pagefile, with the file settings as default, is unoptimized and by defining them explicitly it can speed up Windows 10.</p>
-
 <ul>
-<li><p>Right click on the start menu and go to &ldquo;System&rdquo;</p></li>
-
-<li><p>Go to &ldquo;advanced system settings&rdquo;</p></li>
-
-<li><p>In the &ldquo;Advanced&rdquo; tab, and click &ldquo;Settings&rdquo; under the Performance section</p></li>
-
-<li><p>Click on &ldquo;Advanced&rdquo; tab and then &ldquo;Change&hellip;&rdquo; under the Virtual Memory section</p></li>
-
-<li><p>Untick &ldquo;Automatically manage paging file size for all drives&rdquo; and select &ldquo;Custom size&rdquo;</p></li>
-
-<li><p>Set the initial size to 1024 * your installed RAM (to convert your RAM to MB rather than GB)</p></li>
-
-<li><p>Set the maximum to 2 * the initial size.</p></li>
+<li>
+<p>Right click on the start menu and go to &ldquo;System&rdquo;</p>
+</li>
+<li>
+<p>Go to &ldquo;advanced system settings&rdquo;</p>
+</li>
+<li>
+<p>In the &ldquo;Advanced&rdquo; tab, and click &ldquo;Settings&rdquo; under the Performance section</p>
+</li>
+<li>
+<p>Click on &ldquo;Advanced&rdquo; tab and then &ldquo;Change&hellip;&rdquo; under the Virtual Memory section</p>
+</li>
+<li>
+<p>Untick &ldquo;Automatically manage paging file size for all drives&rdquo; and select &ldquo;Custom size&rdquo;</p>
+</li>
+<li>
+<p>Set the initial size to 1024 * your installed RAM (to convert your RAM to MB rather than GB)</p>
+</li>
+<li>
+<p>Set the maximum to 2 * the initial size.</p>
+</li>
 </ul>
-
-<p>For example, if you have 4GB of RAM installed (to find out, right click the start menu and go to System) then initial size will be 1024*4 = 4096 and maximum will be 2*4096 = 8192.</p>
-
+<p>For example, if you have 4GB of RAM installed (to find out, right click the start menu and go to System) then initial size will be 1024<em>4 = 4096 and maximum will be 2</em>4096 = 8192.</p>
 <p>So, hopefully following these suggestions will greatly speed up the start up time for your Windows 10 (or 8) system!</p>
 
   </div>

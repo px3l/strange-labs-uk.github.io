@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Strange Labs Custom PCs">
 <meta name="description" content="We build bespoke, high-end custom PCs to order">
-<meta name="generator" content="Hugo 0.59.1" />
+<meta name="generator" content="Hugo 0.68.3" />
 <title>Strange Labs</title>
 
 <!-- Favicon -->
@@ -93,10 +93,13 @@
                     </li>
                 
                 <li>
-                    <a href="https://www.facebook.com/strangelabsuk" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/480px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" style="max-height: 20px;"></a>
+                    <a href="https://github.com/strange-labs-uk" target="blank"><img src="https://icon-library.com/images/github-icon/github-icon-4.jpg" alt="GitHub-Logo" style="max-height: 20px;"></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/StrangeLabsUK" target="blank"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/738px-Twitter_Bird.svg.png" alt="Twitter" style="max-height: 20px;"></a>
+                    <a href="https://twitter.com/StrangeLabsUK" target="blank"><img src="https://iconsplace.com/wp-content/uploads/_icons/800080/256/png/twitter-icon-13-256.png" alt="Twitter-Logo" style="max-height: 20px;"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/strangelabsuk/" target="blank"><img src="https://iconsplace.com/wp-content/uploads/_icons/800080/256/png/facebook-2-icon-13-256.png" alt="Fb-Logo" style="max-height: 20px;"></a>
                 </li>
             </ul>
         </div>
@@ -128,60 +131,32 @@
   <br/>
   <hr />
   <div class="post-content">
-    
-
-<p class="tldr">Forgetting a password is a pain. Most accounts now have some online link which allows you to take back control through your email and security questions, but Windows 7 is different. This is before the online account became the norm. Fortunately there is a simple backdoor to get back in!</p>
-
+    <!-- raw HTML omitted -->
 <p>It is every Windows users nightmare: one day you try to log in and every attempt is denied. Whether you have forgotten your password or it has been changed or you need to get in and don&rsquo;t have the password, there is a way to break in.</p>
-
 <h2 id="the-backdoor">The Backdoor</h2>
-
 <p>Take the battery out if you have a laptop and plug in the mains</p>
-
 <p>Start windows and then whilst it is starting up, pull the power out to force an automatic startup repair on the next boot</p>
-
 <p>When it restarts you will see the Windows Error Recovery</p>
-
-<p><img src="/images/blog/win7-password-1.png" alt="image1" /> - If you see a screen which gives you the safe boot options, just keep trying and eventually it will give you the above screen</p>
-
+<p><img src="/images/blog/win7-password-1.png" alt="image1"> - If you see a screen which gives you the safe boot options, just keep trying and eventually it will give you the above screen</p>
 <p>Select <strong>Launch Startup Repair (recommended)</strong></p>
-
 <p>Windows will then load files and begin the startup repair service</p>
-
-<p><img src="/images/blog/win7-password-2.jpeg" alt="image2" />  - Wait for a few minutes, sometimes it can take a while, for a box to pop up saying &ldquo;<em>Do you want to restore your computer using System Restore?</em>&rdquo; and then click <strong>Cancel</strong></p>
-
-<p>Wait for another 5 to 10 minutes for a pop up to appear saying &ldquo;*Startup Repair cannot repair this computer automatically*<strong>&ldquo;</strong></p>
-
+<p><img src="/images/blog/win7-password-2.jpeg" alt="image2">  - Wait for a few minutes, sometimes it can take a while, for a box to pop up saying &ldquo;<em>Do you want to restore your computer using System Restore?</em>&rdquo; and then click <strong>Cancel</strong></p>
+<p>Wait for another 5 to 10 minutes for a pop up to appear saying &ldquo;<em>Startup Repair cannot repair this computer automatically</em>**&quot;**</p>
 <p>Click on <strong>View problem details</strong></p>
-
 <p>Select the final .txt link, usually addressed <code>X:\windows\system32\en-US\erofflps.txt</code></p>
-
 <p>Then, on notepad (viewing the .txt), go to File &gt; Open</p>
-
 <p>Go to <code>C:\Windows\System32</code></p>
-
 <p>Change <em>Files of type:</em> to <strong>All Files</strong></p>
-
 <p>Find <code>sethc.exe</code> amongst the files</p>
-
 <p>Rename it to <code>sethc1</code></p>
-
 <p>Then find <code>cmd</code></p>
-
 <p>Right click on <code>cmd</code> and select <strong>copy</strong>, then rename <code>cmd-copy</code> to <code>sethc</code></p>
-
 <p>Close notepad and press cancel on Startup Repair to restart Windows</p>
-
 <p>Let Windows start normally and wait until you see your user profile log on screen</p>
-
 <p>Press shift 5 times quickly to open your renamed cmd.exe - now you can use the command prompt before logging on</p>
-
 <p>In cmd, type <code>net user</code> to see a list of users</p>
-
 <p>Choose your user and reset their password by typing <code>net user USERNAME *</code> (where USERNAME is the username taken from the list)</p>
-
 <p>Type a new password for the user or just leave blank and press enter</p>
-
 <p>Hopefully, you&rsquo;re in! Welcome back to Windows!</p>
 
   </div>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Strange Labs Custom PCs">
 <meta name="description" content="We build bespoke, high-end custom PCs to order">
-<meta name="generator" content="Hugo 0.59.1" />
+<meta name="generator" content="Hugo 0.68.3" />
 <title>Strange Labs</title>
 
 <!-- Favicon -->
@@ -93,10 +93,13 @@
                     </li>
                 
                 <li>
-                    <a href="https://www.facebook.com/strangelabsuk" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/480px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" style="max-height: 20px;"></a>
+                    <a href="https://github.com/strange-labs-uk" target="blank"><img src="https://icon-library.com/images/github-icon/github-icon-4.jpg" alt="GitHub-Logo" style="max-height: 20px;"></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/StrangeLabsUK" target="blank"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/738px-Twitter_Bird.svg.png" alt="Twitter" style="max-height: 20px;"></a>
+                    <a href="https://twitter.com/StrangeLabsUK" target="blank"><img src="https://iconsplace.com/wp-content/uploads/_icons/800080/256/png/twitter-icon-13-256.png" alt="Twitter-Logo" style="max-height: 20px;"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/strangelabsuk/" target="blank"><img src="https://iconsplace.com/wp-content/uploads/_icons/800080/256/png/facebook-2-icon-13-256.png" alt="Fb-Logo" style="max-height: 20px;"></a>
                 </li>
             </ul>
         </div>
@@ -128,26 +131,16 @@
   <br/>
   <hr />
   <div class="post-content">
-    <p class="tldr">This post is half finished...</p>
-
-<p>I recently read an article on <a href="http://tedium.co/2017/02/02/disc-rot-phenomenon/" target="blank">Tedium</a> linked from hacker news about disc rot. It reminded me of two times in my past:</p>
-
+    <!-- raw HTML omitted -->
+<p>I recently read an article on <!-- raw HTML omitted -->Tedium<!-- raw HTML omitted --> linked from hacker news about disc rot. It reminded me of two times in my past:</p>
 <p>The first was after a hard drive I had failed. It was working fine and I put it down for a few months. One day I plugged it back in to find it wouldn&rsquo;t mount. I spent some time on command line trying to force its mount and eventually discovered significant sector errors and a totally corrupt boot manager. A data recovery ensued and the HDD was destroyed afterwards, unrepairable.</p>
-
 <p>The second was whilst working with a research group based in Netherlands. They specialised in long term storage of architectural 3D point cloud scans for conversion to BIM models. This was probably the first time I truly considered the implications of long term data storage based on evolving file types.</p>
-
 <p>I have then pondered the questions: How can we store data long term? And, the less practical and more philosophical question, should we? So let&rsquo;s get into it.</p>
-
 <p>How can we store data long term?</p>
-
 <p>Storing data long term is incredibly complex.</p>
-
 <p>Should we?</p>
-
 <p>I have often theorized about the idea of data &ldquo;memory&rdquo;: Data that fades over time. What rules would have to be coded to allow this to happen in an organic, natural way. Should we even allow it to? How do we rate the importance of data to know what needs to be stored forever and what we can let disappear from existence?</p>
-
-<p>I remember <a href="https://code.facebook.com/posts/1433093613662262/-under-the-hood-facebook-s-cold-storage-system-/" target="blank">seeing a story</a> detailing how facebook had to build an entire new datacenter which it filled with it&rsquo;s users (customers) data. Most likely images of cats. They not only had to store billions of images, but they had to duplicate the images across block devices in order to ensure the reliability of data. If a block device failed, and Facebook lost the cat image, they failed on their promise to the customers that the data was safe from disappearing. In order to not have to build twice the number of servers, they devised an algorithm which could use only 60% of the image data to rebuild 100% of the image again as an exact copy.</p>
-
+<p>I remember <!-- raw HTML omitted -->seeing a story<!-- raw HTML omitted --> detailing how facebook had to build an entire new datacenter which it filled with it&rsquo;s users (customers) data. Most likely images of cats. They not only had to store billions of images, but they had to duplicate the images across block devices in order to ensure the reliability of data. If a block device failed, and Facebook lost the cat image, they failed on their promise to the customers that the data was safe from disappearing. In order to not have to build twice the number of servers, they devised an algorithm which could use only 60% of the image data to rebuild 100% of the image again as an exact copy.</p>
 <p>Assuming a large proportion of these images are memes, cats, food, etc. Is it worth building massive centers to ensure the data keeps? I personally cannot think of a larger example of procrastination as a species. I always imagine aliens coming to observe the Earth, what would they think, not knowing the reasons behind these decisions?</p>
 
   </div>
