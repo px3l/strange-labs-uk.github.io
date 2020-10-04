@@ -32,10 +32,10 @@ The digital world is not quite the same as the physical.</description>
     
     <item>
       <title>Beginners Guide to Windows 10</title>
-      <link>https://strangelabs.io/blog/beginners-guide-to-windows-10/</link>
+      <link>https://strangelabs.io/guides/beginners-guide-to-windows-10/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://strangelabs.io/blog/beginners-guide-to-windows-10/</guid>
+      <guid>https://strangelabs.io/guides/beginners-guide-to-windows-10/</guid>
       <description>Introduction I have been asked many times for some help in getting started and achieving a basic understanding of the Windows 10 operating system (OS). Windows 10 came out on the 29th July 2015 but still people have some trouble finding their way around. This is, by definition, the result of substandard user experience and not necessarily Windows user’s own fault for not getting it. Of course a basic understanding of any computer system will help, but Windows 10 doesn’t make it as easy as it could be thanks to layers of abstraction built on what is essentially a combination of previous Windows versions underneath.</description>
     </item>
     
@@ -100,10 +100,10 @@ However, that is not true! It actually is a digital composition of the analogue 
     
     <item>
       <title>Forgotten your Windows 7 password?</title>
-      <link>https://strangelabs.io/blog/forgotten-your-windows-password/</link>
+      <link>https://strangelabs.io/guides/forgotten-your-windows-password/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://strangelabs.io/blog/forgotten-your-windows-password/</guid>
+      <guid>https://strangelabs.io/guides/forgotten-your-windows-password/</guid>
       <description>It is every Windows users nightmare: one day you try to log in and every attempt is denied. Whether you have forgotten your password or it has been changed or you need to get in and don&amp;rsquo;t have the password, there is a way to break in.
 The Backdoor Take the battery out if you have a laptop and plug in the mains
 Start windows and then whilst it is starting up, pull the power out to force an automatic startup repair on the next boot</description>
@@ -181,19 +181,19 @@ The first was after a hard drive I had failed. It was working fine and I put it 
     
     <item>
       <title>Sick of Windows 10? Try Linux!</title>
-      <link>https://strangelabs.io/blog/sick-of-windows-10-try-linux/</link>
+      <link>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://strangelabs.io/blog/sick-of-windows-10-try-linux/</guid>
+      <guid>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</guid>
       <description>Since Windows 10 free upgrade, our customers have complained about the sneaky tactics used by Microsoft to install their latest OS. They&amp;rsquo;ve complained about further updates breaking their systems. They&amp;rsquo;ve complained about the lack of various driver support for wifi, printers, bluetooth and more in Windows 10. They&amp;rsquo;ve complained about the abstracted ways to use the PC becoming confusing and unnecessary! It doesn&amp;rsquo;t seem like Windows 10 is winning many hearts!</description>
     </item>
     
     <item>
       <title>Speeding up Windows 10 startup</title>
-      <link>https://strangelabs.io/blog/speeding-up-windows-10-startup/</link>
+      <link>https://strangelabs.io/guides/speeding-up-windows-10-startup/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://strangelabs.io/blog/speeding-up-windows-10-startup/</guid>
+      <guid>https://strangelabs.io/guides/speeding-up-windows-10-startup/</guid>
       <description>Hardware So the first and easiest method (though unfortunately most expensive) is to upgrade the hardware. Adding a Solid State Drive (SSD) will greatly speed up the load times of Windows and all programs and files. An SSD has no moving parts, unlike traditional mechanical Hard Disk Drives and the read and write times are ten fold faster. NVMe SSDs are faster still as they no longer use the slower SATA protocol.</description>
     </item>
     
@@ -208,10 +208,10 @@ The first was after a hard drive I had failed. It was working fine and I put it 
     
     <item>
       <title>Troubleshooting keyboard and mouse issues on Windows 10</title>
-      <link>https://strangelabs.io/blog/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</link>
+      <link>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://strangelabs.io/blog/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</guid>
+      <guid>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</guid>
       <description>UPDATE - If your cursor is working, no need to edit the mouse settings. If your keyboard is working, no need to edit your keyboard settings. Just follow the steps for the device(s) which are not working.
 Windows 10 isn&amp;rsquo;t the most robust Operating System out there. Often, the updates can break the computer in some way or another. They can clash with manufacturer updates, specifically they can attempt to replace the drivers installed by manufacturers with their own versions.</description>
     </item>
