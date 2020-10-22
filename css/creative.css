@@ -338,6 +338,14 @@ header .header-content .header-content-inner p {
     text-align: center;
 }
 
+.notice a {
+    color: #000;
+}
+
+.notice a:focus, .notice a:hover {
+    color: #7B1C82;
+}
+
 .section-heading {
     margin-top: 0;
 }

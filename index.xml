@@ -6,19 +6,20 @@
     <description>Recent content on Strange Labs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2020 17:21:47 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://strangelabs.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Terms and Conditions</title>
-      <link>https://strangelabs.io/terms/</link>
-      <pubDate>Mon, 19 Oct 2020 17:21:47 +0100</pubDate>
+      <title>Strange Labs in the COVID Pandemic 2020</title>
+      <link>https://strangelabs.io/blog/strange-labs-in-the-pandemic/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://strangelabs.io/terms/</guid>
-      <description>Strange Labs Strange Labs is the trading name of Connor Alexander. It is now a solely online retailer and does not have a physical store.
-Shipping &amp;amp; Returns Policy Strange Labs currently only sells and ships to customers that are located within the United Kingdom. The services provided by our carrier are outside our control. While we cannot guarantee delivery dates or times, UK delivery is normally no more than 1-2 working days after dispatch.</description>
+      <guid>https://strangelabs.io/blog/strange-labs-in-the-pandemic/</guid>
+      <description>What happened to the shop?! Way back in December 2019, which now seems like an age ago, Strange Labs had made a decision to change direction from general PC repairs and upgrades to focus on building custom desktop PCs and web development work.
+Why is this?
+Well although we were doing brilliantly at our repairs and upgrades, our plan the whole time since we started in 2017 was to make a new type of technology shop - one which brought technology enthusiasts together to work on technology projects and investigate all sorts of emerging technologies on the way.</description>
     </item>
     
     <item>
@@ -224,6 +225,16 @@ The first was after a hard drive I had failed. It was working fine and I put it 
       <guid>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</guid>
       <description>UPDATE - If your cursor is working, no need to edit the mouse settings. If your keyboard is working, no need to edit your keyboard settings. Just follow the steps for the device(s) which are not working.
 Windows 10 isn&amp;rsquo;t the most robust Operating System out there. Often, the updates can break the computer in some way or another. They can clash with manufacturer updates, specifically they can attempt to replace the drivers installed by manufacturers with their own versions.</description>
+    </item>
+    
+    <item>
+      <title>Terms and Conditions</title>
+      <link>https://strangelabs.io/terms/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/terms/</guid>
+      <description>Strange Labs Strange Labs is the trading name of Connor Alexander. It is now a solely online retailer and does not have a physical store.
+Shipping &amp;amp; Returns Policy Strange Labs currently only sells and ships to customers that are located within the United Kingdom. The services provided by our carrier are outside our control. While we cannot guarantee delivery dates or times, UK delivery is normally no more than 1-2 working days after dispatch.</description>
     </item>
     
   </channel>
