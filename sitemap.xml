@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://strangelabs.io/guides/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/guides/replace-your-boot-drive/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://strangelabs.io/blog/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
   </url>
@@ -68,11 +78,6 @@
   </url>
   
   <url>
-    <loc>https://strangelabs.io/guides/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://strangelabs.io/blog/dont-get-phished/</loc>
     <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url>
@@ -130,6 +135,11 @@
   <url>
     <loc>https://strangelabs.io/terms/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/strange-labs-is-moving-on/</loc>
+    <lastmod>2019-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -6,10 +6,19 @@
     <description>Recent content in Guides on Strange Labs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://strangelabs.io/guides/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Quickest Way To Replace Your Boot Drive</title>
+      <link>https://strangelabs.io/guides/replace-your-boot-drive/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/guides/replace-your-boot-drive/</guid>
+      <description>Introduction If you have run out of space on your boot drive, using your PC can become quite restrictive and irritating. You might not be able to save files, or even open programs or the internet if there is no space left. If this happens you have a couple of options to get more space: the easiest being adding another hard drive or solid state drive. However this may not be an option for you, or you may need or want to replace your drive with a bigger one!</description>
+    </item>
     
     <item>
       <title>Beginners Guide to Windows 10</title>
