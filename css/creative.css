@@ -728,6 +728,11 @@ select, textarea{
     color: #000;
 }
 
+.post-content ol, .post-content ul, .post-content li {
+    font-size: 1.2em;
+    color: #000;
+}
+
 .post-content a {
     color: #7B1C82;
 }

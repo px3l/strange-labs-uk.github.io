@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>The Quickest Way To Replace Your Boot Drive</title>
+      <title>The No Mess Way To Replace Your Boot Drive</title>
       <link>https://strangelabs.io/guides/replace-your-boot-drive/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -59,13 +59,12 @@ Start windows and then whilst it is starting up, pull the power out to force an 
     </item>
     
     <item>
-      <title>Troubleshooting keyboard and mouse issues on Windows 10</title>
+      <title>Troubleshooting keyboard and mouse issues with Laptops on Windows 10</title>
       <link>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</guid>
-      <description>UPDATE - If your cursor is working, no need to edit the mouse settings. If your keyboard is working, no need to edit your keyboard settings. Just follow the steps for the device(s) which are not working.
-Windows 10 isn&amp;rsquo;t the most robust Operating System out there. Often, the updates can break the computer in some way or another. They can clash with manufacturer updates, specifically they can attempt to replace the drivers installed by manufacturers with their own versions.</description>
+      <description>Windows 10 isn&amp;rsquo;t the most robust Operating System out there. Often, the updates can break the computer in some way or another. They can clash with manufacturer updates, specifically they can attempt to replace the drivers installed by manufacturers with their own versions. Wi-Fi, optical drives and other devices can be affected, but today we will cover the keyboard and mouse - probably the most irritating of devices to fail on your laptop!</description>
     </item>
     
   </channel>

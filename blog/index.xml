@@ -6,30 +6,10 @@
     <description>Recent content in Blogs on Strange Labs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://strangelabs.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Strange Labs in the COVID Pandemic 2020</title>
-      <link>https://strangelabs.io/blog/strange-labs-in-the-pandemic/</link>
-      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://strangelabs.io/blog/strange-labs-in-the-pandemic/</guid>
-      <description>What happened to the shop?! Way back in December 2019, which now seems like an age ago, I had made a decision to change the direction of Strange Labs from general PC repairs and upgrades to focus on building high end custom desktop PCs and web development work.
-Why is this?
-Well although Strange Labs was doing brilliantly at repairs and upgrades, my plan the whole time since I started in 2017 was to make a new type of technology shop - one which brought technology enthusiasts together to work on technology projects and investigate all sorts of emerging technologies on the way.</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://strangelabs.io/blog/helloworld/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://strangelabs.io/blog/helloworld/</guid>
-      <description>Hello world Welcome to Strange Labs blog. Below are the archived posts which have been imported from my previous websites. Writing blog posts is a weird thing to do. They can be a mixture of essays, considered and referenced, or they can be rambling thoughts like that in a personal diary. Strange Labs encorporates all, and excludes none. Posts may be revisted many times, edited and updated - such is the beauty of the digital copy.</description>
-    </item>
     
     <item>
       <title>Arguing for Open Source</title>
@@ -37,8 +17,8 @@ Well although Strange Labs was doing brilliantly at repairs and upgrades, my pla
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/arguing-for-open-source-code/</guid>
-      <description>What is open source? Open source in it&amp;rsquo;s most literal definition is software in which the source code (ie. the instruction set which describes the functions that make it) is freely available to view, edit and then redistribute. Most software that you, as a general PC user, would use (Microsoft Windows, games, Adobe programs etc) are closed source. And for a pretty obvious reason!
-The digital world is not quite the same as the physical.</description>
+      <description>Why should we trust what people hide from us? Open source technology could help us trust in each other, and spread of this idea from computer science to other aspects of society and cultural development may be very beneficial.
+What is open source? Open source in it&amp;rsquo;s most literal definition is software in which the source code (ie. the instruction set which describes the functions that make it) is freely available to view, edit and then redistribute.</description>
     </item>
     
     <item>
@@ -47,9 +27,9 @@ The digital world is not quite the same as the physical.</description>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/bsod-scams-on-windows-10/</guid>
-      <description>If you&amp;rsquo;ve been using Windows for a long time, you&amp;rsquo;ve probably heard of or witnessed the infamous Blue Screen of Death, or BSOD for short.
-It was a problem that set windows apart from other OS&amp;rsquo;s in the tech fail arena, and even occurred on a live demo by Bill Gates himself of Windows 98
-Since then it has become a symbol of the ultimate computer error and has been picked up by many scam artists to try and shock unsuspecting Windows users into thinking something awful has happened to their PC.</description>
+      <description>Getting scammed is a growing threat in our connected world. Here are a couple of old BSOD examples that try to scare you into giving away control or money.
+If you&amp;rsquo;ve been using Windows for a long time, you&amp;rsquo;ve probably heard of or witnessed the infamous Blue Screen of Death, or BSOD for short.
+It was a problem that set windows apart from other OS&amp;rsquo;s in the tech fail arena, and even occurred on a live demo by Bill Gates himself of Windows 98</description>
     </item>
     
     <item>
@@ -58,8 +38,7 @@ Since then it has become a symbol of the ultimate computer error and has been pi
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/colour-and-understanding/</guid>
-      <description>What colour is that? Is the &amp;ldquo;red&amp;rdquo; colour I see, the same as the &amp;ldquo;red&amp;rdquo; colour you see? I believe anyone that has stopped to think about question this deeply will have started to have their existence unravelled. It is a question explored in this video by VSauce.
-Red is the name of the colour we know in our language and culture. If you mix red with a little bit of white you would get what we call pink.</description>
+      <description>Our understanding of each other can only ever converge. We cannot step into each others consciousness for a true experience. Knowing no-one will ever truly understand you, how does that affect your experiences? We must take the time to learn our stories and be open minded to converge our understanding as close as possible. In real life this is hard enough, so what about the digital realm. Our data is often static, non-contextual and not truly representative of understanding but if we are to rely on it, we must try to make it so.</description>
     </item>
     
     <item>
@@ -68,7 +47,8 @@ Red is the name of the colour we know in our language and culture. If you mix re
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</guid>
-      <description>Hello world We are half way through a refurbishment in store. So far, the first half has been very successful I would say, both in it&amp;rsquo;s own aesthetic, and how it reflects the computer enthusiasm nature of the space. How do we go about designing for this type of space? Especially if we are on a budget and thus have a view to refurbish the store as organically as possible.</description>
+      <description>Hello world From 2017 to 2020, I had a physical shop, the idea was to convert it from a boring PC repair shop into a social space where programmers could meet to work on projects. This was a post made part way through that development. For the last pics before I closed, go to the end
+We are half way through a refurbishment in store. So far, the first half has been very successful I would say, both in it&amp;rsquo;s own aesthetic, and how it reflects the computer enthusiasm nature of the space.</description>
     </item>
     
     <item>
@@ -86,18 +66,8 @@ Red is the name of the colour we know in our language and culture. If you mix re
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</guid>
-      <description>Windows 10 When I first upgraded a PC to Windows 10 many years ago, I was greeted with the new Windows desktop wallpaper. Pretty cool, I thought. A sort of futuristic Windows icon made out of light at a 3 dimensional angle in neon blues.
-I never really considered it much more than that, and assumed CGI had created it.
-However, that is not true! It actually is a digital composition of the analogue work by renowned artist-technologist GMUNK.</description>
-    </item>
-    
-    <item>
-      <title>Evil Genius Gaming Tales</title>
-      <link>https://strangelabs.io/blog/evil-genius-gaming-tales/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://strangelabs.io/blog/evil-genius-gaming-tales/</guid>
-      <description>How you play a game in the privacy of your own home, or the anonymity behind the monitor can say a lot about who you are and what you are like. Sometimes examples of gaming strategies reveal a utilitarian genius which is fascinating to me for two reasons: The ability to &amp;ldquo;win&amp;rdquo; the game in terms of an undesigned hack. And the reflection of the gamers psychology that the gaming strategy may be.</description>
+      <description>Backgrounds are often taken for granted. At least the ones that come pre-shipped with new computers. Well let&amp;rsquo;s put them into the spotlight like they deserve!
+Windows 10 When I first upgraded a PC to Windows 10 many years ago, I was greeted with the new Windows desktop wallpaper. Pretty cool, I thought. A sort of futuristic Windows icon made out of light at a 3 dimensional angle in neon blues.</description>
     </item>
     
     <item>
@@ -116,9 +86,7 @@ What is “Full Stack”? In the world of computer science, and specifically web
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/dont-get-phished/</guid>
-      <description>Ways To Defend Yourself Against Phishing Attacks Phishing attacks are cyberattacks that rely on deception and manipulation to trick a victim into offering up sensitive information. Such attacks fall under the category of social engineering attacks, which exploit human behavior and mentality, making them harder to defend against. Nevertheless, there are several ways that you can use to protect against phishing attacks.
-Install cybersecurity measures
-Cybersecurity measures act as a preventive, detective, and responsive measures.</description>
+      <description>One of the most common way to get scammed or hacked is through a method called “Phishing”. It is very easy to fall foul of this type of con and can result in loss of control over your data and identity to the hackers. The following is a guest article by Techwarn which goes some way to help you avoid this sort of attack and educate yourselves in this method of cybercrime.</description>
     </item>
     
     <item>
@@ -127,8 +95,8 @@ Cybersecurity measures act as a preventive, detective, and responsive measures.<
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/how-to-think-in-the-world-of-cyber-crime/</guid>
-      <description>It seems over the last few years we are increasingly frequently being informed of this cyber attack,that ransomwareinfection, this data leak&amp;hellip; To me it does make sense that these events would increase. If technological development follows Moore&amp;rsquo;s Law, then the events surrounding technology should also increase in frequency and impact at a cumulative rate.
-And this is what appears to be happening. Cyber threat is increasing, computing is becoming more abstracted away from the binary that drives it, chips and data processing is becoming ubiquitous in our environments and lives.</description>
+      <description>Cybrecrime will become more prevailant the more we build technology and networking into our lives. It is pretty scary and rightly so. If you are paranoid, chances are you should be. Here is how I think, and how you should probably think, in this scary technological world
+It seems over the last few years we are increasingly frequently being informed of this cyber attack, that ransomware infection, this data leak&amp;hellip; To me it does make sense that these events would increase.</description>
     </item>
     
     <item>
@@ -137,8 +105,8 @@ And this is what appears to be happening. Cyber threat is increasing, computing 
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/imagining-with-deep-dream/</guid>
-      <description>I think I am late to the party here, but better late than never! I read the recently released white paper by Google: PathNet: Evolution Channels Gradient Descent in Super Neural Networksand became fascinated on the conceptual simplicity of the underpinning algorithms which build narrow artificial intelligence.
-These methods are teaching Google and others to recognise and interpret images to aid searching, indexing, autonomous driving and many other activities. A quick and easy to understand explanation of the fundamental workings of the algorithm&amp;rsquo;s pattern composition network can be seen in the excellent Computerphile video here.</description>
+      <description>Google&amp;rsquo;s Deep Dream shows us how simple pattern play in visuals, with some iterative dynamics, can create experiences which previously felt exclusively human, spiritual and deeply conscious. This reinforces the idea of our mind as a complex network of networks and ultimately recreatable by technology.
+I think I am late to the party here, but better late than never! I read the recently released white paper by Google: PathNet: Evolution Channels Gradient Descent in Super Neural Networks and became fascinated on the conceptual simplicity of the underpinning algorithms which build narrow artificial intelligence.</description>
     </item>
     
     <item>
@@ -147,18 +115,8 @@ These methods are teaching Google and others to recognise and interpret images t
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/interesting-hacks-on-your-pc-or-mac/</guid>
-      <description>Activate GOD MODE in Windows God mode has been a &amp;ldquo;feature&amp;rdquo; of Windows since 7 and has remained throughout to our current Windows 10. It is essentially a collection of every setting for your computer in a single folder on the Desktop labelled God Mode. To activate it, first you need to be an Administrator, so check that you are in Settings/Control Panel. Then do the following:
-  Create a new folder on the desktop by right clicking anywhere on the desktop and go to new -&amp;gt; Folder.</description>
-    </item>
-    
-    <item>
-      <title>Is data worth storing?</title>
-      <link>https://strangelabs.io/blog/is-data-worth-storing/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://strangelabs.io/blog/is-data-worth-storing/</guid>
-      <description>I recently read an article on Tediumlinked from hacker news about disc rot. It reminded me of two times in my past:
-The first was after a hard drive I had failed. It was working fine and I put it down for a few months. One day I plugged it back in to find it wouldn&amp;rsquo;t mount. I spent some time on command line trying to force its mount and eventually discovered significant sector errors and a totally corrupt boot manager.</description>
+      <description>Why not spend a little time playing about with some interesting and cool hacks we have found for you to try :)
+Activate GOD MODE in Windows God mode has been a &amp;ldquo;feature&amp;rdquo; of Windows since 7 and has remained throughout to our current Windows 10. It is essentially a collection of every setting for your computer in a single folder on the Desktop labelled God Mode. To activate it, first you need to be an Administrator, so check that you are in Settings/Control Panel.</description>
     </item>
     
     <item>
@@ -167,7 +125,8 @@ The first was after a hard drive I had failed. It was working fine and I put it 
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/louqe-ghost-s1-case-review/</guid>
-      <description>We’ve always had a thing for small PCs. The ITX form factor is just so cute and compact and there are some really cool ITX cases to play with. The Strange Labs every day use PC is in a Bitfenix Portalwhich is still one of more interesting looking cases out there. So when the opportunity came to build a SFF gaming PC in the new Louqe Ghost S1 we had to do it!</description>
+      <description>The Loque Ghost S1 is a superb piece of design for building the smallest possible ITX build by volume whilst maintaining great airflow and temperatures. This is our customer build transferring their original PC into the new case.
+We’ve always had a thing for small PCs. The ITX form factor is just so cute and compact and there are some really cool ITX cases to play with. The Strange Labs every day use PC is in a Bitfenix Portal which is still one of more interesting looking cases out there.</description>
     </item>
     
     <item>
@@ -177,17 +136,6 @@ The first was after a hard drive I had failed. It was working fine and I put it 
       
       <guid>https://strangelabs.io/blog/strengthening-relationships-weakened-by-the-internet/</guid>
       <description>Introduction When I was a teenager, I rebelled against the mobile phone. I don&amp;rsquo;t know what it was about it but I just didn&amp;rsquo;t want one. Without really thinking too much about it then, I believe I foresaw a future of increasing social connections and as a result, imagined each connection becoming weaker. It may have been a bit of that, but it was definitely a bit of relunctance to being able to be contacted 24/7.</description>
-    </item>
-    
-    <item>
-      <title>Strange Labs is moving on...</title>
-      <link>https://strangelabs.io/blog/strange-labs-is-moving-on/</link>
-      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://strangelabs.io/blog/strange-labs-is-moving-on/</guid>
-      <description>Strange Labs is moving on It is after great deliberation that Strange Labs is moving on. The shop is closing down as we restructure and narrow our offerings from general PC and Apple repair/refurbishing to bespoke custom PC building and website development.
-We will no longer be operating from our Bristol high street store, which we will be very sadly closing from the end of March 2020.
-We have had three very good years, successfully building our reputation as the top rated computer repair specialists in all of Bristol.</description>
     </item>
     
   </channel>

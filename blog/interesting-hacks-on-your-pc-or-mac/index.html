@@ -130,30 +130,24 @@
   <br/>
   <hr />
   <div class="post-content">
-    <!-- raw HTML omitted -->
+    <p>Why not spend a little time playing about with some interesting and cool hacks we have found for you to try :)</p>
 <h2 id="activate-god-mode-in-windows">Activate GOD MODE in Windows</h2>
 <p>God mode has been a &ldquo;feature&rdquo; of Windows since 7 and has remained throughout to our current Windows 10. It is essentially a collection of every setting for your computer in a single folder on the Desktop labelled God Mode. To activate it, first you need to be an Administrator, so check that you are in Settings/Control Panel. Then do the following:</p>
 <ul>
-<li>
-<p>Create a new folder on the desktop by right clicking anywhere on the desktop and go to new -&gt; Folder.</p>
-</li>
-<li>
-<p>Copy and paste this line as the folder&rsquo;s name: <code>GodMode</code></p>
-</li>
+<li>Create a new folder on the desktop by right clicking anywhere on the desktop and go to new Folder.</li>
+<li>Copy and paste this line as the folder&rsquo;s name: <code>GodMode</code></li>
+<li>The folder will change it&rsquo;s icon and label. Double click the folder to find a list of every setting available for your PC.</li>
 </ul>
-<p>-The folder will change it&rsquo;s icon and label. Double click the folder to find a list of every setting available for your PC.</p>
-<!-- raw HTML omitted -->
 <h2 id="create-password-protected-folders-with-notepad-in-windows">Create password protected folders with Notepad in Windows</h2>
 <p>Need to lock down a folder? Well you can with Notepad. Just open Notepad (search for it in the start menu), and paste the following code into it.</p>
-<p><code>@ECHO OFF title Folder Private if EXIST “Control Panel.” goto UNLOCK if NOT EXIST Private goto MDLOCKER :CONFIRM echo Are you sure you want to lock the folder(Y/N) set/p “cho=&amp;gt;” if %cho%==Y goto LOCK if %cho%==y goto LOCK if %cho%==n goto END if %cho%==N goto END echo Invalid choice. goto CONFIRM :LOCK ren Private “Control Panel.” attrib +h +s “Control Panel.” echo Folder locked goto End :UNLOCK echo Enter password to unlock folder set/p “pass=&amp;gt;” if NOT %pass%== YOURPASSWORD goto FAIL attrib -h -s “Control Panel.” ren “Control Panel.” Private echo Folder Unlocked successfully goto End :FAIL echo Invalid password goto end :MDLOCKER md Private echo Private created successfully goto End :End</code></p>
+<pre><code>@ECHO OFF title Folder Private if EXIST “Control Panel.” goto UNLOCK if NOT EXIST Private goto MDLOCKER :CONFIRM echo Are you sure you want to lock the folder(Y/N) set/p “cho=&amp;gt;” if %cho%==Y goto LOCK if %cho%==y goto LOCK if %cho%==n goto END if %cho%==N goto END echo Invalid choice. goto CONFIRM :LOCK ren Private “Control Panel.” attrib +h +s “Control Panel.” echo Folder locked goto End :UNLOCK echo Enter password to unlock folder set/p “pass=&amp;gt;” if NOT %pass%== YOURPASSWORD goto FAIL attrib -h -s “Control Panel.” ren “Control Panel.” Private echo Folder Unlocked successfully goto End :FAIL echo Invalid password goto end :MDLOCKER md Private echo Private created successfully goto End :End
+</code></pre>
 <p>Save that as <code>private.bat</code> somewhere on your PC. This bat file will serve as the script to make your folders. Just double click it and a password protected folder will be created. Change the password by editing the bat file where YOURPASSWORD is to whichever password you like.</p>
-<!-- raw HTML omitted -->
 <h2 id="mini-games-in-osx">Mini Games in OSX</h2>
 <p>There are a few mini games hidden inside OSX which you can play through the use of Terminal. To play them, just open the Terminal (click “Go” and then “Utilities” to get to the folder) and type in <code>emacs</code></p>
 <p>Then you can type either</p>
 <p><code>tetris</code>, <code>pong</code> or <code>snake</code></p>
 <p>to play those games! Hours of fun!</p>
-<!-- raw HTML omitted -->
 <h2 id="star-wars-and-other-things-via-telnet">Star Wars and other things via telnet</h2>
 <p>This one is cool. You can watch an entire film via your Terminal using telnet. And the film is in ASCII Art. :-o</p>
 <p>To do this, in Windows 10, you first need to enable the Telnet Client. Click on the start menu and search for <strong>Control Panel</strong>. Go to <strong>Programs and Features</strong> and then <strong>Turn Windows features on or off</strong>. Check the box next to <strong>Telnet Client</strong> and wait for it to do it. Once that is done, you can right click on the start menu and select <strong>Command Prompt</strong> (or <strong>Powershell</strong>). Then just enter the following telnet command:</p>
@@ -163,10 +157,8 @@
 <p><img src="/images/blog/interesting-hacks-2.png" alt="Interesting Hack 2"></p>
 <p>Or maybe Nyan Cat is your thing?</p>
 <p><code>telnet -t vtnt miku.acm.uiuc.edu</code></p>
-<!-- raw HTML omitted -->
 <p>Or a game of Chess?</p>
 <p><code>telnet freechess.org.</code></p>
-<!-- raw HTML omitted -->
 <p>Or speak to an AI psychotherapist</p>
 <p><code>telnet telehack.com</code> then type <code>eliza</code></p>
 <p><img src="/images/blog/interesting-hacks-3.png" alt="Interesting Hack 3"></p>
