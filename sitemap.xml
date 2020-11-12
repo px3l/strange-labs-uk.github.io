@@ -3,23 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://strangelabs.io/guides/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://strangelabs.io/guides/replace-your-boot-drive/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://strangelabs.io/blog/arguing-for-open-source-code/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+    <loc>https://strangelabs.io/guides/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://strangelabs.io/blog/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</loc>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -39,16 +39,6 @@
   
   <url>
     <loc>https://strangelabs.io/blog/egx-rezzed-2019-best-of-the-bunch/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://strangelabs.io/blog/full-stack-buildings-design/</loc>
     <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,16 +68,6 @@
   </url>
   
   <url>
-    <loc>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://strangelabs.io/guides/speeding-up-windows-10-startup/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://strangelabs.io/blog/strengthening-relationships-weakened-by-the-internet/</loc>
     <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url>
@@ -108,6 +88,16 @@
   </url>
   
   <url>
+    <loc>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</loc>
+    <lastmod>2019-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/guides/speeding-up-windows-10-startup/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</loc>
     <lastmod>2018-06-24T00:00:00+00:00</lastmod>
   </url>
@@ -115,6 +105,16 @@
   <url>
     <loc>https://strangelabs.io/guides/forgotten-your-windows-password/</loc>
     <lastmod>2017-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/arguing-for-open-source-code/</loc>
+    <lastmod>2017-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/full-stack-buildings-design/</loc>
+    <lastmod>2016-04-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>

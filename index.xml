@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>The No Mess Way To Replace Your Boot Drive</title>
+      <title>Easily Replace Your Boot Drive On Any Computer Without Losing Data</title>
       <link>https://strangelabs.io/guides/replace-your-boot-drive/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -21,13 +21,13 @@
     </item>
     
     <item>
-      <title>Arguing for Open Source</title>
-      <link>https://strangelabs.io/blog/arguing-for-open-source-code/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Ever wondered about desktop backgrounds?</title>
+      <link>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://strangelabs.io/blog/arguing-for-open-source-code/</guid>
-      <description>Why should we trust what people hide from us? Open source technology could help us trust in each other, and spread of this idea from computer science to other aspects of society and cultural development may be very beneficial.
-What is open source? Open source in it&amp;rsquo;s most literal definition is software in which the source code (ie. the instruction set which describes the functions that make it) is freely available to view, edit and then redistribute.</description>
+      <guid>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</guid>
+      <description>Backgrounds are often taken for granted. At least the ones that come pre-shipped with new computers. Well let&amp;rsquo;s put them into the spotlight like they deserve!
+Windows Windows 10 When I first upgraded a PC to Windows 10 many years ago, I was greeted with the new Windows desktop wallpaper. Pretty cool, I thought. A sort of futuristic Windows icon made out of light at a 3 dimensional angle in neon blues.</description>
     </item>
     
     <item>
@@ -70,26 +70,6 @@ We are half way through a refurbishment in store. So far, the first half has bee
     </item>
     
     <item>
-      <title>Ever wondered about desktop backgrounds?</title>
-      <link>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</guid>
-      <description>Backgrounds are often taken for granted. At least the ones that come pre-shipped with new computers. Well let&amp;rsquo;s put them into the spotlight like they deserve!
-Windows 10 When I first upgraded a PC to Windows 10 many years ago, I was greeted with the new Windows desktop wallpaper. Pretty cool, I thought. A sort of futuristic Windows icon made out of light at a 3 dimensional angle in neon blues.</description>
-    </item>
-    
-    <item>
-      <title>Full Stack Buildings Design</title>
-      <link>https://strangelabs.io/blog/full-stack-buildings-design/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://strangelabs.io/blog/full-stack-buildings-design/</guid>
-      <description>We have seen a transition from top of the pyramid &amp;ldquo;architect&amp;rdquo; to a more inclusive &amp;ldquo;archtect-planner&amp;rdquo;, a move which requires a greater level of understanding laterally: in a buildings context. And, we are in that same evolution in the software version of the architect too.
-What is “Full Stack”? In the world of computer science, and specifically web program development, there is a debate currently engaging the community. It began with the converging of ‘devs’ (developers): people writing programs, and ‘ops’ (operations): people who focus on how those programs run.</description>
-    </item>
-    
-    <item>
       <title>How to avoid the bait and not get phished!</title>
       <link>https://strangelabs.io/blog/dont-get-phished/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
@@ -104,7 +84,7 @@ What is “Full Stack”? In the world of computer science, and specifically web
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/how-to-think-in-the-world-of-cyber-crime/</guid>
-      <description>Cybrecrime will become more prevailant the more we build technology and networking into our lives. It is pretty scary and rightly so. If you are paranoid, chances are you should be. Here is how I think, and how you should probably think, in this scary technological world
+      <description>Cybrecrime will become more prevailant the more we build technology and networking into our lives. It is pretty scary and rightly so. If you are paranoid, chances are you should be. Here is how I think, and how you should probably think, in this scary technological world. Beware, it is an extreme view not for the feint of heart!
 It seems over the last few years we are increasingly frequently being informed of this cyber attack, that ransomware infection, this data leak&amp;hellip; To me it does make sense that these events would increase.</description>
     </item>
     
@@ -119,7 +99,7 @@ I think I am late to the party here, but better late than never! I read the rece
     </item>
     
     <item>
-      <title>Interesting Hacks on your PC or Mac</title>
+      <title>Interesting Easter Eggs on your PC or Mac</title>
       <link>https://strangelabs.io/blog/interesting-hacks-on-your-pc-or-mac/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -139,30 +119,12 @@ We’ve always had a thing for small PCs. The ITX form factor is just so cute an
     </item>
     
     <item>
-      <title>Sick of Windows 10? Try Linux!</title>
-      <link>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</guid>
-      <description>Since Windows 10 free upgrade, our customers have complained about the sneaky tactics used by Microsoft to install their latest OS. They&amp;rsquo;ve complained about further updates breaking their systems. They&amp;rsquo;ve complained about the lack of various driver support for wifi, printers, bluetooth and more in Windows 10. They&amp;rsquo;ve complained about the abstracted ways to use the PC becoming confusing and unnecessary! It doesn&amp;rsquo;t seem like Windows 10 is winning many hearts!</description>
-    </item>
-    
-    <item>
-      <title>Speeding up Windows 10 startup</title>
-      <link>https://strangelabs.io/guides/speeding-up-windows-10-startup/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://strangelabs.io/guides/speeding-up-windows-10-startup/</guid>
-      <description>Hardware So the first and easiest method (though unfortunately most expensive) is to upgrade the hardware. Adding a Solid State Drive (SSD) will greatly speed up the load times of Windows and all programs and files. An SSD has no moving parts, unlike traditional mechanical Hard Disk Drives and the read and write times are ten fold faster. NVMe SSDs are faster still as they no longer use the slower SATA protocol.</description>
-    </item>
-    
-    <item>
       <title>Strengthening relationships weakened by the internet</title>
       <link>https://strangelabs.io/blog/strengthening-relationships-weakened-by-the-internet/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/strengthening-relationships-weakened-by-the-internet/</guid>
-      <description>Introduction When I was a teenager, I rebelled against the mobile phone. I don&amp;rsquo;t know what it was about it but I just didn&amp;rsquo;t want one. Without really thinking too much about it then, I believe I foresaw a future of increasing social connections and as a result, imagined each connection becoming weaker. It may have been a bit of that, but it was definitely a bit of relunctance to being able to be contacted 24/7.</description>
+      <description>Introduction When I was a teenager, at around 2003, I rebelled against the mobile phone. I don&amp;rsquo;t know what it was about it but I just didn&amp;rsquo;t want one. Without really thinking too much about it then, I believe I foresaw a future of increasing social connections and as a result, imagined each connection becoming weaker. It may have been a bit of that, but it was definitely a bit of relunctance to being able to be contacted 24/7.</description>
     </item>
     
     <item>
@@ -185,6 +147,24 @@ Shipping &amp;amp; Returns Policy Strange Labs currently only sells and ships to
     </item>
     
     <item>
+      <title>Sick of Windows 10? Try Linux!</title>
+      <link>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</guid>
+      <description>Since Windows 10 free upgrade, our customers have complained about the sneaky tactics used by Microsoft to install their latest OS. They&amp;rsquo;ve complained about further updates breaking their systems. They&amp;rsquo;ve complained about the lack of various driver support for wifi, printers, bluetooth and more in Windows 10. They&amp;rsquo;ve complained about the abstracted ways to use the PC becoming confusing and unnecessary! It doesn&amp;rsquo;t seem like Windows 10 is winning many hearts!</description>
+    </item>
+    
+    <item>
+      <title>Speeding up Windows 10 startup</title>
+      <link>https://strangelabs.io/guides/speeding-up-windows-10-startup/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/guides/speeding-up-windows-10-startup/</guid>
+      <description>Hardware So the first and easiest method (though unfortunately most expensive) is to upgrade the hardware. Adding a Solid State Drive (SSD) will greatly speed up the load times of Windows and all programs and files. An SSD has no moving parts, unlike traditional mechanical Hard Disk Drives and the read and write times are ten fold faster. NVMe SSDs are faster still as they no longer use the slower SATA protocol.</description>
+    </item>
+    
+    <item>
       <title>Troubleshooting keyboard and mouse issues with Laptops on Windows 10</title>
       <link>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</link>
       <pubDate>Sun, 24 Jun 2018 00:00:00 +0000</pubDate>
@@ -201,7 +181,26 @@ Shipping &amp;amp; Returns Policy Strange Labs currently only sells and ships to
       <guid>https://strangelabs.io/guides/forgotten-your-windows-password/</guid>
       <description>It is every Windows users nightmare: one day you try to log in and every attempt is denied. Whether you have forgotten your password or it has been changed or you need to get in and don&amp;rsquo;t have the password, there is a way to break in.
 The Backdoor Take the battery out if you have a laptop and plug in the mains
-Start windows and then whilst it is starting up, pull the power out to force an automatic startup repair on the next boot</description>
+Start windows and then whilst it is starting up, pull the power out to force an automatic startup repair on the next boot.</description>
+    </item>
+    
+    <item>
+      <title>Arguing for Open Source</title>
+      <link>https://strangelabs.io/blog/arguing-for-open-source-code/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/arguing-for-open-source-code/</guid>
+      <description>Why should we trust what people hide from us? Open source technology could help us trust in each other, and spread of this idea from computer science to other aspects of society and cultural development may be very beneficial.
+What is open source? Open source in it&amp;rsquo;s most literal definition is software in which the source code (ie. the instruction set which describes the functions that make it) is freely available to view, edit and then redistribute.</description>
+    </item>
+    
+    <item>
+      <title>Full Stack Buildings Design</title>
+      <link>https://strangelabs.io/blog/full-stack-buildings-design/</link>
+      <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/full-stack-buildings-design/</guid>
+      <description>Designing Buildings in the Future A new type of architect is coming. One with greater vision, greater influence and greater understanding. This architect of the future understands the building she/he/they/it will design not only from the material to the philosophy in the traditional sense, but from the electron in the wiring to the connectivity of the internet and the languages to converse these layers to the building user as part of a new, technological world.</description>
     </item>
     
   </channel>

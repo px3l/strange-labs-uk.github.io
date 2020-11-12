@@ -149,12 +149,12 @@
 <p><strong>2. Install the latest drivers.</strong></p>
 <p>If that hasn&rsquo;t worked, see if there are updated drivers from Windows Update or the manufacturers website. If that doesn&rsquo;t work, move on to 3.</p>
 <p><strong>3. Locate the registry entries.</strong></p>
-<p>Press Windows+r to open the Run prompt. Enter &ldquo;regedit&rdquo; and click &ldquo;Ok&rdquo;. Once the registry editor is open, find the following entries.</p>
+<p>Press Windows+r to open the Run prompt. Enter <code>regedit</code> and click &ldquo;Ok&rdquo;. Once the registry editor is open, find the following entries.</p>
 <p><strong>Keyboard:</strong> <code>HKEY_LOCAL_MACHINES\System\CurrentControlSet\Control\Class\</code></p>
 <p><strong>Mouse:</strong> <code>HKEY_LOCAL_MACHINES\System\CurrentControlSet\Control\Class\</code></p>
 <p>On either of them, click on the entry and on the right window, you should see the registry value files. If you see UpperFilters or/and LowerFilters, delete them. Restart the laptop and see if the keyboard and mouse work. If not, move onto 4.</p>
 <p><strong>4. Re-enter the registry values.</strong></p>
-<p>Open regedit again and find the above entries. This time, we are going to manually add the UpperFilters values back into them. With the entries selected, right click on the empty space in the right window. Click &ldquo;new&rdquo; &ldquo;Multi-String Value&rdquo;. Call the value &ldquo;UpperFilters&rdquo; and give it the value &ldquo;mouclass&rdquo; for the mouse, and &ldquo;kbdclass&rdquo;.Restart the laptop and see if the keyboard and mouse work.</p>
+<p>Open regedit again and find the above entries. This time, we are going to manually add the UpperFilters values back into them. With the entries selected, right click on the empty space in the right window. Click &ldquo;new&rdquo; &ldquo;Multi-String Value&rdquo;. Call the value &ldquo;UpperFilters&rdquo; and give it the value &ldquo;mouclass&rdquo; for the mouse, and &ldquo;kbdclass&rdquo;. Restart the laptop and see if the keyboard and mouse work.</p>
 
   </div>
   <hr />

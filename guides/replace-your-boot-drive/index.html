@@ -119,7 +119,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                       <div class="post-title">
-    The No Mess Way To Replace Your Boot Drive
+    Easily Replace Your Boot Drive On Any Computer Without Losing Data
   </div>
   <div class="post-date">
     Sunday, November 1, 2020
@@ -132,14 +132,13 @@
   <div class="post-content">
     <h2 id="introduction">Introduction</h2>
 <p>If you have run out of space on your boot drive, using your PC can become quite restrictive and irritating. You might not be able to save files, or even open programs or the internet if there is no space left. If this happens you have a couple of options to get more space: the easiest being adding another hard drive or solid state drive. However this may not be an option for you, or you may need or want to replace your drive with a bigger one! For example, you might have no available expansion slots (laptops we&rsquo;re looking at you) or you may need to be using the C: drive specifically for programs to run smoothly.</p>
-<p>This guide is going to show you how easy and quick it is to replace your boot drive (C: in Windows). This guide is designed for Windows or Linux specifically. Though this will work with any Windows, Linux and Mac computers, sometimes booting to a live environment from a USB stick on a Mac does not work well.. and if you have a Mac you shouldn&rsquo;t need to do this anyway as MAc have a built in tool which will allow you to clone the drives.</p>
-<h2 id="pre-requisites">Pre-requisites</h2>
+<p>This guide is going to show you how easy and quick it is to replace your boot drive (C: in Windows). This guide is designed for Windows or Linux specifically. Though this will work with any Windows, Linux and Mac computers, sometimes booting to a live environment from a USB stick on a Mac does not work well.. and if you have a Mac there is a better way to do this! See the Mac section at the bottom for how.</p>
+<h2 id="for-windows-and-linux">For Windows and Linux</h2>
+<h3 id="pre-requisites"><strong>Pre-requisites</strong></h3>
 <p>We need a few things prepared before we begin:</p>
-<h3 id="linux-mint-live-usb">Linux Mint Live USB</h3>
-<p>A USB stick with a live copy of <a href="https://linuxmint.com/download.php">Linux Mint</a>. To make this, get a USB and download the <a href="https://linuxmint.com/download.php">Linux Mint</a> ISO (Cinnamon edition will do). Then we need to put that ISO on the USB stick using <a href="https://rufus.ie/">Rufus</a> if you are on Windows, or the in built USB creator if you are on Linux already.</p>
-<h3 id="drive-enclosure">Drive Enclosure</h3>
-<p>You may need a drive enclosure for your existing drive if you do not have a way to plug both the replacement drive and current drive in the same computer.</p>
-<h2 id="step-1-finding-and-fitting-a-new-drive">Step 1: Finding and fitting a new drive</h2>
+<p><strong>Linux Mint Live USB</strong> - A USB stick with a live copy of <a href="https://linuxmint.com/download.php">Linux Mint</a>. To make this, get a USB and download the <a href="https://linuxmint.com/download.php">Linux Mint</a> ISO (Cinnamon edition will do). Then we need to put that ISO on the USB stick using <a href="https://rufus.ie/">Rufus</a> if you are on Windows, or the in built USB creator if you are on Linux already.</p>
+<p><strong>Drive Enclosure</strong> - You may need a drive enclosure for your existing drive if you do not have a way to plug both the replacement drive and current drive in the same computer.</p>
+<h3 id="step-1-finding-and-fitting-a-new-drive"><strong>Step 1: Finding and fitting a new drive</strong></h3>
 <p>Firstly, we need to pick the right drive to replace it. This could be an M.2, 2.5&rdquo; or 3.5&rdquo; form factor. Once this is acquired, physically replace your current boot drive with the new one. Obviously do this when your computer has been safely shut down and is unplugged from the electricity. Once the computer is off, take your current boot drive out its slot and put the new drive in. If you are upgrading form factor, just put the new drive in the new location.</p>
 <p>Now we need to keep the existing boot drive fitted to the PC as well. This can be through various methods:</p>
 <ol>
@@ -147,37 +146,59 @@
 <li>Leave the current boot drive in its existing slot (because you have upgraded the form factor from SATA to M.2)</li>
 <li>Use an external drive enclosure to connect to a spare USB slot.</li>
 </ol>
-<h2 id="step-2-booting-to-linux">Step 2: Booting to Linux</h2>
+<h3 id="step-2-booting-to-linux"><strong>Step 2: Booting to Linux</strong></h3>
 <p>So now you should have the new (bigger) drive fitted as the main drive on the computer, and the existing boot drive as a secondary drive either internally or through an external enclosure. Now we need to boot to Linux on the USB stick. Plug the USB stick in and plug the computer back into the electricity. Turn the PC on and boot to the USB stick. This can be through various methods depending on the computer. Some are listed here:</p>
-<h3 id="laptops">Laptops</h3>
+<p><strong>Laptops</strong></p>
 <p>If you have a Windows laptop, you can open the boot menu by pressing F12 as the laptop starts, before the windows loading screen.</p>
-<h3 id="desktops">Desktops</h3>
+<p><strong>Desktops</strong></p>
 <p>This can vary, if you have a pre-built / proprietary desktop (ie an HP or Dell etc) you can try pressing F12 on startup. Alternatively you can boot into the BIOS by pressing F10 or F2 or Del (model dependant) Once you are within BIOS, you can either select what device to boot from, or change the boot order to boot from any connected USB devices first. Then save the BIOS settings with F10 and restart.</p>
-<h3 id="mac">Mac</h3>
-<p>Mac computers open the boot menu by pressing and holding left Alt on boot at the chime. This should bring the connected devices up and you can select the drive to boot from.</p>
-<h2 id="step-3-cloning-the-disk">Step 3: Cloning the Disk</h2>
+<h3 id="step-3-cloning-the-disk"><strong>Step 3: Cloning the Disk</strong></h3>
 <p>Now we are in the live Linux Mint environment, go to the bottom left start menu and search for Gparted. This is a program which shows us all the drives and their respective names in Linux. We need to work out which drive is called what so we know what the existing boot drive is and what the new one is. In Gparted, the top right has a dropdown and we can click that to see the connected drives. Identify the new and old drives by their size (usually) and make a note of the path and name. It will be something like <code>/dev/sda1</code> and <code>/dev/sda2</code>, or <code>/dev/nvme1n0</code> etc. Make a note of the existing drive and the new one.</p>
 <p>Now open the terminal (you can search for it using the start menu). We just type one command to clone the whole disk. Before you go ahead, double check everything is correct and what path names they are as if you clone them the wrong way you could erase all your data! For cloning an entire disk, from physical disk /dev/sdX to physical disk /dev/sdY (replacing sdX and sdY with correct pathnames) is:</p>
-<p><code>$ dd if=/dev/sdX of=/dev/sdY bs=64K conv=noerror,sync</code></p>
-<h2 id="step-4-wait">Step 4: Wait</h2>
+<p><code>dd if=/dev/sdX of=/dev/sdY bs=64K conv=noerror,sync</code></p>
+<h3 id="step-4-wait"><strong>Step 4: Wait</strong></h3>
 <p>Once you have run this command, you won&rsquo;t get any confirmation on screen, it will just go to the next line on the terminal and may seem like it is doing nothing, however it is working. Now you just wait until you see a new line on the terminal, or confirmation message to say it has completed. This can take a long time! The smaller and faster the drives you are cloning the quicker, obviously, but if you are cloning a 2TB HDD to a 4TB or something, it could take hours. So be patient :)</p>
-<h2 id="step-5-booting-to-your-new-drive">Step 5: Booting to your new drive</h2>
+<h3 id="step-5-booting-to-your-new-drive"><strong>Step 5: Booting to your new drive</strong></h3>
 <p>As soon as the terminal goes to a new line again or confirms the transfer, it is done. You can now turn the computer off and remove the USB stick. Once you have done this, turn the computer back on. If you changed BIOS settings to boot to the USB, you could change them back if you want, but this time you boot your PC it should boot to the new bigger drive (with all your data on it!). The computer should be exactly the same as we have made a carbon copy of your original drive, so it will look identical. We need to check that it has booted to the new drive, so open up your disk management program:</p>
-<h3 id="windows">Windows</h3>
-<p>Just open the start menu and search for Disk Management. This should show you all the disks connected to your PC. The disk you have booted to should be the bigger one and called C:.</p>
-<h2 id="step-6-cleaning-up-and-opening-up-the-disk">Step 6: Cleaning up and opening up the disk</h2>
+<p><strong>On Windows</strong></p>
+<p>Open the start menu and search for Disk Management. This should show you all the disks connected to your PC. The disk you have booted to should be the bigger one and called C:.</p>
+<p><strong>On Linux</strong></p>
+<p>Open up GParted and make sure that the drive you are booted to is the new one, and top of the list.</p>
+<h3 id="step-6-cleaning-up-and-opening-up-the-disk"><strong>Step 6: Cleaning up and opening up the disk</strong></h3>
 <p>The new drive will be a clone of your old one, which means it now has a lot of unallocated space and the PC will think it is the same size. So we need to expand the partition to fill the drive and open up all that new space!</p>
-<h3 id="windows-1">Windows</h3>
+<p><strong>On Windows</strong></p>
 <p>This can be easy or difficult, depending on what partition arrangement your original C:/ drive had. In the best case scenario we can just use Disk Management to open up the partition. If C:/ is next to the empty space on the drive, you can just right click on the C:/ partition and click Extend, keep all the settings as is (it should default to be the full amount) and click Finish. This should open up the new space!</p>
 <p>If the C:/ is not next to empty space, you may need to use a partition program like <a href="https://www.partitionwizard.com/">Partition MiniTool</a> to help in moving and expanding the partition.</p>
-<h2 id="step-7-erasing-your-old-drive">Step 7: Erasing your old drive</h2>
-<p>If you have completed all that successfully, you are now using the bigger drive and all your data has copied over. You can now erase your existing drive if you want, or keep it as a backup!</p>
+<p><strong>On Linux</strong></p>
+<p>Again, open up GParted and it should show you the options to move, or extend partitions.</p>
+<p>Once you have done this, restart the computer to make sure the boot drive is still functioning well after the partition has been extended. If all is well, move to the next step.</p>
+<h3 id="step-7-erasing-your-old-drive"><strong>Step 7: Erasing your old drive</strong></h3>
+<p>You should now be using the bigger drive and all your data has copied over. You can now erase your existing drive if you want, or keep it as a backup!</p>
 <p>To erase your old drive, just do the following:</p>
-<h3 id="windows-2">Windows</h3>
+<p><strong>On Windows</strong></p>
 <p>Open up Command Prompt or Powershell. Then type in:</p>
 <p><code>Diskpart</code></p>
 <p>This will open a disk partition program. Type in <code>list disk</code> and see what disk is the old one (identified by size usually) and what number it is assigned to. Then type <code>sel disk X</code> where X is the number of your old disk. Then type <code>clean</code> and it will erase the whole disks partition table leaving a completely empty drive.</p>
 <p>Once that is done, close all the programs and open up Disk Management again. You should be prompted to initialise the old disk, click yes. Then you can find it and format it how you like.</p>
+<p><strong>On Linux</strong></p>
+<p>Whilst still in GParted, if you are sure you are booted to the new drive, simply locate and erase your old drive.</p>
+<h2 id="for-mac-osx">For Mac OSX</h2>
+<h3 id="pre-requisites-1"><strong>Pre-requisites</strong></h3>
+<p><strong>OSX Installer USB</strong> - You can use your Mac with the old (current) drive in to create a USB. <a href="https://support.apple.com/en-us/HT201372">Follow these instructions to do so</a>.</p>
+<p><strong>Drive Enclosure</strong> - You may need a drive enclosure for your existing drive if you do not have a way to plug both the replacement drive and current drive in the same computer.</p>
+<h3 id="step-1-finding-and-fitting-a-new-drive-1"><strong>Step 1: Finding and fitting a new drive</strong></h3>
+<p>As above, fit the new drive, removing the old one if necessary. If there is no way to fit your old drive alongisde the replacement, you will need an external enclosure to complete this easily.</p>
+<h3 id="step-2-boot-to-mac-osx-installer"><strong>Step 2: Boot to Mac OSX Installer</strong></h3>
+<p>Mac computers open the boot menu by pressing and holding left Alt on boot at the chime. This should bring the connected devices up and you can select the USB drive to boot from.</p>
+<h3 id="step-3-install-fresh-copy-of-osx"><strong>Step 3: Install fresh copy of OSX</strong></h3>
+<p>First you must go to Disk Utility, then format your new bigger drive APFS or HFS, depending on your OS version.</p>
+<p>Then you can go to the OSX installer and install a new copy on your new drive.</p>
+<h3 id="step-4-boot-into-the-new-osx"><strong>Step 4: Boot into the new OSX</strong></h3>
+<p>Now in theory you should be able to get your old data transferred before this, but I have found sometimes the &ldquo;quick&rdquo; way does not always work cleanly, this one does.</p>
+<p>Boot into your new copy of OSX on your new drive. It will look like a new computer :)</p>
+<p>Then, with your old drive connected (either internally or by external enclosure), go to the spotlight search in the top right and search for <code>Migration Assistant</code>.</p>
+<h3 id="step-5-migrate-data"><strong>Step 5: Migrate Data</strong></h3>
+<p>Follow the prompts and migrate your data. Once you are sure everything is as it was, you can erase your old drive if you wish!</p>
 
   </div>
   <hr />
