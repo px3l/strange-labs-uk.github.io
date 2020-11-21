@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://strangelabs.io/guides/replace-your-boot-drive/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+    <loc>https://strangelabs.io/guides/diagnosing-internet-issues-win-10/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://strangelabs.io/guides/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/guides/replace-your-boot-drive/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,53 +28,13 @@
   </url>
   
   <url>
-    <loc>https://strangelabs.io/blog/bsod-scams-on-windows-10/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://strangelabs.io/blog/colour-and-understanding/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+    <loc>https://strangelabs.io/blog/how-to-think-in-the-world-of-cyber-crime/</loc>
+    <lastmod>2020-05-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://strangelabs.io/blog/egx-rezzed-2019-best-of-the-bunch/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://strangelabs.io/blog/dont-get-phished/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://strangelabs.io/blog/how-to-think-in-the-world-of-cyber-crime/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://strangelabs.io/blog/imagining-with-deep-dream/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://strangelabs.io/blog/interesting-hacks-on-your-pc-or-mac/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://strangelabs.io/blog/louqe-ghost-s1-case-review/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://strangelabs.io/blog/strengthening-relationships-weakened-by-the-internet/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -88,8 +53,28 @@
   </url>
   
   <url>
+    <loc>https://strangelabs.io/blog/interesting-hacks-on-your-pc-or-mac/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/strengthening-relationships-weakened-by-the-internet/</loc>
+    <lastmod>2019-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/dont-get-phished/</loc>
+    <lastmod>2019-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/egx-rezzed-2019-best-of-the-bunch/</loc>
+    <lastmod>2019-07-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -98,8 +83,28 @@
   </url>
   
   <url>
+    <loc>https://strangelabs.io/blog/bsod-scams-on-windows-10/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</loc>
     <lastmod>2018-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/colour-and-understanding/</loc>
+    <lastmod>2018-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/louqe-ghost-s1-case-review/</loc>
+    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/imagining-with-deep-dream/</loc>
+    <lastmod>2018-01-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
