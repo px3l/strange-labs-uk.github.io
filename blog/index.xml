@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Strange Labs</title>
+    <title>Blogs on Strange Labs Computers</title>
     <link>https://strangelabs.io/blog/</link>
-    <description>Recent content in Blogs on Strange Labs</description>
+    <description>Recent content in Blogs on Strange Labs Computers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</guid>
-      <description>Backgrounds are often taken for granted. At least the ones that come pre-shipped with new computers. Well let&amp;rsquo;s put them into the spotlight like they deserve!
+      <description>Backgrounds are often taken for granted. At least the ones that come pre-shipped with new computers. We take a look at iconic background images that come pre-packaged with operating systems over the years. Let&amp;rsquo;s put them into the spotlight like they deserve!
 Windows Windows 10 When I first upgraded a PC to Windows 10 many years ago, I was greeted with the new Windows desktop wallpaper. Pretty cool, I thought. A sort of futuristic Windows icon made out of light at a 3 dimensional angle in neon blues.</description>
     </item>
     
@@ -37,7 +37,7 @@ It seems over the last few years we are increasingly frequently being informed o
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</guid>
-      <description>Hello world From 2017 to 2020, I had a physical shop, the idea was to convert it from a boring PC repair shop into a social space where programmers could meet to work on projects. This was a post made part way through that development. For the last pics before I closed, go to the end
+      <description>From 2017 to 2020, I had a physical shop, the idea was to convert it from a boring PC repair shop into a social space where programmers could meet to work on projects. This was a post made part way through that development. For the last pics before I closed, go to the end
 We are half way through a refurbishment in store. So far, the first half has been very successful I would say, both in it&amp;rsquo;s own aesthetic, and how it reflects the computer enthusiasm nature of the space.</description>
     </item>
     
@@ -134,7 +134,7 @@ What is open source? Open source in it&amp;rsquo;s most literal definition is so
       <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://strangelabs.io/blog/full-stack-buildings-design/</guid>
-      <description>Designing Buildings in the Future A new type of architect is coming. One with greater vision, greater influence and greater understanding. This architect of the future understands the building she/he/they/it will design not only from the material to the philosophy in the traditional sense, but from the electron in the wiring to the connectivity of the internet and the languages to converse these layers to the building user as part of a new, technological world.</description>
+      <description>Designing Buildings in the Future A new type of architect is coming. One with greater vision, greater influence and greater understanding. This architect of the future understands the building they will design not only from the material to the philosophy in the traditional sense, but from the electron in the wiring to the connectivity of the internet and the languages to converse these layers to the building user as part of a new, technological world.</description>
     </item>
     
   </channel>
