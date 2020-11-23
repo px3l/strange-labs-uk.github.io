@@ -132,8 +132,6 @@
             
 
             
-
-            <br /><br />
             
             
             <a href="https://www.google.com/search?source=hp&ei=T2iLXvuVHYqLlwS9varoAg&q=strange+labs&oq=strange+labs&gs_lcp=CgZwc3ktYWIQAzICCAAyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoFCAAQgwE6BAgAEAM6BAgAEApKJQgXEiEwZzEwM2c3Nmc4OWc4MWc5MGc2N2c4MWcxMDlnOTVnNzdKGQgYEhUwZzFnMWcxZzFnMWcxZzFnMWcxZzNQpAxY9BZguhhoAHAAeACAAVqIAa8GkgECMTKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwi7-ZqDq9ToAhWKxYUKHb2eCi0Q4dUDCAg&uact=5#lrd=0x48718e0bd868ffff:0xa1142d8202740a2a,1,,," target="blank" style="font-size: 1.5em;">★★★★★</a><br><br>
@@ -172,7 +170,7 @@
         
 
         
-            
+            <!-- PORTFOLIO -->
 <section class="no-padding" id="portfolio">
     <div class="container-fluid">
         <div class="row no-gutter">
@@ -495,6 +493,7 @@
         </div>
     </div>
 </section>
+
         
 
         
@@ -586,116 +585,90 @@
 
 <div class="col-lg-8 col-lg-offset-2 text-center">
   <div>
-      <button type="button" class="btn btn-xl btn-primary" data-toggle="modal" data-target="#formModal">Open Form</button>
+    <button type="button" class="btn btn-xl btn-primary" data-toggle="modal" data-target="#formModal">Open Form</button>
   </div>
 
   <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Strange Labs Custom PCs</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
-              </div>
-              <div class="modal-body modal-form">
-                  <p>Fill in the form below to start tailoring your new computer:</p>
-                  <p style="font-size: 1em">Please note that our PCs start from roughly £600 and choosing certain requirements will push the price up significantly. If you are unsure of what your ideal PC will cost, we will let you know if it is possible or not to work within your budget. Currently we only ship PCs within the UK</p>
-                  <form id="spec-form" name="spec-form" accept-charset="utf-8" action="https://formspree.io/info@strangelabs.io" method="post">
-                    <fieldset id="fs-frm-inputs">
-                      <label for="full-name">Full Name:</label>
-                      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                      
-                      <br>
-                
-                      <label for="email-address">Email Address:</label>
-                      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                      
-                      <br>
-                
-                      <label for="budget">What is your maximum budget:</label>
-                      <input type="number" name="budget" id="budget" placeholder="£GBP" required="">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content"> 
+        <div class="modal-header">
+            <h4 class="modal-title">Strange Labs Computers</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body modal-form">
+          <h3>Start tailoring your new computer</h3>
+          <p>Complete this form to begin the specification process for your new computer. Please note that our computers start from roughly £600 and choosing certain requirements will push the price up significantly. If you are unsure of what your ideal PC will cost, we will let you know if it is possible or not to work within your budget. Currently we only ship PCs within the UK.</p>
 
-                      <br>
-                
-                      <label for="postcode">What is your postcode:</label>
-                      <input type="text" name="postcode" id="postcode" placeholder="UK postcode" required="">
-                
-                      <br><br><br>
-                
-                      <label for="message"> What are you purposes for this PC:</label>
-                      <li>
-                          <ul>
-                              <label class="checkbox" for="gaming">General Gaming</label><input type="checkbox" name="gaming"/>
-                              <label class="checkbox" for="highEndGaming">Ultra High End Gaming</label><input type="checkbox" name="highEndGaming"/>
-                              <label class="checkbox" for="audioProduction">Audio Production</label><input type="checkbox" name="audioProduction"/>
-                              <label class="checkbox" for="videoEditing">Video Editing/Animation</label><input type="checkbox" name="videoEditing"/>
-                              <label class="checkbox" for="simulations">Simulations</label><input type="checkbox" name="simulations"/>
-                          </ul>
-                          <ul>
-                              <label class="checkbox" for="programming">Programming</label><input type="checkbox" name="programming"/>
-                              <label class="checkbox" for="vitualReality">Virtual Reality</label><input type="checkbox" name="vitualReality"/>
-                              <label class="checkbox" for="streaming">Streaming</label><input type="checkbox" name="streaming"/>
-                              <label class="checkbox" for="generalUse">General Use</label><input type="checkbox" name="generalUse"/>
-                          </ul>
-                      </li>
-                      <textarea rows="3" name="message" id="message" placeholder="Please use this space for any specific uses. Ie. Something not listed above, or particular games you play." required=""></textarea>
-                
-                      <br><br><br>
-                
-                      <label for="message">Requirements:</label><br>
-                      <li>
-                          <ul>
-                              <label class="checkbox" for="cuda">CUDA</label><input type="checkbox" name="cuda"/>
-                              <label class="checkbox" for="dvdDrive">DVD Drive</label><input type="checkbox" name="dvdDrive"/>
-                              <label class="checkbox" for="fanController">Fan Controller</label><input type="checkbox" name="fanController"/>
-                              <label class="checkbox" for="largeDataStorage">Large Data Storage</label><input type="checkbox" name="largeDataStorage"/>
-                          </ul>
-                          <ul>
-                              <label class="checkbox" for="looksAmazing">Looks Amazing</label><input type="checkbox" name="looksAmazing"/>
-                              <label class="checkbox" for="rgbLighting">RGB Lighting</label><input type="checkbox" name="rgbLighting"/>
-                              <label class="checkbox" for="smallFormFactor">Small physical size (Small form factor)</label><input type="checkbox" name="smallFormFactor"/>
-                              <label class="checkbox" for="soundproofing">Soundproofing</label><input type="checkbox" name="soundproofing"/>
-                              <label class="checkbox" for="wifi">Wi-Fi</label><input type="checkbox" name="wifi"/>
-                          </ul>
-                      </li>
-                      <textarea rows="3" name="message" id="message" placeholder="Anything that is vital the PC has which isn't listed?" ></textarea>
-                
-                      <br><br><br>
-                
-                      <label for="message">Do you want it to have a custom water cooling loop:</label>
-                      <p style="font-size: 1em">Please note if you choose yes this will be an expensive PC.</p>
-                      <br>
-                      <label class="checkbox" for="watercoolingLoopYes">Yes</label><input type="radio" id="watercoolingLoopYes" name="watercoolingLoop" value="wateryes" required="">
-                      <label class="checkbox" for="watercoolingLoopNo">No</label><input type="radio" id="watercoolingLoopNo" name="watercoolingLoop" value="waterno" required="">
-                
-                      <br><br><br>
-                
-                      <label for="message">Which Operating System do you need:</label><br>
-                      <label class="checkbox">Windows 10 Home</label><input type="checkbox" name="win10home"/>
-                      <label class="checkbox">Windows 10 Pro</label><input type="checkbox" name="win10pro"/>
-                      <label class="checkbox">Linux Mint</label><input type="checkbox" name="mint"/>
-                      <label class="checkbox">Ubuntu</label><input type="checkbox" name="ubuntu"/>
-                      <br>
-                      <textarea rows="3" name="message" id="message" placeholder="Do you need any other specific operating system"></textarea>
-                
-                      <br><br><br>
-                
-                      <label for="message">Anything else you need us to know:</label>
-                      <textarea rows="3" name="message" id="message" placeholder="Want to use a specific component? Or have something else we need to know!" required=""></textarea>
-                
-                      <br><br><br>
-                
-                      <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
-                    </fieldset>
-                    <input class="btn btn-primary" type="submit" value="Send Responses"> 
-                  </form>
-              </div>
-          
+          <form id="spec-form" name="spec-form" accept-charset="utf-8" action="https://formspree.io/info@strangelabs.io" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name:</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              <br>
+              <label for="email-address">Email Address:</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="example@example.com" required="">
+              <br>
+              <label for="budget">What is your maximum budget:</label>
+              <input type="number" name="budget" id="budget" placeholder="£GBP" required="">
+              <br>
+              <label for="postcode">What is your postcode:</label>
+              <input type="text" name="postcode" id="postcode" placeholder="UK postcode" required="">
+              <br><br>
+              <label for="message"> What are you purposes for this PC:</label>
+              <p><i>Select at least one</i></p>
+              <ul>
+                <li><input type="checkbox" name="gaming"/><label class="checkbox" for="gaming">General Gaming</label></li>
+                <li><input type="checkbox" name="highEndGaming"/><label class="checkbox" for="highEndGaming">Ultra Settings / High End Gaming</label></li>
+                <li><input type="checkbox" name="vitualReality"/><label class="checkbox" for="vitualReality">Virtual Reality</label></li>
+                <li><input type="checkbox" name="streaming"/><label class="checkbox" for="streaming">Streaming</label></li>
+                <li><input type="checkbox" name="audioProduction"/><label class="checkbox" for="audioProduction">Audio Production</label></li>
+                <li><input type="checkbox" name="videoEditing"/><label class="checkbox" for="videoEditing">Video Editing / Rendering</label></li>
+                <li><input type="checkbox" name="videoEditing"/><label class="checkbox" for="videoEditing">3D Modelling / Animation</label></li>
+                <li><input type="checkbox" name="simulations"/><label class="checkbox" for="simulations">Simulations</label></li>
+                <li><input type="checkbox" name="programming"/><label class="checkbox" for="programming">Programming</label></li>
+                <li><input type="checkbox" name="generalUse"/><label class="checkbox" for="generalUse">General Use / Office Work</label></li>                   
+              </ul>
+              <br>
+              <label for="message">Requirements:</label><br>
+              <ul>
+                <li><input type="checkbox" name="cuda"/><label class="checkbox" for="cuda">CUDA Cores</label></li>
+                <li><input type="checkbox" name="dvdDrive"/><label class="checkbox" for="dvdDrive">Optical Drive (DVD, CD, Blu-Ray)</label></li>
+                <li><input type="checkbox" name="largeDataStorage"/><label class="checkbox" for="largeDataStorage">Large Data Storage</label></li>
+                <li><input type="checkbox" name="looksAmazing"/><label class="checkbox" for="looksAmazing">Looks Amazing</label></li>
+                <li><input type="checkbox" name="rgbLighting"/><label class="checkbox" for="rgbLighting">RGB Lighting</label></li>
+                <li><input type="checkbox" name="smallFormFactor"/><label class="checkbox" for="smallFormFactor">Small footprint (ITX form factor)</label></li>
+                <li><input type="checkbox" name="soundproofing"/><label class="checkbox" for="soundproofing">Soundproofing</label></li>
+                <li><input type="checkbox" name="wifi"/><label class="checkbox" for="wifi">Wi-Fi</label></li>
+              </ul>
+              <br>
+              <label for="message">Do you want it to have a custom water cooling loop:</label>
+              <p><i>Please note watercooling can become expensive.</i></p>
+              <input type="radio" id="watercoolingLoopNo" name="watercoolingLoop" value="waterno" required=""><label class="checkbox" for="watercoolingLoopNo">No</label>
+              <input type="radio" id="watercoolingLoopYesFull" name="watercoolingLoop" value="wateryesfull" required=""><label class="checkbox" for="watercoolingLoopYesFull">Yes, a complete loop</label>
+              <input type="radio" id="watercoolingLoopYesCpuGpu" name="watercoolingLoop" value="wateryesCpuGpu" required=""><label class="checkbox" for="watercoolingLoopYesCpuGpu">Yes, CPU and GPU</label>
+              <input type="radio" id="watercoolingLoopYesCPU" name="watercoolingLoop" value="wateryescpu" required=""><label class="checkbox" for="watercoolingLoopYesCPU">Yes, just CPU</label>
+              <br><br>
+              <label for="message">Which Operating System do you need:</label><br>
+              <input type="radio" id="win10home" name="operatingsystem" value="win10home" required=""/><label class="checkbox" for="win10home">Windows 10 Home</label>
+              <input type="radio" id="win10pro" name="operatingsystem" value="win10pro" required=""/><label class="checkbox" for="win10pro">Windows 10 Pro</label>
+              <input type="radio" id="mint" name="operatingsystem" value="" required="mint"/><label class="checkbox" for="mint">Linux Mint</label>
+              <input type="radio" id="ubuntu" name="operatingsystem" value="" required="ubuntu"/><label class="checkbox" for="ubuntu">Ubuntu</label>
+              <br><br>
+              <label for="message">Do you have any other requirements or information you need us to know:</label>
+              <textarea rows="3" name="message" id="message" placeholder="Want to use a specific component? Or have something else we need to know!"></textarea>
+              <br><br>
+              <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+            </fieldset>
+            <input id="form-submit" class="btn btn-primary" type="submit" value="Send Responses"> 
+          </form>
+
+        </div>
       </div>
+    </div>
   </div>
 </div>
-</div>
+
         
         <br><br><br>
 
@@ -742,7 +715,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -790,7 +762,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -832,7 +803,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -878,7 +848,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -926,7 +895,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -970,7 +938,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -1018,7 +985,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -1066,7 +1032,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -1116,7 +1081,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -1176,7 +1140,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -1226,7 +1189,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -1276,7 +1238,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -1330,7 +1291,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -1376,7 +1336,6 @@
 
 <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">

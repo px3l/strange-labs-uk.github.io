@@ -640,38 +640,64 @@ body {
    6. Forms
    ========================================================================== */
 
-/* Style inputs, select elements and textareas */
-
 .modal-form {
-    background-color: rgb(10,10,10);
+    background-color: #F7F2FF !important
+}
+
+.modal-form p, .modal-form h1, .modal-form h2, .modal-form h3, .modal-form h5, .modal-form {
+    color: rgb(65, 42, 104);   
+}
+
+.modal-form p {
+    text-align: justify;
+    font-size: 1em;
+}
+
+.modal-form h4 {
+    color: #fff;
 }
 
 label{
-    color: rgba(255,255,255,0.8);
-    font-size: 1.3em;
+    color: rgb(65, 42, 104);
+    font-size: 1em;
+}
+
+label.checkbox {
+    font-weight: 400;
 }
 
 input[type=email], input[type=number], input[type=text], input[type=checkbox], input[type=radio]{
   margin: 2%;
-  color: #000;
+  color: rgb(65, 42, 104);
 }
 
-select, textarea{
+.modal-form ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: none;
+}
+
+.modal-form select, .modal-form textarea{
   width: 70%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 10px;
   box-sizing: border-box;
   resize: vertical;
   margin: 2%;
-  color: #000;
+  color: rgb(65, 42, 104);
 }
 
 .checkbox {
     display: inline-block;
-    color: rgba(255,255,255,0.5);
-    font-size: 1em;
 }
+
+#spec-form {
+    text-align: left;
+    padding: 10px;
+}
+
 
 /* ==========================================================================
    7. Blog
