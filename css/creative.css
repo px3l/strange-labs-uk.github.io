@@ -4,7 +4,7 @@
 
 /*
 
-    0 - Fonts/Icons - Sets up the icon font and respective classes
+    0 - Fonts/Icons/Colors - Sets up the icon font and respective classes
     1 - General - Setting up the basic elements
     2 - Headers
     3 - Sections - Styling the partials
@@ -17,7 +17,7 @@
 */
 
 /* ==========================================================================
-   0. Fonts/Icons - Sets up the icon font and respective classes
+   0. Fonts/Icons/Colors - Sets up the icon font and respective classes
    ========================================================================== */
 
 @font-face {
@@ -26,6 +26,14 @@
     font-weight:normal;
     font-style:normal;
 }
+
+/*
+$Grey: #525252
+$LightGrey: #F7F2FF
+$BrightPurple: #7B1C82 rgba(123, 28, 130, 1)
+$DarkPurple: #5C1B91 rgba(92, 27, 145, 1)
+$PurpleText: #412A68 rgba(65, 42, 104, 1);
+*/
 
 /* ==========================================================================
    1. General - Setting up the basic elements
@@ -468,9 +476,29 @@ header .header-content .header-content-inner p {
     right: 10%;
 }
 
+.modal-description {
+    position: fixed;
+    float: left;
+    left: 10%;
+}
+
 /* ==========================================================================
    5. Buttons
    ========================================================================== */
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(40px,40px);
+    }
+}
 
 .btn-default {
     border-color: #fff;
@@ -728,21 +756,21 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
 
 .post-date, .post-author {
     font-size: 1em;
-    color: rgba(255,255,255,.9);
+    color: #F7F2FF;
 }
 
 .post-content {
-    background-color: rgba(255,255,255,0.8);
+    background-color: #F7F2FF;
     padding: 5%;
 }
 
 .post-content p, .post-content h1, .post-content h2, .post-content h3{
-    color: #000;
+    color: #412A68;
 }
 
 .post-content ol, .post-content ul, .post-content li {
     font-size: 1.2em;
-    color: #000;
+    color: #412A68;
 }
 
 .post-content a {
@@ -752,12 +780,6 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
 .post-content img {
     width: 100%;
     padding: 5px;
-}
-
-.tldr {
-    background-color: rgba(255,255,255,0.7);
-    color: #000;
-    padding: 10px;
 }
 
 /* ==========================================================================
