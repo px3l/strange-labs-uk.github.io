@@ -650,6 +650,48 @@ body {
     position: relative;
 }
 
+.arrow,
+.arrow:before {
+  position: absolute;
+  left: 50%;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  margin: -20px 0 0 -20px;
+  -webkit-transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 3px rgba(255, 255, 255, 0.6) solid;
+  border-bottom: 3px rgba(255, 255, 255, 0.6) solid;
+}
+
+.arrow:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #fff solid;
+  border-bottom: 1px #fff solid;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
+}
+
+@keyframes arrow {
+    0%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(10px,10px);
+    }
+}
+
 /* ==========================================================================
    6. Forms
    ========================================================================== */
@@ -720,7 +762,7 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
 /* Post list view */
 
 .archive {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.9);
 }
 
 .archive-post-title {
