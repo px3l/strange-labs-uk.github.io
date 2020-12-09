@@ -132,6 +132,7 @@
             
 
             
+            <div class="notice"><Strong>NOTICE: There is a global shortage of GPUs and CPUs and as such we will currently be unable to build most PCs.</a></div><br />
             
             
             <a href="https://www.google.com/search?source=hp&ei=T2iLXvuVHYqLlwS9varoAg&q=strange+labs&oq=strange+labs&gs_lcp=CgZwc3ktYWIQAzICCAAyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoFCAAQgwE6BAgAEAM6BAgAEApKJQgXEiEwZzEwM2c3Nmc4OWc4MWc5MGc2N2c4MWcxMDlnOTVnNzdKGQgYEhUwZzFnMWcxZzFnMWcxZzFnMWcxZzNQpAxY9BZguhhoAHAAeACAAVqIAa8GkgECMTKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwi7-ZqDq9ToAhWKxYUKHb2eCi0Q4dUDCAg&uact=5#lrd=0x48718e0bd868ffff:0xa1142d8202740a2a,1,,," target="blank" style="font-size: 2em;">★★★★★</a><br><br>
@@ -611,10 +612,15 @@
               <input type="radio" id="watercoolingLoopYesCPU" name="watercoolingLoop" value="wateryescpu" required=""><label class="checkbox" for="watercoolingLoopYesCPU">Yes, just CPU</label>
               <br><br>
               <label for="message">Which Operating System do you need:</label><br>
-              <input type="radio" id="win10home" name="operatingsystem" value="win10home" required=""/><label class="checkbox" for="win10home">Windows 10 Home</label>
-              <input type="radio" id="win10pro" name="operatingsystem" value="win10pro" required=""/><label class="checkbox" for="win10pro">Windows 10 Pro</label>
-              <input type="radio" id="mint" name="operatingsystem" value="" required="mint"/><label class="checkbox" for="mint">Linux Mint</label>
-              <input type="radio" id="ubuntu" name="operatingsystem" value="" required="ubuntu"/><label class="checkbox" for="ubuntu">Ubuntu</label>
+              <ul>
+                <li><input type="radio" id="win10home" name="operatingsystem" value="win10home" required=""/><label class="checkbox" for="win10home">Windows 10 Home</label></li>
+                <li><input type="radio" id="win10pro" name="operatingsystem" value="win10pro" required=""/><label class="checkbox" for="win10pro">Windows 10 Pro</label></li>
+                <li><input type="radio" id="mint" name="operatingsystem" value="mint" required=""/><label class="checkbox" for="mint">Linux Mint</label></li>
+                <li><input type="radio" id="ubuntu" name="operatingsystem" value="ubuntu" required=""/><label class="checkbox" for="ubuntu">Ubuntu</label></li>
+                <li><input type="radio" id="other" name="operatingsystem" value="other" required=""/><label class="checkbox" for="other">Other</label></li>
+              </ul>
+              <label for="message">If other OS needed, please specify:</label>
+              <textarea rows="3" name="otheros" id="otheros" placeholder=""></textarea>
               <br><br>
               <label for="message">Do you have any other requirements or information you need us to know:</label>
               <textarea rows="3" name="message" id="message" placeholder="eg. Want to use a specific component? Do you have a favourite case colour, or accent colour?"></textarea>
