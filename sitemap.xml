@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://strangelabs.io/blog/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/genius-gaming-tales/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://strangelabs.io/guides/diagnosing-internet-issues-win-10/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url>
@@ -15,11 +25,6 @@
   <url>
     <loc>https://strangelabs.io/guides/replace-your-boot-drive/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://strangelabs.io/blog/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
