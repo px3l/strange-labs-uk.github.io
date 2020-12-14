@@ -27,13 +27,14 @@
     font-style:normal;
 }
 
-/*
+/* COLOURS
+
+$White: #fff
 $Grey: #525252
-$BackgruondWhite: #F7F2FF
-$BrightPurple: #7B1C82 rgba(123, 28, 130, 1)
-$DarkPurple: #5C1B91 rgba(92, 27, 145, 1)
-$PurpleText: #412A68 rgba(65, 42, 104, 1)
+$Paper: #F7F2FF
+$Text: #412A68 rgba(65, 42, 104)
 $Gold: #DE9F00
+
 */
 
 /* ==========================================================================
@@ -319,7 +320,7 @@ header .header-content .header-content-inner p {
     background-color: rgba(255,255,255,1);
     color: #000;
     padding: 5px;
-    font-size: 2em;
+    font-size: 1.2em;
     width: 100%;
     text-align: center;
 }
@@ -329,7 +330,7 @@ header .header-content .header-content-inner p {
 }
 
 .notice a:focus, .notice a:hover {
-    color: #7B1C82;
+    color: #DE9F00;
 }
 
 .section-heading {
@@ -574,12 +575,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #7B1C82;
-    background-color: #7B1C82;
+    border-color: #DE9F00;
+    background-color: #DE9F00;
 }
 
 .btn-primary .badge {
-    color: #7B1C82;
+    color: #DE9F00;
     background-color: #fff;
 }
 
@@ -629,10 +630,10 @@ body {
 
 #form-submit {
     color: #000;
-    background-color: #fff;
+    background-color: #DE9F00;
 }
 #form-submit:hover{
-    border-color: red;
+    border-color: #DE9F00;
 } 
 
 
@@ -683,7 +684,7 @@ body {
    ========================================================================== */
 
 .modal-form {
-    background-color: #F7F2FF !important
+    background-color: #F1F1F1 !important
 }
 
 .modal-form p, .modal-form h1, .modal-form h2, .modal-form h3, .modal-form h5, .modal-form {
@@ -803,7 +804,7 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
 }
 
 .post-content a {
-    color: #7B1C82;
+    color: #DE9F00;
 }
 
 .post-content img {
