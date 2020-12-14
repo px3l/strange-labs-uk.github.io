@@ -741,6 +741,9 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
     padding: 10px;
 }
 
+#orders-closed button:hover {
+    background-color: #A70000;
+}
 
 /* ==========================================================================
    7. Blog
