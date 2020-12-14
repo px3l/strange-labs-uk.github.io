@@ -29,10 +29,11 @@
 
 /*
 $Grey: #525252
-$LightGrey: #F7F2FF
+$BackgruondWhite: #F7F2FF
 $BrightPurple: #7B1C82 rgba(123, 28, 130, 1)
 $DarkPurple: #5C1B91 rgba(92, 27, 145, 1)
-$PurpleText: #412A68 rgba(65, 42, 104, 1);
+$PurpleText: #412A68 rgba(65, 42, 104, 1)
+$Gold: #DE9F00
 */
 
 /* ==========================================================================
@@ -82,19 +83,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #5C1B91;
-}
-
-#about a {
-    color: rgba(255, 255, 255, 1);
-}
-
-#about a:hover,
-#about a:focus {
-    color: #5C1B91;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    color: #DE9F00;
 }
 
 p {
@@ -102,15 +91,6 @@ p {
     font-size: 1.5em;
     line-height: 1.5;
     color: rgba(255, 255, 255, 1);
-}
-
-.bg-primary {
-    background-color: #7B1C82;
-}
-
-.bg-dark {
-    color: #fff;
-    background-color: #222;
 }
 
 .text-faded {
@@ -142,12 +122,12 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #7B1C82;
+    color: #000;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #5C1B91;
+    color: #DE9F00;
 }
 
 .navbar-default .nav > li>a,
@@ -160,12 +140,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #7B1C82;
+    color: #DE9F00;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #7B1C82!important;
+    color: #DE9F00!important;
     background-color: transparent;
 }
 
@@ -206,12 +186,12 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #7B1C82;
+        color: #000;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #5C1B91;
+        color: #DE9F00;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -221,7 +201,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #7B1C82;
+        color: #DE9F00;
     }
 }
 
@@ -235,7 +215,6 @@ header {
     min-height: auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
-    /*background-image: url(../images/banner.png);*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -323,8 +302,21 @@ header .header-content .header-content-inner p {
    3. Sections - Styling the partials
    ========================================================================== */
 
+#background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url("../images/banner.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 .notice {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,1);
     color: #000;
     padding: 5px;
     font-size: 2em;
@@ -441,21 +433,19 @@ header .header-content .header-content-inner p {
     color: #fff;
 }
 
-.text-primary:hover {
-    color: #7B1C82;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    transition: all 1s;
-}
-
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
 }
 
-#footer {
-    background-color: #000;
-    padding: 10px;
+.social {
+    padding-bottom: 20px;
+}
+
+.social-link {
+    max-height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* ==========================================================================
@@ -485,20 +475,6 @@ header .header-content .header-content-inner p {
 /* ==========================================================================
    5. Buttons
    ========================================================================== */
-
-@keyframes animate {
-    0%{
-        opacity: 0;
-        transform: rotate(45deg);
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        transform: rotate(45deg) translate(40px,40px);
-    }
-}
 
 .btn-default {
     border-color: #fff;
@@ -555,8 +531,9 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
     border-color: #fff;
+    border-width: 2px;
     color: #fff;
-    background-color: #5C1B91;
+    background-color: transparent;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
@@ -569,8 +546,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
     border-color: #fff;
-    color: #7B1C82;
-    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    background-color: #fff;
 }
 
 .btn-primary:active,
@@ -607,8 +584,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn {
-    border: 0;
-    border-radius: 300px;
+    border-width: 2px;
+    border-radius: 5px;
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
@@ -649,6 +626,15 @@ body {
     overflow: visible;
     position: relative;
 }
+
+#form-submit {
+    color: #000;
+    background-color: #fff;
+}
+#form-submit:hover{
+    border-color: red;
+} 
+
 
 .arrow,
 .arrow:before {
@@ -762,22 +748,23 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
 /* Post list view */
 
 .archive {
-    background-color: rgba(0,0,0,0.9);
+    background-color: #F1F1F1;
+}
+
+.archive-post-link {
+    color: #412A68;
 }
 
 .archive-post-title {
+    color: #412A68;
     font-size: 2em;
     padding-right: 20px;
     display: block;
-    margin-left: 200px;
-}
-
-.archive-post {
-    margin-bottom: 40px;
+    margin-left: 150px;
 }
 
 .archive-post-time {
-    width: 200px;
+    width: 150px;
     float:left;
     display: block;
     padding-left: 20px;
@@ -802,7 +789,7 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
 }
 
 .post-content {
-    background-color: #F7F2FF;
+    background-color: #F1F1F1;
     padding: 5%;
 }
 
@@ -827,18 +814,3 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
 /* ==========================================================================
    8. End of file. Animations should be the last thing here.
    ========================================================================== */
-
-/* ---- particles.js container ---- */
-
-#particles-js {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: #000000;
-  background-image: url("../images/banner.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-}
