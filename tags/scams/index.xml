@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scams on Strange Labs Computers</title>
+    <link>https://strangelabs.io/tags/scams/</link>
+    <description>Recent content in scams on Strange Labs Computers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://strangelabs.io/tags/scams/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to think in the world of cyber crime</title>
+      <link>https://strangelabs.io/blog/how-to-think-in-the-world-of-cyber-crime/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/how-to-think-in-the-world-of-cyber-crime/</guid>
+      <description>Cybrecrime will become more prevailant the more we build technology and networking into our lives. It is pretty scary and rightly so. If you are paranoid, chances are you should be. Here is how I think, and how you should probably think, in this scary technological world. Beware, it is an extreme view not for the feint of heart!
+It seems over the last few years we are increasingly frequently being informed of this cyber attack, that ransomware infection, this data leak&amp;hellip; To me it does make sense that these events would increase.</description>
+    </item>
+    
+    <item>
+      <title>How to avoid the bait and not get phished!</title>
+      <link>https://strangelabs.io/blog/dont-get-phished/</link>
+      <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/dont-get-phished/</guid>
+      <description>One of the most common way to get scammed or hacked is through a method called “Phishing”. It is very easy to fall foul of this type of con and can result in loss of control over your data and identity to the hackers. The following is a guest article by Techwarn which goes some way to help you avoid this sort of attack and educate yourselves in this method of cybercrime.</description>
+    </item>
+    
+    <item>
+      <title>BSOD scams on windows 10</title>
+      <link>https://strangelabs.io/blog/bsod-scams-on-windows-10/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/bsod-scams-on-windows-10/</guid>
+      <description>Getting scammed is a growing threat in our connected world. Here are a couple of old BSOD examples that try to scare you into giving away control or money.
+If you&amp;rsquo;ve been using Windows for a long time, you&amp;rsquo;ve probably heard of or witnessed the infamous Blue Screen of Death, or BSOD for short.
+It was a problem that set windows apart from other OS&amp;rsquo;s in the tech fail arena, and even occurred on a live demo by Bill Gates himself of Windows 98</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code on Strange Labs Computers</title>
+    <link>https://strangelabs.io/tags/code/</link>
+    <description>Recent content in code on Strange Labs Computers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 02 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://strangelabs.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Designing a space for technology enthusiasts</title>
+      <link>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</guid>
+      <description>From 2017 to 2020, I had a physical shop, the idea was to convert it from a boring PC repair shop into a social space where programmers could meet to work on projects. This was a post made part way through that development. For the last pics before I closed, go to the end
+We are half way through a refurbishment in store. So far, the first half has been very successful I would say, both in it&amp;rsquo;s own aesthetic, and how it reflects the computer enthusiasm nature of the space.</description>
+    </item>
+    
+    <item>
+      <title>Imagining with Deep Dream</title>
+      <link>https://strangelabs.io/blog/imagining-with-deep-dream/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/imagining-with-deep-dream/</guid>
+      <description>Google&amp;rsquo;s Deep Dream shows us how simple pattern play in visuals, with some iterative dynamics, can create experiences which previously felt exclusively human, spiritual and deeply conscious. This reinforces the idea of our mind as a complex network of networks and ultimately recreatable by technology.
+I think I am late to the party here, but better late than never! I read the recently released white paper by Google: PathNet: Evolution Channels Gradient Descent in Super Neural Networks and became fascinated on the conceptual simplicity of the underpinning algorithms which build narrow artificial intelligence.</description>
+    </item>
+    
+    <item>
+      <title>Arguing for Open Source</title>
+      <link>https://strangelabs.io/blog/arguing-for-open-source-code/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/arguing-for-open-source-code/</guid>
+      <description>Why should we trust what people hide from us? Open source technology could help us trust in each other, and spread of this idea from computer science to other aspects of society and cultural development may be very beneficial.
+What is open source? Open source in it&amp;rsquo;s most literal definition is software in which the source code (ie. the instruction set which describes the functions that make it) is freely available to view, edit and then redistribute.</description>
+    </item>
+    
+  </channel>
+</rss>

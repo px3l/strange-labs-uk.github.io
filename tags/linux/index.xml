@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Strange Labs Computers</title>
+    <link>https://strangelabs.io/tags/linux/</link>
+    <description>Recent content in linux on Strange Labs Computers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://strangelabs.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ever wondered about desktop backgrounds?</title>
+      <link>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</guid>
+      <description>Backgrounds are often taken for granted. At least the ones that come pre-shipped with new computers. We take a look at iconic background images that come pre-packaged with operating systems over the years. Let&amp;rsquo;s put them into the spotlight like they deserve!
+Windows Windows 10 When I first upgraded a PC to Windows 10 many years ago, I was greeted with the new Windows desktop wallpaper. Pretty cool, I thought. A sort of futuristic Windows icon made out of light at a 3 dimensional angle in neon blues.</description>
+    </item>
+    
+    <item>
+      <title>Sick of Windows 10? Try Linux!</title>
+      <link>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</guid>
+      <description>Since Windows 10 free upgrade, our customers have complained about the sneaky tactics used by Microsoft to install their latest OS. They&amp;rsquo;ve complained about further updates breaking their systems. They&amp;rsquo;ve complained about the lack of various driver support for wifi, printers, bluetooth and more in Windows 10. They&amp;rsquo;ve complained about the abstracted ways to use the PC becoming confusing and unnecessary! It doesn&amp;rsquo;t seem like Windows 10 is winning many hearts!</description>
+    </item>
+    
+    <item>
+      <title>Arguing for Open Source</title>
+      <link>https://strangelabs.io/blog/arguing-for-open-source-code/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/arguing-for-open-source-code/</guid>
+      <description>Why should we trust what people hide from us? Open source technology could help us trust in each other, and spread of this idea from computer science to other aspects of society and cultural development may be very beneficial.
+What is open source? Open source in it&amp;rsquo;s most literal definition is software in which the source code (ie. the instruction set which describes the functions that make it) is freely available to view, edit and then redistribute.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on Strange Labs Computers</title>
+    <link>https://strangelabs.io/tags/software/</link>
+    <description>Recent content in software on Strange Labs Computers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://strangelabs.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Genius Gaming Tales</title>
+      <link>https://strangelabs.io/blog/genius-gaming-tales/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/genius-gaming-tales/</guid>
+      <description>Gaming is great, but what&amp;rsquo;s really great is when you devise a plan to &amp;ldquo;hack&amp;rdquo; the game using nothing but the engine itself, No cheats, no actually hacking, just working out a genius plan.
+How you play a game in the privacy of your own home, or the anonymity behind the monitor can say a lot about who you are and what you are like. Sometimes examples of gaming strategies reveal a utilitarian genius which is fascinating to me for two reasons: The ability to &amp;ldquo;win&amp;rdquo; the game in terms of exploiting an undesigned hack.</description>
+    </item>
+    
+    <item>
+      <title>How to think in the world of cyber crime</title>
+      <link>https://strangelabs.io/blog/how-to-think-in-the-world-of-cyber-crime/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/how-to-think-in-the-world-of-cyber-crime/</guid>
+      <description>Cybrecrime will become more prevailant the more we build technology and networking into our lives. It is pretty scary and rightly so. If you are paranoid, chances are you should be. Here is how I think, and how you should probably think, in this scary technological world. Beware, it is an extreme view not for the feint of heart!
+It seems over the last few years we are increasingly frequently being informed of this cyber attack, that ransomware infection, this data leak&amp;hellip; To me it does make sense that these events would increase.</description>
+    </item>
+    
+    <item>
+      <title>Interesting Easter Eggs on your PC or Mac</title>
+      <link>https://strangelabs.io/blog/interesting-hacks-on-your-pc-or-mac/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/interesting-hacks-on-your-pc-or-mac/</guid>
+      <description>Why not spend a little time playing about with some interesting and cool hacks we have found for you to try :)
+Activate GOD MODE in Windows God mode has been a &amp;ldquo;feature&amp;rdquo; of Windows since 7 and has remained throughout to our current Windows 10. It is essentially a collection of every setting for your computer in a single folder on the Desktop labelled God Mode. To activate it, first you need to be an Administrator, so check that you are in Settings/Control Panel.</description>
+    </item>
+    
+    <item>
+      <title>Strengthening relationships weakened by the internet</title>
+      <link>https://strangelabs.io/blog/strengthening-relationships-weakened-by-the-internet/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/strengthening-relationships-weakened-by-the-internet/</guid>
+      <description>Introduction When I was a teenager, at around 2003, I rebelled against the mobile phone. I don&amp;rsquo;t know what it was about it but I just didn&amp;rsquo;t want one. Without really thinking too much about it then, I believe I foresaw a future of increasing social connections and as a result, imagined each connection becoming weaker. It may have been a bit of that, but it was definitely a bit of relunctance to being able to be contacted 24/7.</description>
+    </item>
+    
+    <item>
+      <title>Speeding up Windows 10 startup</title>
+      <link>https://strangelabs.io/guides/speeding-up-windows-10-startup/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/guides/speeding-up-windows-10-startup/</guid>
+      <description>Hardware So the first and easiest method (though unfortunately most expensive) is to upgrade the hardware. Adding a Solid State Drive (SSD) will greatly speed up the load times of Windows and all programs and files. An SSD has no moving parts, unlike traditional mechanical Hard Disk Drives and the read and write times are ten fold faster. NVMe SSDs are faster still as they no longer use the slower SATA protocol.</description>
+    </item>
+    
+    <item>
+      <title>Imagining with Deep Dream</title>
+      <link>https://strangelabs.io/blog/imagining-with-deep-dream/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/imagining-with-deep-dream/</guid>
+      <description>Google&amp;rsquo;s Deep Dream shows us how simple pattern play in visuals, with some iterative dynamics, can create experiences which previously felt exclusively human, spiritual and deeply conscious. This reinforces the idea of our mind as a complex network of networks and ultimately recreatable by technology.
+I think I am late to the party here, but better late than never! I read the recently released white paper by Google: PathNet: Evolution Channels Gradient Descent in Super Neural Networks and became fascinated on the conceptual simplicity of the underpinning algorithms which build narrow artificial intelligence.</description>
+    </item>
+    
+    <item>
+      <title>Full Stack Buildings Design</title>
+      <link>https://strangelabs.io/blog/full-stack-buildings-design/</link>
+      <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/full-stack-buildings-design/</guid>
+      <description>Designing Buildings in the Future A new type of architect is coming. One with greater vision, greater influence and greater understanding. This architect of the future understands the building they will design not only from the material to the philosophy in the traditional sense, but from the electron in the wiring to the connectivity of the internet and the languages to converse these layers to the building user as part of a new, technological world.</description>
+    </item>
+    
+  </channel>
+</rss>

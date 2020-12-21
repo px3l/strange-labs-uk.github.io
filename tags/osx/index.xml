@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>osx on Strange Labs Computers</title>
+    <link>https://strangelabs.io/tags/osx/</link>
+    <description>Recent content in osx on Strange Labs Computers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://strangelabs.io/tags/osx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ever wondered about desktop backgrounds?</title>
+      <link>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</guid>
+      <description>Backgrounds are often taken for granted. At least the ones that come pre-shipped with new computers. We take a look at iconic background images that come pre-packaged with operating systems over the years. Let&amp;rsquo;s put them into the spotlight like they deserve!
+Windows Windows 10 When I first upgraded a PC to Windows 10 many years ago, I was greeted with the new Windows desktop wallpaper. Pretty cool, I thought. A sort of futuristic Windows icon made out of light at a 3 dimensional angle in neon blues.</description>
+    </item>
+    
+    <item>
+      <title>Interesting Easter Eggs on your PC or Mac</title>
+      <link>https://strangelabs.io/blog/interesting-hacks-on-your-pc-or-mac/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/interesting-hacks-on-your-pc-or-mac/</guid>
+      <description>Why not spend a little time playing about with some interesting and cool hacks we have found for you to try :)
+Activate GOD MODE in Windows God mode has been a &amp;ldquo;feature&amp;rdquo; of Windows since 7 and has remained throughout to our current Windows 10. It is essentially a collection of every setting for your computer in a single folder on the Desktop labelled God Mode. To activate it, first you need to be an Administrator, so check that you are in Settings/Control Panel.</description>
+    </item>
+    
+    <item>
+      <title>EGX Rezzed 2019 - Our most interesting picks!</title>
+      <link>https://strangelabs.io/blog/egx-rezzed-2019-best-of-the-bunch/</link>
+      <pubDate>Sat, 06 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/egx-rezzed-2019-best-of-the-bunch/</guid>
+      <description>EGX Rezzed, London’s biggest gaming event, concluded a week ago. Strange Labs was in attendance and amongst the various qualities of cosplayers wandering around, excellent merchandise and endless games to play, there were also some pretty cool talks from the developers themselves. We managed to get to a few (annoyingly everything inevitably overlaps at these sorts of events) and thought we would share our favourite picks of brand new, up and coming games.</description>
+    </item>
+    
+  </channel>
+</rss>
