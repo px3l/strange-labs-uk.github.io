@@ -118,7 +118,7 @@
             
 
             
-            <div class="notice"><strong>NOTICE:</strong> There is a <a href="https://www.digitaltrends.com/computing/nvidia-amd-gpu-shortage-2021/" target="blank">global shortage of GPUs</a> and as such we are not currently taking orders :(</div><br />
+            <div class="notice"><strong>NOTICE:</strong> There is a <a href="https://www.digitaltrends.com/computing/nvidia-amd-gpu-shortage-2021/" target="blank">global shortage of GPUs</a> and as such we may not be able to get the stock you need at the moment!</div><br />
             
             
             <a href="https://www.google.com/search?source=hp&ei=T2iLXvuVHYqLlwS9varoAg&q=strange+labs&oq=strange+labs&gs_lcp=CgZwc3ktYWIQAzICCAAyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoFCAAQgwE6BAgAEAM6BAgAEApKJQgXEiEwZzEwM2c3Nmc4OWc4MWc5MGc2N2c4MWcxMDlnOTVnNzdKGQgYEhUwZzFnMWcxZzFnMWcxZzFnMWcxZzNQpAxY9BZguhhoAHAAeACAAVqIAa8GkgECMTKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwi7-ZqDq9ToAhWKxYUKHb2eCi0Q4dUDCAg&uact=5#lrd=0x48718e0bd868ffff:0xa1142d8202740a2a,1,,," target="blank" style="font-size: 2em;">★★★★★</a><br><br>
@@ -531,13 +531,98 @@
 
         <!-- SPECIFICATION FORM -->
 
+
+
 <div class="col-lg-8 col-lg-offset-2 text-center">
-  <div id="orders-closed">
-    <button type="button" class="btn btn-xl btn-primary">Orders Closed</button>
-    <p>Unfortunately we are not currently taking orders. We hope to be back in a few months time.</p>
+  <div>
+    <button type="button" class="btn btn-xl btn-primary" data-toggle="modal" data-target="#formModal">Order Form</button>
+  </div>
+
+  <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content"> 
+        <div class="modal-header">
+            <h4 class="modal-title">Strange Labs Computers</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body modal-form">
+          <h3>Start tailoring your new computer</h3>
+          <p>Complete this form to begin the specification process for your new computer. Please note that our computers start from roughly £600 and choosing certain requirements will push the price up significantly. If you are unsure of what your ideal PC will cost, we will let you know if it is possible or not to work within your budget. Currently we only ship PCs within the UK.</p>
+
+          <form id="spec-form" name="spec-form" accept-charset="utf-8" action="https://formspree.io/info@strangelabs.io" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name:</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              <br>
+              <label for="email-address">Email Address:</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="example@example.com" required="">
+              <br>
+              <label for="budget">What is your maximum budget:</label>
+              <input type="number" name="budget" id="budget" placeholder="£GBP" required="">
+              <br>
+              <label for="postcode">What is your postcode:</label>
+              <input type="text" name="postcode" id="postcode" placeholder="UK postcode" required="">
+              <br><br>
+              <label for="message"> What are you purposes for this PC:</label>
+              <p><i>Select at least one</i></p>
+              <ul>
+                <li><input type="checkbox" name="gaming"/><label class="checkbox" for="gaming">General Gaming</label></li>
+                <li><input type="checkbox" name="highEndGaming"/><label class="checkbox" for="highEndGaming">Ultra Settings / High End Gaming</label></li>
+                <li><input type="checkbox" name="vitualReality"/><label class="checkbox" for="vitualReality">Virtual Reality</label></li>
+                <li><input type="checkbox" name="streaming"/><label class="checkbox" for="streaming">Streaming</label></li>
+                <li><input type="checkbox" name="audioProduction"/><label class="checkbox" for="audioProduction">Audio Production</label></li>
+                <li><input type="checkbox" name="videoEditing"/><label class="checkbox" for="videoEditing">Video Editing / Rendering</label></li>
+                <li><input type="checkbox" name="videoEditing"/><label class="checkbox" for="videoEditing">3D Modelling / Animation</label></li>
+                <li><input type="checkbox" name="simulations"/><label class="checkbox" for="simulations">Simulations</label></li>
+                <li><input type="checkbox" name="programming"/><label class="checkbox" for="programming">Programming</label></li>
+                <li><input type="checkbox" name="generalUse"/><label class="checkbox" for="generalUse">General Use / Office Work</label></li>                   
+              </ul>
+              <br>
+              <label for="message">Requirements:</label><br>
+              <ul>
+                <li><input type="checkbox" name="cuda"/><label class="checkbox" for="cuda">CUDA Cores</label></li>
+                <li><input type="checkbox" name="dvdDrive"/><label class="checkbox" for="dvdDrive">Optical Drive (DVD, CD, Blu-Ray)</label></li>
+                <li><input type="checkbox" name="largeDataStorage"/><label class="checkbox" for="largeDataStorage">Large Data Storage</label></li>
+                <li><input type="checkbox" name="looksAmazing"/><label class="checkbox" for="looksAmazing">Looks Amazing</label></li>
+                <li><input type="checkbox" name="rgbLighting"/><label class="checkbox" for="rgbLighting">RGB Lighting</label></li>
+                <li><input type="checkbox" name="smallFormFactor"/><label class="checkbox" for="smallFormFactor">Small footprint (ITX form factor)</label></li>
+                <li><input type="checkbox" name="soundproofing"/><label class="checkbox" for="soundproofing">Soundproofing</label></li>
+                <li><input type="checkbox" name="wifi"/><label class="checkbox" for="wifi">Wi-Fi</label></li>
+              </ul>
+              <br>
+              <label for="message">Do you want it to have a custom water cooling loop:</label>
+              <p><i>Please note watercooling can become expensive.</i></p>
+              <input type="radio" id="watercoolingLoopNo" name="watercoolingLoop" value="waterno" required=""><label class="checkbox" for="watercoolingLoopNo">No</label>
+              <input type="radio" id="watercoolingLoopYesFull" name="watercoolingLoop" value="wateryesfull" required=""><label class="checkbox" for="watercoolingLoopYesFull">Yes, a complete loop</label>
+              <input type="radio" id="watercoolingLoopYesCpuGpu" name="watercoolingLoop" value="wateryesCpuGpu" required=""><label class="checkbox" for="watercoolingLoopYesCpuGpu">Yes, CPU and GPU</label>
+              <input type="radio" id="watercoolingLoopYesCPU" name="watercoolingLoop" value="wateryescpu" required=""><label class="checkbox" for="watercoolingLoopYesCPU">Yes, just CPU</label>
+              <br><br>
+              <label for="message">Which Operating System do you need:</label><br>
+              <ul>
+                <li><input type="radio" id="win10home" name="operatingsystem" value="win10home" required=""/><label class="checkbox" for="win10home">Windows 10 Home</label></li>
+                <li><input type="radio" id="win10pro" name="operatingsystem" value="win10pro" required=""/><label class="checkbox" for="win10pro">Windows 10 Pro</label></li>
+                <li><input type="radio" id="mint" name="operatingsystem" value="mint" required=""/><label class="checkbox" for="mint">Linux Mint</label></li>
+                <li><input type="radio" id="ubuntu" name="operatingsystem" value="ubuntu" required=""/><label class="checkbox" for="ubuntu">Ubuntu</label></li>
+                <li><input type="radio" id="other" name="operatingsystem" value="other" required=""/><label class="checkbox" for="other">Other</label></li>
+              </ul>
+              <label for="message">If other OS needed, please specify:</label>
+              <textarea rows="3" name="otheros" id="otheros" placeholder=""></textarea>
+              <br><br>
+              <label for="message">Do you have any other requirements or information you need us to know:</label>
+              <textarea rows="3" name="message" id="message" placeholder="eg. Want to use a specific component? Do you have a favourite case colour, or accent colour?"></textarea>
+              <br><br>
+              <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+            </fieldset>
+            <input id="form-submit" class="btn btn-primary" type="submit" value="Send Responses"> 
+          </form>
+
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-
 
         
         <br><br><br>
