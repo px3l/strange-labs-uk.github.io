@@ -34,6 +34,7 @@ $Grey: #525252
 $Paper: #F7F2FF
 $Text: #412A68 rgba(65, 42, 104)
 $Gold: #DE9F00
+$red: #A60000
 
 */
 
@@ -318,7 +319,7 @@ header .header-content .header-content-inner p {
 
 .notice {
     background-color: rgba(255,255,255,1);
-    color: #000;
+    color: #A60000;
     padding: 5px;
     font-size: 1.2em;
     width: 100%;
@@ -447,6 +448,12 @@ header .header-content .header-content-inner p {
     max-height: 30px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.payment-icon {
+    display:inline-block;
+    max-height: 100px;
+    margin: 20px;
 }
 
 /* ==========================================================================
@@ -741,8 +748,8 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
     padding: 10px;
 }
 
-#orders-closed button:hover {
-    background-color: #A70000;
+#orders-closed button {
+    background-color: #A60000;
 }
 
 /* ==========================================================================
