@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://strangelabs.io/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>https://strangelabs.io/how-we-work/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://strangelabs.io/how-we-work/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>https://strangelabs.io/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -93,6 +93,11 @@
   </url>
   
   <url>
+    <loc>https://strangelabs.io/blog/the-story-of-strange-labs/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://strangelabs.io/tags/design/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url>
@@ -130,6 +135,11 @@
   <url>
     <loc>https://strangelabs.io/tags/technology/</loc>
     <lastmod>2020-05-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://strangelabs.io/blog/is-data-worth-storing/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>

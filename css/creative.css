@@ -95,12 +95,8 @@ p {
     color: rgba(255, 255, 255, 1);
 }
 
-.text-faded {
-    color: rgba(255,255,255,.8);
-}
-
 section {
-    padding: 100px 0;
+    padding: 100px;
 }
 
 aside {
@@ -317,23 +313,6 @@ header .header-content .header-content-inner p {
   background-position: 50% 50%;
 }
 
-.notice {
-    background-color: rgba(255,255,255,1);
-    color: #A60000;
-    padding: 5px;
-    font-size: 1.2em;
-    width: 100%;
-    text-align: center;
-}
-
-.notice a {
-    color: #000;
-}
-
-.notice a:focus, .notice a:hover {
-    color: #DE9F00;
-}
-
 .section-heading {
     margin-top: 0;
 }
@@ -360,12 +339,12 @@ header .header-content .header-content-inner p {
 
 .firstsectionbg {
     position: relative;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,1);
 }
 
 .sectionbg {
     position: relative;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,1);
 }
 
 .portfolio-box {
@@ -441,22 +420,6 @@ header .header-content .header-content-inner p {
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
-}
-
-.social {
-    padding-bottom: 20px;
-}
-
-.social-link {
-    max-height: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.payment-icon {
-    display:inline-block;
-    max-height: 100px;
-    margin: 20px;
 }
 
 /* ==========================================================================
@@ -642,10 +605,10 @@ body {
     color: #000;
     background-color: #DE9F00;
 }
+
 #form-submit:hover{
     border-color: #DE9F00;
 } 
-
 
 .arrow,
 .arrow:before {

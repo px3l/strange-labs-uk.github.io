@@ -22,6 +22,17 @@ How you play a game in the privacy of your own home, or the anonymity behind the
     </item>
     
     <item>
+      <title>The Story Of Strange Labs Computers</title>
+      <link>https://strangelabs.io/blog/the-story-of-strange-labs/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/the-story-of-strange-labs/</guid>
+      <description>Strange Labs is moving on It is after great deliberation that Strange Labs is moving on. The shop is closing down as we restructure and narrow our offerings from general PC and Apple repair/refurbishing to bespoke custom PC building and website development.
+We will no longer be operating from our Bristol high street store, which we will be very sadly closing from the end of March 2020.
+We have had three very good years, successfully building our reputation as the top rated computer repair specialists in all of Bristol.</description>
+    </item>
+    
+    <item>
       <title>Ever wondered about desktop backgrounds?</title>
       <link>https://strangelabs.io/blog/ever-wondered-about-desktop-backgrounds/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
@@ -39,6 +50,16 @@ Windows Windows 10 When I first upgraded a PC to Windows 10 many years ago, I wa
       <guid>https://strangelabs.io/blog/how-to-think-in-the-world-of-cyber-crime/</guid>
       <description>Cybrecrime will become more prevailant the more we build technology and networking into our lives. It is pretty scary and rightly so. If you are paranoid, chances are you should be. Here is how I think, and how you should probably think, in this scary technological world. Beware, it is an extreme view not for the feint of heart!
 It seems over the last few years we are increasingly frequently being informed of this cyber attack, that ransomware infection, this data leak&amp;hellip; To me it does make sense that these events would increase.</description>
+    </item>
+    
+    <item>
+      <title>Is data worth storing?</title>
+      <link>https://strangelabs.io/blog/is-data-worth-storing/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/blog/is-data-worth-storing/</guid>
+      <description>I recently read an article on Tediumlinked from hacker news about disc rot. It reminded me of two times in my past:
+The first was after a hard drive I had failed. It was working fine and I put it down for a few months. One day I plugged it back in to find it wouldn&amp;rsquo;t mount. I spent some time on command line trying to force its mount and eventually discovered significant sector errors and a totally corrupt boot manager.</description>
     </item>
     
     <item>
