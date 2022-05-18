@@ -92,11 +92,12 @@ p {
     margin-bottom: 20px;
     font-size: 1.5em;
     line-height: 1.5;
-    color: rgba(255, 255, 255, 1);
+    color: #fff;
 }
 
 section {
-    padding: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 aside {
@@ -239,7 +240,7 @@ header .header-content .header-content-inner h1 {
 }
 
 header .header-content .header-content-inner h1:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #fff;
     -moz-transition: all 1s ease-in;
     -o-transition: all 1s ease-in;
     -webkit-transition: all 1s ease-in;
@@ -567,6 +568,11 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 15px 30px;
+}
+
+.btn-xxl {
+    padding: 30px 45px;
+    font-size: 2em;
 }
 
 ::-moz-selection {
