@@ -281,11 +281,10 @@ header .header-content .header-content-inner p {
     header .header-content .header-content-inner h1 {
         margin-top: 0;
         margin-bottom: 0;
-        text-transform: none;
         font-family: "Bio-disc Thin";
         color: rgba(255,255,255,0.5);
         -webkit-text-stroke: 2px #fff;
-        font-size: 1000% !important;
+        font-size: 900% !important;
         text-transform: uppercase;
     }
 
@@ -302,16 +301,47 @@ header .header-content .header-content-inner p {
    ========================================================================== */
 
 #background {
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
   background-color: #000000;
-  background-image: url("../images/banner.png");
-  background-attachment: fixed;
+  background-image: url("../images/banner-alt.jpg");
+  background-attachment: absolute;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+
+#order {
+  background: rgb(94,0,113);
+  background: linear-gradient(200deg, rgba(94,0,113,1) 0%, rgba(78,7,134,1) 14%, rgba(0,0,0,1) 100%);
+}
+
+#features {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  background-image: url("../images/banner3.jpg");
+  background-attachment: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#features p {
+  color: #fff;
+}
+
+#contact {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  background-image: url("../images/banner2.jpg");
+  background-attachment: relative;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .section-heading {
@@ -339,6 +369,11 @@ header .header-content .header-content-inner p {
 }
 
 .firstsectionbg {
+    position: relative;
+    background-color: rgba(0,0,0,1);
+}
+
+.blogbg {
     position: relative;
     background-color: rgba(0,0,0,1);
 }
