@@ -235,7 +235,7 @@ header .header-content .header-content-inner h1 {
     font-family: "Bio-disc Thin";
     color: rgba(255,255,255,0.5);
     -webkit-text-stroke: 2px #fff;
-    font-size: 500% !important;
+    font-size: 400% !important;
     text-transform: uppercase;
 }
 
@@ -253,8 +253,8 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 25px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 100;
     color: rgba(255,255,255,0.9);
 }
 
@@ -284,7 +284,7 @@ header .header-content .header-content-inner p {
         font-family: "Bio-disc Thin";
         color: rgba(255,255,255,0.5);
         -webkit-text-stroke: 2px #fff;
-        font-size: 800% !important;
+        font-size: 750% !important;
         text-transform: uppercase;
     }
 
@@ -292,7 +292,7 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 25px;
+        font-size: 24px;
     }
 }
 
@@ -311,6 +311,11 @@ header .header-content .header-content-inner p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+
+#stars {
+    font-size: 2em; 
+    text-decoration: none; 
 }
 
 #about {
