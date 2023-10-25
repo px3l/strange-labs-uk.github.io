@@ -5,10 +5,6 @@
     <link>https://strangelabs.io/categories/</link>
     <description>Recent content in Categories on Strange Labs Computers</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    
-	<atom:link href="https://strangelabs.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-gb</language><atom:link href="https://strangelabs.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
