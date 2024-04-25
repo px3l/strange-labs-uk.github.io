@@ -6,11 +6,7 @@
     <description>Recent content in open source on Strange Labs Computers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 07 Apr 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://strangelabs.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 07 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://strangelabs.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arguing for Open Source</title>
       <link>https://strangelabs.io/blog/arguing-for-open-source-code/</link>
