@@ -305,7 +305,7 @@ header .header-content .header-content-inner p {
   width: 100%;
   height: 100%;
   background-color: #000000;
-  background-image: url("../images/banner.jpg");
+  background-image: url("../images/banner1.jpg");
   background-attachment: absolute;
   background-position: center;
   background-repeat: no-repeat;
@@ -319,21 +319,24 @@ header .header-content .header-content-inner p {
 }
 
 #about {
-  background: rgb(67,0,142);
-  background: linear-gradient(0deg, rgba(67,0,142,1) 0%, rgba(42,2,85,1) 1%, rgba(15,0,27,1) 5%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 100%);
+    background: #000000;
+    width: 100vw;
+    height: auto;
 }
 
+
 #order {
-  background: rgb(94,0,113);
-  background: linear-gradient(200deg, rgba(94,0,113,1) 0%, rgba(78,7,134,1) 14%, rgba(0,0,0,1) 100%);
+    background: #000000;
+    width: 100vw;
+    height: auto;
 }
 
 #features {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: auto;
   background-color: #000000;
-  background-image: url("../images/banner3.jpg");
+  background-image: url("../images/banner2.jpg");
   background-attachment: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -345,10 +348,10 @@ header .header-content .header-content-inner p {
 
 #contact {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: auto;
   background-color: #000000;
-  background-image: url("../images/banner2.jpg");
+  background-image: url("../images/banner3.jpg");
   background-attachment: relative;
   background-position: center;
   background-repeat: no-repeat;

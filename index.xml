@@ -8,16 +8,6 @@
     <language>en-gb</language>
     <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://strangelabs.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Strange Labs Build Process</title>
-      <link>https://strangelabs.io/how-we-work/</link>
-      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://strangelabs.io/how-we-work/</guid>
-      <description>Ordering a PC with Strange Labs Computers Ordering a PC with Strange Labs is a simple, but personal service. We work hand in hand with you to create your perfect PC. This means, rather than offering off the shelf configurations, we tailor your PC using current, highly rated and specifically chosen components.
-Computer Specification Beginning the specification process starts by completing the order form. We encourage you to fill this out with as much detail as possible, especially on what you would like to get out of your PC.</description>
-    </item>
-    
-    <item>
       <title>If I get rid of my computer, is my data safe?</title>
       <link>https://strangelabs.io/guides/is-my-data-safe/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
@@ -248,6 +238,16 @@ What is open source? Open source in it&amp;rsquo;s most literal definition is so
       
       <guid>https://strangelabs.io/blog/full-stack-buildings-design/</guid>
       <description>Designing Buildings in the Future A new type of architect is coming. One with greater vision, greater influence and greater understanding. This architect of the future understands the building they will design not only from the material to the philosophy in the traditional sense, but from the electron in the wiring to the connectivity of the internet and the languages to converse these layers to the building user as part of a new, technological world.</description>
+    </item>
+    
+    <item>
+      <title>Strange Labs Build Process</title>
+      <link>https://strangelabs.io/how-we-work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://strangelabs.io/how-we-work/</guid>
+      <description>Ordering a PC with Strange Labs Computers Ordering a PC with Strange Labs is a simple, but personal service. We work hand in hand with you to create your perfect PC. This means, rather than offering off the shelf configurations, we tailor your PC using current, highly rated and specifically chosen components.
+Computer Specification Beginning the specification process starts by completing the order form. We encourage you to fill this out with as much detail as possible, especially on what you would like to get out of your PC.</description>
     </item>
     
   </channel>
