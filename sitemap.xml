@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://strangelabs.io/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/terms/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://strangelabs.io/guides/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -15,9 +21,6 @@
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/tags/settings/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://strangelabs.io/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/tags/</loc>
@@ -87,9 +90,6 @@
     <lastmod>2020-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/guides/beginners-guide-to-windows-10/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://strangelabs.io/terms/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/blog/interesting-hacks-on-your-pc-or-mac/</loc>

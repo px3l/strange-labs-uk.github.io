@@ -38,6 +38,18 @@ $red: #A60000
 
 */
 
+.fa-calendar, .fa-money, .fa-star, .fa-wrench{
+    color: #fff;
+}
+
+.fa-university, .fa-credit-card, .fa-paypal, .fa-btc{
+    color: #fff;
+}
+
+.fa-phone, .fa-chat, .fa-comments, .fa-envelope-o{
+    color: #fff;
+}
+
 /* ==========================================================================
    1. General - Setting up the basic elements
    ========================================================================== */
