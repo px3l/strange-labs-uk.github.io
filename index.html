@@ -449,10 +449,10 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content"> 
         <div class="modal-header">
-            <h4 class="modal-title">Strange Labs Computers</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title">Strange Labs Computers</h4>
         </div>
         <div class="modal-body modal-form">
           <h3>Start tailoring your new computer</h3>
@@ -466,14 +466,14 @@
               <label for="email-address">Email Address:</label>
               <input type="email" name="_replyto" id="email-address" placeholder="example@example.com" required="">
               <br>
-              <label for="budget">What is your budget:</label>
+              <label for="budget">What is your budget?</label>
               <input type="number" name="budget" id="budget" placeholder="£GBP" required="">
               <br>
-              <label for="postcode">What is your postcode:</label>
+              <label for="postcode">What is your postcode?</label>
               <input type="text" name="postcode" id="postcode" placeholder="UK postcode" required="">
               <br><br>
-              <label for="message"> What are you purposes for this PC:</label>
-              <p><i>Select at least one</i></p>
+              <label for="message"> What will you use your computer for?</label>
+              <p><i>Please select at least one</i></p>
               <ul>
                 <li><input type="checkbox" name="gaming"/><label class="checkbox" for="gaming">General Gaming</label></li>
                 <li><input type="checkbox" name="highEndGaming"/><label class="checkbox" for="highEndGaming">Ultra Settings / High End Gaming</label></li>
@@ -481,7 +481,7 @@
                 <li><input type="checkbox" name="streaming"/><label class="checkbox" for="streaming">Streaming</label></li>
                 <li><input type="checkbox" name="audioProduction"/><label class="checkbox" for="audioProduction">Audio Production</label></li>
                 <li><input type="checkbox" name="videoEditing"/><label class="checkbox" for="videoEditing">Video Editing / Rendering</label></li>
-                <li><input type="checkbox" name="videoEditing"/><label class="checkbox" for="videoEditing">3D Modelling / Animation</label></li>
+                <li><input type="checkbox" name="3dModelling"/><label class="checkbox" for="3dModelling">3D Modelling / Animation</label></li>
                 <li><input type="checkbox" name="simulations"/><label class="checkbox" for="simulations">Simulations</label></li>
                 <li><input type="checkbox" name="programming"/><label class="checkbox" for="programming">Programming</label></li>
                 <li><input type="checkbox" name="generalUse"/><label class="checkbox" for="generalUse">General Use / Office Work</label></li>                   
@@ -493,36 +493,24 @@
                 <li><input type="checkbox" name="dvdDrive"/><label class="checkbox" for="dvdDrive">Optical Drive (DVD, CD, Blu-Ray)</label></li>
                 <li><input type="checkbox" name="largeDataStorage"/><label class="checkbox" for="largeDataStorage">Large Data Storage</label></li>
                 <li><input type="checkbox" name="looksAmazing"/><label class="checkbox" for="looksAmazing">Looks Amazing</label></li>
-                <li><input type="checkbox" name="rgbLighting"/><label class="checkbox" for="rgbLighting">RGB Lighting</label></li>
                 <li><input type="checkbox" name="smallFormFactor"/><label class="checkbox" for="smallFormFactor">Small footprint (ITX form factor)</label></li>
                 <li><input type="checkbox" name="soundproofing"/><label class="checkbox" for="soundproofing">Soundproofing</label></li>
                 <li><input type="checkbox" name="wifi"/><label class="checkbox" for="wifi">Wi-Fi</label></li>
               </ul>
               <br>
-              <label for="message">Do you want it to have a custom water cooling loop:</label>
+              <label for="message">Do you want a custom water cooling loop:</label>
               <p><i>Please note watercooling can become expensive.</i></p>
               <input type="radio" id="watercoolingLoopNo" name="watercoolingLoop" value="waterno" required=""><label class="checkbox" for="watercoolingLoopNo">No</label>
               <input type="radio" id="watercoolingLoopYesFull" name="watercoolingLoop" value="wateryesfull" required=""><label class="checkbox" for="watercoolingLoopYesFull">Yes, a complete loop</label>
               <input type="radio" id="watercoolingLoopYesCpuGpu" name="watercoolingLoop" value="wateryesCpuGpu" required=""><label class="checkbox" for="watercoolingLoopYesCpuGpu">Yes, CPU and GPU</label>
-              <input type="radio" id="watercoolingLoopYesCPU" name="watercoolingLoop" value="wateryescpu" required=""><label class="checkbox" for="watercoolingLoopYesCPU">Yes, just CPU</label>
+              <input type="radio" id="watercoolingLoopYesCpu" name="watercoolingLoop" value="wateryescpu" required=""><label class="checkbox" for="watercoolingLoopYesCPU">Yes, just CPU</label>
               <br><br>
-              <label for="message">Which Operating System do you need:</label><br>
-              <ul>
-                <li><input type="radio" id="win11home" name="operatingsystem" value="win11home" required=""/><label class="checkbox" for="win10home">Windows 11 Home</label></li>
-                <li><input type="radio" id="win11pro" name="operatingsystem" value="win11pro" required=""/><label class="checkbox" for="win10pro">Windows 11 Pro</label></li>
-                <li><input type="radio" id="mint" name="operatingsystem" value="mint" required=""/><label class="checkbox" for="mint">Linux Mint</label></li>
-                <li><input type="radio" id="ubuntu" name="operatingsystem" value="ubuntu" required=""/><label class="checkbox" for="ubuntu">Ubuntu</label></li>
-                <li><input type="radio" id="other" name="operatingsystem" value="other" required=""/><label class="checkbox" for="other">Other</label></li>
-              </ul>
-              <label for="message">If other OS needed, please specify:</label>
-              <textarea rows="3" name="otheros" id="otheros" placeholder=""></textarea>
-              <br><br>
-              <label for="message">Please provide any other requirements or information you need us to know:</label>
-              <textarea rows="3" name="message" id="message" placeholder="eg. Want to use a specific component? Do you have a favourite case colour, or accent colour?"></textarea>
+              <label for="message">Do you have any other requirements or information you need us to know?</label>
+              <textarea rows="3" name="message" id="message" placeholder="eg. Want to use a specific component or OS? Do you have a favourite case colour, or accent colour?"></textarea>
               <br><br>
               <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
             </fieldset>
-            <input id="form-submit" class="btn btn-primary" type="submit" value="Send Responses"> 
+            <input id="form-submit" class="btn btn-primary" type="submit" value="Send responses"> 
           </form>
 
         </div>
@@ -541,7 +529,7 @@
             </div>
         </div>
         
-            <div class="col-lg-3 col-md-3 text-center">
+            <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-university wow bounceIn text-primary"></i>
                     <h3>Bank Transfer</h3>
@@ -549,7 +537,7 @@
                 </div>
             </div>
         
-            <div class="col-lg-3 col-md-3 text-center">
+            <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-credit-card wow bounceIn text-primary"></i>
                     <h3>Card</h3>
@@ -557,7 +545,7 @@
                 </div>
             </div>
         
-            <div class="col-lg-3 col-md-3 text-center">
+            <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-paypal wow bounceIn text-primary"></i>
                     <h3>Paypal</h3>
@@ -565,7 +553,7 @@
                 </div>
             </div>
         
-            <div class="col-lg-3 col-md-3 text-center">
+            <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-btc wow bounceIn text-primary"></i>
                     <h3>Crypto</h3>
