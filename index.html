@@ -113,11 +113,11 @@
             
                 <h1>Strange Labs Computers</h1>
             
-            <img id="logo-image" src="images/logo.png" /><br/>
+            <img id="logo-image" src="images/hero.png" /><br/>
             
             
             
-                <p>&lt; We build bespoke, high-end custom PCs to order /&gt;</p>
+                <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div><br/>
             
             
             <a href="https://www.google.com/search?source=hp&ei=T2iLXvuVHYqLlwS9varoAg&q=strange+labs&oq=strange+labs&gs_lcp=CgZwc3ktYWIQAzICCAAyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoFCAAQgwE6BAgAEAM6BAgAEApKJQgXEiEwZzEwM2c3Nmc4OWc4MWc5MGc2N2c4MWcxMDlnOTVnNzdKGQgYEhUwZzFnMWcxZzFnMWcxZzFnMWcxZzNQpAxY9BZguhhoAHAAeACAAVqIAa8GkgECMTKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwi7-ZqDq9ToAhWKxYUKHb2eCi0Q4dUDCAg&uact=5#lrd=0x48718e0bd868ffff:0xa1142d8202740a2a,1,,," target="blank" id="stars">★★★★★</a><br><br>
@@ -128,6 +128,57 @@
     </div>
 </header>
 
+
+<script>
+    
+    consoleText(["\u003c We build bespoke, high-end custom PCs to order /\u003e"], 'text',['white']);
+
+    function consoleText(words, id, colors) {
+    if (colors === undefined) colors = ['#fff'];
+    var visible = true;
+    var con = document.getElementById('console');
+    var letterCount = 1;
+    var x = 1;
+    var waiting = false;
+    var target = document.getElementById(id)
+    target.setAttribute('style', 'color:' + colors[0])
+    window.setInterval(function() {
+
+        if (letterCount === 0 && waiting === false) {
+        waiting = true;
+        target.innerHTML = words[0].substring(0, letterCount)
+        window.setTimeout(function() {
+            var usedColor = colors.shift();
+            colors.push(usedColor);
+            var usedWord = words.shift();
+            words.push(usedWord);
+            x = 1;
+            target.setAttribute('style', 'color:' + colors[0])
+            letterCount += x;
+            waiting = false;
+        }, 1000)
+        } else if (letterCount === words[0].length + 1 && waiting === false) {
+        waiting = true;
+        window.setTimeout(function() {
+            letterCount += x;
+            waiting = false;
+        }, 1000)
+        } else if (waiting === false) {
+        target.innerHTML = words[0].substring(0, letterCount)
+        letterCount += x;
+        }
+    }, 120)
+    window.setInterval(function() {
+        if (visible === true) {
+        con.className = 'console-underscore hidden'
+        visible = false;
+        } else {
+        con.className = 'console-underscore'
+        visible = true;
+        }
+    }, 400)
+    }
+</script>
         
         
             <!-- ABOUT -->
@@ -167,7 +218,7 @@
             
                 <div class="col-lg-4 col-sm-6">
                     <a href="#portfolioModal1" class="portfolio-box portfolio-link" data-toggle="modal">
-                        <img src="images/portfolio/build17e.png" class="img-responsive" alt="">
+                        <img src="images/portfolio/rgb_squared_2.png" class="img-responsive" alt="">
                         
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
@@ -189,7 +240,7 @@
             
                 <div class="col-lg-4 col-sm-6">
                     <a href="#portfolioModal2" class="portfolio-box portfolio-link" data-toggle="modal">
-                        <img src="images/portfolio/build4e.png" class="img-responsive" alt="">
+                        <img src="images/portfolio/portal_2.png" class="img-responsive" alt="">
                         
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
@@ -211,7 +262,7 @@
             
                 <div class="col-lg-4 col-sm-6">
                     <a href="#portfolioModal3" class="portfolio-box portfolio-link" data-toggle="modal">
-                        <img src="images/portfolio/green-machine-0-min.png" class="img-responsive" alt="">
+                        <img src="images/portfolio/green_machine_0.png" class="img-responsive" alt="">
                         
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
@@ -233,7 +284,7 @@
             
                 <div class="col-lg-4 col-sm-6">
                     <a href="#portfolioModal4" class="portfolio-box portfolio-link" data-toggle="modal">
-                        <img src="images/portfolio/aqua-0-min.png" class="img-responsive" alt="">
+                        <img src="images/portfolio/aqua_0.png" class="img-responsive" alt="">
                         
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
@@ -255,7 +306,7 @@
             
                 <div class="col-lg-4 col-sm-6">
                     <a href="#portfolioModal5" class="portfolio-box portfolio-link" data-toggle="modal">
-                        <img src="images/portfolio/build11a.png" class="img-responsive" alt="">
+                        <img src="images/portfolio/sentinel_0.png" class="img-responsive" alt="">
                         
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
@@ -277,7 +328,7 @@
             
                 <div class="col-lg-4 col-sm-6">
                     <a href="#portfolioModal6" class="portfolio-box portfolio-link" data-toggle="modal">
-                        <img src="images/portfolio/build16f.png" class="img-responsive" alt="">
+                        <img src="images/portfolio/azza_2.png" class="img-responsive" alt="">
                         
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
@@ -605,15 +656,11 @@
                         </div>
                         
                         
-                            <a href="images/portfolio/build17a.png" target="blank"><img src="images/portfolio/build17a.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/rgb_squared_0.png" target="blank"><img src="images/portfolio/rgb_squared_0.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/build17b.png" target="blank"><img src="images/portfolio/build17b.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/rgb_squared_1.png" target="blank"><img src="images/portfolio/rgb_squared_1.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/build17c.png" target="blank"><img src="images/portfolio/build17c.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/build17d.png" target="blank"><img src="images/portfolio/build17d.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/build17e.png" target="blank"><img src="images/portfolio/build17e.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/rgb_squared_2.png" target="blank"><img src="images/portfolio/rgb_squared_2.png" class="img-responsive img-centered gallery" alt=""></a>
                                                 
                         
                             <ul class="list-inline item-details">
@@ -652,15 +699,11 @@
                         </div>
                         
                         
-                            <a href="images/portfolio/build4a.png" target="blank"><img src="images/portfolio/build4a.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/portal_0.png" target="blank"><img src="images/portfolio/portal_0.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/build4b.png" target="blank"><img src="images/portfolio/build4b.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/portal_1.png" target="blank"><img src="images/portfolio/portal_1.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/build4c.png" target="blank"><img src="images/portfolio/build4c.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/build4d.png" target="blank"><img src="images/portfolio/build4d.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/build4e.png" target="blank"><img src="images/portfolio/build4e.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/portal_2.png" target="blank"><img src="images/portfolio/portal_2.png" class="img-responsive img-centered gallery" alt=""></a>
                                                 
                         
                             <ul class="list-inline item-details">
@@ -699,21 +742,11 @@
                         </div>
                         
                         
-                            <a href="images/portfolio/green-machine-1-min.png" target="blank"><img src="images/portfolio/green-machine-1-min.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/green_machine_1.png" target="blank"><img src="images/portfolio/green_machine_1.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/green-machine-2-min.png" target="blank"><img src="images/portfolio/green-machine-2-min.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/green_machine_2.png" target="blank"><img src="images/portfolio/green_machine_2.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/green-machine-3-min.png" target="blank"><img src="images/portfolio/green-machine-3-min.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/green-machine-4-min.png" target="blank"><img src="images/portfolio/green-machine-4-min.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/green-machine-5-min.png" target="blank"><img src="images/portfolio/green-machine-5-min.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/green-machine-6-min.png" target="blank"><img src="images/portfolio/green-machine-6-min.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/green-machine-7-min.png" target="blank"><img src="images/portfolio/green-machine-7-min.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/green-machine-8-min.png" target="blank"><img src="images/portfolio/green-machine-8-min.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/green_machine_3.png" target="blank"><img src="images/portfolio/green_machine_3.png" class="img-responsive img-centered gallery" alt=""></a>
                                                 
                         
                             <ul class="list-inline item-details">
@@ -752,21 +785,13 @@
                         </div>
                         
                         
-                            <a href="images/portfolio/aqua-3-min.png" target="blank"><img src="images/portfolio/aqua-3-min.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/aqua_1.png" target="blank"><img src="images/portfolio/aqua_1.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/aqua-4-min.png" target="blank"><img src="images/portfolio/aqua-4-min.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/aqua_2.png" target="blank"><img src="images/portfolio/aqua_2.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/aqua-5-min.png" target="blank"><img src="images/portfolio/aqua-5-min.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/aqua_3.png" target="blank"><img src="images/portfolio/aqua_3.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/aqua-6-min.png" target="blank"><img src="images/portfolio/aqua-6-min.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/aqua-7-min.png" target="blank"><img src="images/portfolio/aqua-7-min.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/aqua-8-min.png" target="blank"><img src="images/portfolio/aqua-8-min.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/aqua-10-min.png" target="blank"><img src="images/portfolio/aqua-10-min.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/aqua-11-min.png" target="blank"><img src="images/portfolio/aqua-11-min.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/aqua_4.png" target="blank"><img src="images/portfolio/aqua_4.png" class="img-responsive img-centered gallery" alt=""></a>
                                                 
                         
                             <ul class="list-inline item-details">
@@ -805,17 +830,11 @@
                         </div>
                         
                         
-                            <a href="images/portfolio/build11a.png" target="blank"><img src="images/portfolio/build11a.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/sentinel_0.png" target="blank"><img src="images/portfolio/sentinel_0.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/build11b.png" target="blank"><img src="images/portfolio/build11b.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/sentinel_1.png" target="blank"><img src="images/portfolio/sentinel_1.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/build11c.png" target="blank"><img src="images/portfolio/build11c.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/build11d.png" target="blank"><img src="images/portfolio/build11d.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/build11e.png" target="blank"><img src="images/portfolio/build11e.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/build11f.png" target="blank"><img src="images/portfolio/build11f.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/sentinel_2.png" target="blank"><img src="images/portfolio/sentinel_2.png" class="img-responsive img-centered gallery" alt=""></a>
                                                 
                         
                             <ul class="list-inline item-details">
@@ -854,17 +873,11 @@
                         </div>
                         
                         
-                            <a href="images/portfolio/build16a.png" target="blank"><img src="images/portfolio/build16a.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/azza_0.png" target="blank"><img src="images/portfolio/azza_0.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/build16b.png" target="blank"><img src="images/portfolio/build16b.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/azza_1.png" target="blank"><img src="images/portfolio/azza_1.png" class="img-responsive img-centered gallery" alt=""></a>
                         
-                            <a href="images/portfolio/build16c.png" target="blank"><img src="images/portfolio/build16c.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/build16d.png" target="blank"><img src="images/portfolio/build16d.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/build16e.png" target="blank"><img src="images/portfolio/build16e.png" class="img-responsive img-centered gallery" alt=""></a>
-                        
-                            <a href="images/portfolio/build16f.png" target="blank"><img src="images/portfolio/build16f.png" class="img-responsive img-centered gallery" alt=""></a>
+                            <a href="images/portfolio/azza_2.png" target="blank"><img src="images/portfolio/azza_2.png" class="img-responsive img-centered gallery" alt=""></a>
                                                 
                         
                             <ul class="list-inline item-details">
@@ -923,7 +936,7 @@
     <footer>
         <section id="footer" class="sectionbg">
 	<div class="container col-lg-8 col-lg-offset-2 text-center">
-    <p style="font-size: 0.9em">All site design and content Copyright ©2017-2024 Strange Labs Computers Ltd. <a href="/terms">TERMS & CONDITIONS</a></p>
+    	<p style="font-size: 0.9em">All site design and content Copyright ©2017-2024 Strange Labs Computers Ltd. <a href="/terms">TERMS & CONDITIONS</a></p>
 	</div>
 </section>
     </footer>
