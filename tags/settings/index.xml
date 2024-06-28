@@ -6,8 +6,15 @@
     <description>Recent content in Settings on Strange Labs Computers</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://strangelabs.io/tags/settings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to install Windows 11 without a Microsoft account</title>
+      <link>https://strangelabs.io/guides/installing-windows-11-without-account/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://strangelabs.io/guides/installing-windows-11-without-account/</guid>
+      <description>When setting up a fresh install of Windows 11, you&amp;rsquo;re prompted to log in with a Microsoft account by default. While this integration offers various benefits, such as seamless access to OneDrive and syncing settings across devices, many users prefer the privacy and control of a local account. However, Microsoft strongly encourages, to the point of forcing, the use of an online account during setup. In this blog post, we&amp;rsquo;ll explore the methods to bypass these attempts and successfully set up Windows 11 with a local account, ensuring you have the freedom and privacy you desire.</description>
+    </item>
     <item>
       <title>If I get rid of my computer, is my data safe?</title>
       <link>https://strangelabs.io/guides/is-my-data-safe/</link>
