@@ -523,13 +523,16 @@
         <div class="modal-body modal-form">
           <h3>Start tailoring your new computer</h3>
           <p>Simply send this form to begin the specification process for your new computer. Please note that our computers start from roughly £600 and choosing certain requirements will push the price up significantly. If you are unsure of what your ideal PC will cost, we will let you know if it is possible or not to work within your budget. Currently we only ship PCs within the UK.</p>
-          <form id="spec-form" name="spec-form" accept-charset="utf-8" action="https://formspree.io/info@strangelabs.io" method="post">
+          <form id="spec-form" name="spec-form" accept-charset="utf-8" action="https://formspree.io/f/info@strangelabs.io" method="post">
             <fieldset id="fs-frm-inputs">
               <label for="full-name">Name:</label>
               <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
               <br>
               <label for="email-address">Email Address:</label>
               <input type="email" name="_replyto" id="email-address" placeholder="example@example.com" required="">
+              <br>
+              <label for="email-address">Confirm Email Address:</label>
+              <input type="email" name="confirmedEmail" id="confirm-email-address" placeholder="example@example.com" required="">
               <br>
               <label for="budget">What is your budget?</label>
               <input type="number" name="budget" id="budget" placeholder="£GBP">
