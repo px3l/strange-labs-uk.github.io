@@ -76,7 +76,7 @@
       <link>https://strangelabs.io/blog/is-data-worth-storing/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/blog/is-data-worth-storing/</guid>
-      <description>I recently read an article on Tedium linked from hacker news about disc rot. It reminded me of two times in my past:&#xA;The first was after a hard drive I had failed. It was working fine and I put it down for a few months. One day I plugged it back in to find it wouldn&amp;rsquo;t mount. I spent some time on command line trying to force its mount and eventually discovered significant sector errors and a totally corrupt boot manager.</description>
+      <description>This post is half finished...&#xA;I recently read an article on Tedium linked from hacker news about disc rot. It reminded me of two times in my past:&#xA;The first was after a hard drive I had failed. It was working fine and I put it down for a few months. One day I plugged it back in to find it wouldn&amp;rsquo;t mount. I spent some time on command line trying to force its mount and eventually discovered significant sector errors and a totally corrupt boot manager.</description>
     </item>
     <item>
       <title>Designing a space for technology enthusiasts</title>
