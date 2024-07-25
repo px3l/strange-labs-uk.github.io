@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://strangelabs.io/blog/</loc>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/blog/futureproofing-governance/</loc>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/tags/ideas/</loc>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/tags/internet/</loc>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/tags/software/</loc>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/</loc>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/tags/</loc>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/tags/technology/</loc>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://strangelabs.io/guides/</loc>
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,12 +36,6 @@
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/tags/settings/</loc>
-    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://strangelabs.io/</loc>
-    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://strangelabs.io/tags/</loc>
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/tags/windows/</loc>
@@ -32,25 +50,13 @@
     <loc>https://strangelabs.io/tags/programs/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://strangelabs.io/blog/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://strangelabs.io/tags/gaming/</loc>
     <lastmod>2020-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/blog/genius-gaming-tales/</loc>
     <lastmod>2020-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://strangelabs.io/tags/ideas/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://strangelabs.io/tags/software/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://strangelabs.io/guides/diagnosing-internet-issues-win-10/</loc>
-    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://strangelabs.io/tags/internet/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/guides/replace-your-boot-drive/</loc>
@@ -78,9 +84,6 @@
     <lastmod>2020-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/tags/scams/</loc>
-    <lastmod>2020-05-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://strangelabs.io/tags/technology/</loc>
     <lastmod>2020-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/blog/is-data-worth-storing/</loc>
