@@ -1,23 +1,23 @@
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 50,
+      "value": 90,
       "density": {
         "enable": true,
         "value_area": 600
       }
     },
     "color": {
-      "value": "#fff"
+      "value": "#B7FFFF"
     },
     "shape": {
       "type": "star",
       "stroke": {
         "width": 0,
-        "color": "#fff"
+        "color": "#B7FFFF"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 1
       },
       "image": {
         "width": 100,
@@ -124,4 +124,3 @@ update = function() {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);;
-

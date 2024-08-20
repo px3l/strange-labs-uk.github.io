@@ -705,7 +705,7 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
 
 .post-title {
     display: inline-block; 
-    font-size: 2em;
+    font-size: 4em;
     color: #fff;
 }
 .post-date, .post-author {
@@ -734,3 +734,8 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
 /* ==========================================================================
    8. End of file. Animations should be the last thing here.
    ========================================================================== */
+
+#particles-js {
+    height: 100%;
+    position: fixed;
+}

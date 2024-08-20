@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guides on Strange Labs Computers</title>
-    <link>https://strangelabs.io/guides/</link>
+    <link>http://localhost:1313/guides/</link>
     <description>Recent content in Guides on Strange Labs Computers</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://strangelabs.io/guides/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to install Windows 11 without a Microsoft account</title>
-      <link>https://strangelabs.io/guides/installing-windows-11-without-account/</link>
+      <link>http://localhost:1313/guides/installing-windows-11-without-account/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/guides/installing-windows-11-without-account/</guid>
+      <guid>http://localhost:1313/guides/installing-windows-11-without-account/</guid>
       <description>When setting up a fresh install of Windows 11, you&amp;rsquo;re prompted to log in with a Microsoft account by default. While this integration offers various benefits, such as seamless access to OneDrive and syncing settings across devices, many users prefer the privacy and control of a local account. However, Microsoft strongly encourages, to the point of forcing, the use of an online account during setup. In this blog post, we&amp;rsquo;ll explore the methods to bypass these attempts and successfully set up Windows 11 with a local account, ensuring you have the freedom and privacy you desire.</description>
     </item>
     <item>
       <title>If I get rid of my computer, is my data safe?</title>
-      <link>https://strangelabs.io/guides/is-my-data-safe/</link>
+      <link>http://localhost:1313/guides/is-my-data-safe/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/guides/is-my-data-safe/</guid>
+      <guid>http://localhost:1313/guides/is-my-data-safe/</guid>
       <description>Sometimes you need to give your computer away. Maybe it is a company owned machine and they need it back, maybe you have decided to pass it on or sell it to get a new one. Either way it is the computer you have been using for however long and it&amp;rsquo;s got all your stuff on it!&#xA;Some of that stuff is likely to be pretty sensitive.&#xA;If someone can get a hold of your photos, addresses, documents or (of course) passwords, financial data etc, they can, with reasonable ease, do a whole manner of illegal and very irritating things.</description>
     </item>
     <item>
       <title>Diagnosing internet issues on Windows 10</title>
-      <link>https://strangelabs.io/guides/diagnosing-internet-issues-win-10/</link>
+      <link>http://localhost:1313/guides/diagnosing-internet-issues-win-10/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/guides/diagnosing-internet-issues-win-10/</guid>
+      <guid>http://localhost:1313/guides/diagnosing-internet-issues-win-10/</guid>
       <description>These days you need the internet to survive. It is so embedded into our societies that the UN has said access to it needs to be a human right. We use it for work, play, socialising, researching&amp;hellip; so when we cannot use it because of slow, intermittent or no connection at all it is incredibly frustrating. Fortunately Strange Labs has some help you can try to get back online!&#xA;Is it the router or the PC?</description>
     </item>
     <item>
       <title>Easily replace your boot drive on any computer without losing data.</title>
-      <link>https://strangelabs.io/guides/replace-your-boot-drive/</link>
+      <link>http://localhost:1313/guides/replace-your-boot-drive/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/guides/replace-your-boot-drive/</guid>
+      <guid>http://localhost:1313/guides/replace-your-boot-drive/</guid>
       <description>Introduction If you have run out of space on your boot drive, using your PC can become quite restrictive and irritating. You might not be able to save files, or even open programs or the internet if there is no space left. If this happens you have a couple of options to get more space: the easiest being adding another hard drive or solid state drive. However this may not be an option for you, or you may need or want to replace your drive with a bigger one!</description>
     </item>
     <item>
       <title>Beginners guide to Windows 10</title>
-      <link>https://strangelabs.io/guides/beginners-guide-to-windows-10/</link>
+      <link>http://localhost:1313/guides/beginners-guide-to-windows-10/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/guides/beginners-guide-to-windows-10/</guid>
+      <guid>http://localhost:1313/guides/beginners-guide-to-windows-10/</guid>
       <description>Introduction I have been asked many times for some help in getting started and achieving a basic understanding of the Windows 10 operating system (OS). Windows 10 came out on the 29th July 2015 but still people have some trouble finding their way around. This is, by definition, the result of substandard user experience and not necessarily Windows user’s own fault for not getting it. Of course a basic understanding of any computer system will help, but Windows 10 doesn’t make it as easy as it could be thanks to layers of abstraction built on what is essentially a combination of previous Windows versions underneath.</description>
     </item>
     <item>
       <title>Sick of Windows 10? Try Linux!</title>
-      <link>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</link>
+      <link>http://localhost:1313/guides/sick-of-windows-10-try-linux/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</guid>
+      <guid>http://localhost:1313/guides/sick-of-windows-10-try-linux/</guid>
       <description>Since Windows 10 free upgrade, our customers have complained about the sneaky tactics used by Microsoft to install their latest OS. They&amp;rsquo;ve complained about further updates breaking their systems. They&amp;rsquo;ve complained about the lack of various driver support for wifi, printers, bluetooth and more in Windows 10. They&amp;rsquo;ve complained about the abstracted ways to use the PC becoming confusing and unnecessary! It doesn&amp;rsquo;t seem like Windows 10 is winning many hearts!</description>
     </item>
     <item>
       <title>Speeding up Windows 10 startup</title>
-      <link>https://strangelabs.io/guides/speeding-up-windows-10-startup/</link>
+      <link>http://localhost:1313/guides/speeding-up-windows-10-startup/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/guides/speeding-up-windows-10-startup/</guid>
+      <guid>http://localhost:1313/guides/speeding-up-windows-10-startup/</guid>
       <description>Hardware So the first and easiest method (though unfortunately most expensive) is to upgrade the hardware. Adding a Solid State Drive (SSD) will greatly speed up the load times of Windows and all programs and files. An SSD has no moving parts, unlike traditional mechanical Hard Disk Drives and the read and write times are ten fold faster. NVMe SSDs are faster still as they no longer use the slower SATA protocol.</description>
     </item>
     <item>
       <title>Troubleshooting keyboard and mouse issues with laptops on Windows 10</title>
-      <link>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</link>
+      <link>http://localhost:1313/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</link>
       <pubDate>Sun, 24 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</guid>
+      <guid>http://localhost:1313/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</guid>
       <description>Windows 10 isn&amp;rsquo;t the most robust Operating System out there. Often, the updates can break the computer in some way or another. They can clash with manufacturer updates, specifically they can attempt to replace the drivers installed by manufacturers with their own versions. Wi-Fi, optical drives and other devices can be affected, but today we will cover the keyboard and mouse - probably the most irritating of devices to fail on your laptop!</description>
     </item>
     <item>
       <title>Forgotten your Windows 7 password?</title>
-      <link>https://strangelabs.io/guides/forgotten-your-windows-password/</link>
+      <link>http://localhost:1313/guides/forgotten-your-windows-password/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/guides/forgotten-your-windows-password/</guid>
+      <guid>http://localhost:1313/guides/forgotten-your-windows-password/</guid>
       <description>It is every Windows users nightmare: one day you try to log in and every attempt is denied. Whether you have forgotten your password or it has been changed or you need to get in and don&amp;rsquo;t have the password, there is a way to break in.&#xA;The Backdoor Take the battery out if you have a laptop and plug in the mains&#xA;Start windows and then whilst it is starting up, pull the power out to force an automatic startup repair on the next boot.</description>
     </item>
   </channel>
