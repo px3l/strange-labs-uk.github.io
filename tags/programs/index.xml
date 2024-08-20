@@ -10,9 +10,9 @@
     <atom:link href="https://strangelabs.io/tags/programs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>If I get rid of my computer, is my data safe?</title>
-      <link>https://strangelabs.io/guides/is-my-data-safe/</link>
+      <link>https://strangelabs.io/wip/guides/is-my-data-safe/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/guides/is-my-data-safe/</guid>
+      <guid>https://strangelabs.io/wip/guides/is-my-data-safe/</guid>
       <description>Sometimes you need to give your computer away. Maybe it is a company owned machine and they need it back, maybe you have decided to pass it on or sell it to get a new one. Either way it is the computer you have been using for however long and it&amp;rsquo;s got all your stuff on it!&#xA;Some of that stuff is likely to be pretty sensitive.&#xA;If someone can get a hold of your photos, addresses, documents or (of course) passwords, financial data etc, they can, with reasonable ease, do a whole manner of illegal and very irritating things.</description>
     </item>
     <item>
@@ -24,9 +24,9 @@
     </item>
     <item>
       <title>Beginners guide to Windows 10</title>
-      <link>https://strangelabs.io/guides/beginners-guide-to-windows-10/</link>
+      <link>https://strangelabs.io/wip/guides/beginners-guide-to-windows-10/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/guides/beginners-guide-to-windows-10/</guid>
+      <guid>https://strangelabs.io/wip/guides/beginners-guide-to-windows-10/</guid>
       <description>Introduction I have been asked many times for some help in getting started and achieving a basic understanding of the Windows 10 operating system (OS). Windows 10 came out on the 29th July 2015 but still people have some trouble finding their way around. This is, by definition, the result of substandard user experience and not necessarily Windows user’s own fault for not getting it. Of course a basic understanding of any computer system will help, but Windows 10 doesn’t make it as easy as it could be thanks to layers of abstraction built on what is essentially a combination of previous Windows versions underneath.</description>
     </item>
     <item>
