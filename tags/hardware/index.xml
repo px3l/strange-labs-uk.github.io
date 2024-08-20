@@ -10,16 +10,16 @@
     <atom:link href="https://strangelabs.io/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Easily replace your boot drive on any computer without losing data.</title>
-      <link>https://strangelabs.io/wip/guides/replace-your-boot-drive/</link>
+      <link>https://strangelabs.io/guides/replace-your-boot-drive/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/replace-your-boot-drive/</guid>
+      <guid>https://strangelabs.io/guides/replace-your-boot-drive/</guid>
       <description>Introduction If you have run out of space on your boot drive, using your PC can become quite restrictive and irritating. You might not be able to save files, or even open programs or the internet if there is no space left. If this happens you have a couple of options to get more space: the easiest being adding another hard drive or solid state drive. However this may not be an option for you, or you may need or want to replace your drive with a bigger one!</description>
     </item>
     <item>
       <title>Speeding up Windows 10 startup</title>
-      <link>https://strangelabs.io/wip/guides/speeding-up-windows-10-startup/</link>
+      <link>https://strangelabs.io/guides/speeding-up-windows-10-startup/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/speeding-up-windows-10-startup/</guid>
+      <guid>https://strangelabs.io/guides/speeding-up-windows-10-startup/</guid>
       <description>Hardware So the first and easiest method (though unfortunately most expensive) is to upgrade the hardware. Adding a Solid State Drive (SSD) will greatly speed up the load times of Windows and all programs and files. An SSD has no moving parts, unlike traditional mechanical Hard Disk Drives and the read and write times are ten fold faster. NVMe SSDs are faster still as they no longer use the slower SATA protocol.</description>
     </item>
     <item>

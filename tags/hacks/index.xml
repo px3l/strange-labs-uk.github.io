@@ -31,9 +31,9 @@
     </item>
     <item>
       <title>Forgotten your Windows 7 password?</title>
-      <link>https://strangelabs.io/wip/guides/forgotten-your-windows-password/</link>
+      <link>https://strangelabs.io/guides/forgotten-your-windows-password/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/forgotten-your-windows-password/</guid>
+      <guid>https://strangelabs.io/guides/forgotten-your-windows-password/</guid>
       <description>It is every Windows users nightmare: one day you try to log in and every attempt is denied. Whether you have forgotten your password or it has been changed or you need to get in and don&amp;rsquo;t have the password, there is a way to break in.&#xA;The Backdoor Take the battery out if you have a laptop and plug in the mains&#xA;Start windows and then whilst it is starting up, pull the power out to force an automatic startup repair on the next boot.</description>
     </item>
   </channel>

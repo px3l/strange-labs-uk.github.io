@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>Speeding up Windows 10 startup</title>
-      <link>https://strangelabs.io/wip/guides/speeding-up-windows-10-startup/</link>
+      <link>https://strangelabs.io/guides/speeding-up-windows-10-startup/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/speeding-up-windows-10-startup/</guid>
+      <guid>https://strangelabs.io/guides/speeding-up-windows-10-startup/</guid>
       <description>Hardware So the first and easiest method (though unfortunately most expensive) is to upgrade the hardware. Adding a Solid State Drive (SSD) will greatly speed up the load times of Windows and all programs and files. An SSD has no moving parts, unlike traditional mechanical Hard Disk Drives and the read and write times are ten fold faster. NVMe SSDs are faster still as they no longer use the slower SATA protocol.</description>
     </item>
     <item>

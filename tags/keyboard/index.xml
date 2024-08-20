@@ -10,9 +10,9 @@
     <atom:link href="https://strangelabs.io/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Troubleshooting keyboard and mouse issues with laptops on Windows 10</title>
-      <link>https://strangelabs.io/wip/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</link>
+      <link>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</link>
       <pubDate>Sun, 24 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</guid>
+      <guid>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</guid>
       <description>Windows 10 isn&amp;rsquo;t the most robust Operating System out there. Often, the updates can break the computer in some way or another. They can clash with manufacturer updates, specifically they can attempt to replace the drivers installed by manufacturers with their own versions. Wi-Fi, optical drives and other devices can be affected, but today we will cover the keyboard and mouse - probably the most irritating of devices to fail on your laptop!</description>
     </item>
   </channel>
