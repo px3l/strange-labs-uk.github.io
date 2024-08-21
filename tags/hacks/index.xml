@@ -9,31 +9,31 @@
     <lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://strangelabs.io/tags/hacks/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Think in a World of Cybercrime</title>
+      <title>How To Think In A World Of Cybercrime</title>
       <link>https://strangelabs.io/blog/how-to-think-in-a-world-of-cybercrime/</link>
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/blog/how-to-think-in-a-world-of-cybercrime/</guid>
-      <description>As technology and networking become increasingly integrated into our lives, the threat of cybercrime will only grow. It&amp;rsquo;s a scary reality, and if you find yourself feeling paranoid, you&amp;rsquo;re probably justified. In this article, I&amp;rsquo;ll share how I approach this complex digital landscape and offer some advice on how you might want to think about it too. Be warned, though—this perspective isn&amp;rsquo;t for the faint of heart.&#xA;The Escalating Cyber Threat In recent years, we’ve been bombarded with news about cyber attacks, ransomware infections, and data breaches.</description>
+      <description>Introduction As technology and networking become increasingly integrated into our lives, the threat of cybercrime will only grow. It&amp;rsquo;s a scary reality, and if you find yourself feeling paranoid, you&amp;rsquo;re probably justified. In this article, I&amp;rsquo;ll share how I approach this complex digital landscape and offer some advice on how you might want to think about it too. Be warned, though—this perspective isn&amp;rsquo;t for the faint of heart.&#xA;The Escalating Cyber Threat In recent years, we’ve been bombarded with news about cyber attacks, ransomware infections, and data breaches.</description>
     </item>
     <item>
-      <title>Designing a space for technology enthusiasts</title>
-      <link>https://strangelabs.io/wip/designing-a-space-for-technology-enthusiasts/</link>
-      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/designing-a-space-for-technology-enthusiasts/</guid>
-      <description>From 2017 to 2020, I had a physical shop, the idea was to convert it from a boring PC repair shop into a social space where programmers could meet to work on projects. This was a post made part way through that development. For the last pics before I closed, go to the end&#xA;We are half way through a refurbishment in store. So far, the first half has been very successful I would say, both in it&amp;rsquo;s own aesthetic, and how it reflects the computer enthusiasm nature of the space.</description>
-    </item>
-    <item>
-      <title>How to avoid the bait and not get phished!</title>
-      <link>https://strangelabs.io/wip/dont-get-phished/</link>
+      <title>How To Avoid The Bait And Not Get Phished</title>
+      <link>https://strangelabs.io/guides/how-to-avoid-the-bait-and-not-get-phished/</link>
       <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/dont-get-phished/</guid>
-      <description>One of the most common way to get scammed or hacked is through a method called “Phishing”. It is very easy to fall foul of this type of con and can result in loss of control over your data and identity to the hackers. The following is a guest article by Techwarn which goes some way to help you avoid this sort of attack and educate yourselves in this method of cybercrime.</description>
+      <guid>https://strangelabs.io/guides/how-to-avoid-the-bait-and-not-get-phished/</guid>
+      <description>Introduction One of the most common way to get scammed or hacked is through a method called “Phishing”. It is very easy to fall foul of this type of con and can result in loss of control over your data and identity to the hackers. The following is a guest article by Techwarn which goes some way to help you avoid this sort of attack and educate yourselves in this method of cybercrime.</description>
+    </item>
+    <item>
+      <title>Designing A Space For Technology Enthusiasts</title>
+      <link>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</guid>
+      <description>Introduction From 2017 to 2020, I embarked on an exciting project to transform my traditional PC repair shop into a dynamic social space where programmers could meet, collaborate, and work on projects. Midway through this transformation, I shared an update on the progress. Now, as we close the chapter on this journey, I’m reflecting on the design process and what we achieved. For the final look before closing, be sure to check out the photos at the end.</description>
     </item>
     <item>
       <title>Forgotten your Windows 7 password?</title>
-      <link>https://strangelabs.io/wip/guides/forgotten-your-windows-password/</link>
+      <link>https://strangelabs.io/guides/forgotten-your-windows-password/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/forgotten-your-windows-password/</guid>
+      <guid>https://strangelabs.io/guides/forgotten-your-windows-password/</guid>
       <description>It is every Windows users nightmare: one day you try to log in and every attempt is denied. Whether you have forgotten your password or it has been changed or you need to get in and don&amp;rsquo;t have the password, there is a way to break in.&#xA;The Backdoor Take the battery out if you have a laptop and plug in the mains&#xA;Start windows and then whilst it is starting up, pull the power out to force an automatic startup repair on the next boot.</description>
     </item>
   </channel>

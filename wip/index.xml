@@ -6,56 +6,14 @@
     <description>Recent content in WIPs on Strange Labs Computers</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://strangelabs.io/wip/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to install Windows 11 without a Microsoft account</title>
-      <link>https://strangelabs.io/wip/guides/installing-windows-11-without-account/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/installing-windows-11-without-account/</guid>
-      <description>When setting up a fresh install of Windows 11, you&amp;rsquo;re prompted to log in with a Microsoft account by default. While this integration offers various benefits, such as seamless access to OneDrive and syncing settings across devices, many users prefer the privacy and control of a local account. However, Microsoft strongly encourages, to the point of forcing, the use of an online account during setup. In this blog post, we&amp;rsquo;ll explore the methods to bypass these attempts and successfully set up Windows 11 with a local account, ensuring you have the freedom and privacy you desire.</description>
-    </item>
-    <item>
-      <title>If I get rid of my computer, is my data safe?</title>
-      <link>https://strangelabs.io/wip/guides/is-my-data-safe/</link>
-      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/is-my-data-safe/</guid>
-      <description>Sometimes you need to give your computer away. Maybe it is a company owned machine and they need it back, maybe you have decided to pass it on or sell it to get a new one. Either way it is the computer you have been using for however long and it&amp;rsquo;s got all your stuff on it!&#xA;Some of that stuff is likely to be pretty sensitive.&#xA;If someone can get a hold of your photos, addresses, documents or (of course) passwords, financial data etc, they can, with reasonable ease, do a whole manner of illegal and very irritating things.</description>
-    </item>
     <item>
       <title>Genius Gaming Tales</title>
       <link>https://strangelabs.io/wip/genius-gaming-tales/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/wip/genius-gaming-tales/</guid>
       <description>Gaming is great, but what&amp;rsquo;s really great is when you devise a plan to &amp;ldquo;hack&amp;rdquo; the game using nothing but the engine itself, No cheats, no actually hacking, just working out a genius plan.&#xA;How you play a game in the privacy of your own home, or the anonymity behind the monitor can say a lot about who you are and what you are like. Sometimes examples of gaming strategies reveal a utilitarian genius which is fascinating to me for two reasons: The ability to &amp;ldquo;win&amp;rdquo; the game in terms of exploiting an undesigned hack.</description>
-    </item>
-    <item>
-      <title>Diagnosing internet issues on Windows 10</title>
-      <link>https://strangelabs.io/wip/guides/diagnosing-internet-issues-win-10/</link>
-      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/diagnosing-internet-issues-win-10/</guid>
-      <description>These days you need the internet to survive. It is so embedded into our societies that the UN has said access to it needs to be a human right. We use it for work, play, socialising, researching&amp;hellip; so when we cannot use it because of slow, intermittent or no connection at all it is incredibly frustrating. Fortunately Strange Labs has some help you can try to get back online!&#xA;Is it the router or the PC?</description>
-    </item>
-    <item>
-      <title>Easily replace your boot drive on any computer without losing data.</title>
-      <link>https://strangelabs.io/wip/guides/replace-your-boot-drive/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/replace-your-boot-drive/</guid>
-      <description>Introduction If you have run out of space on your boot drive, using your PC can become quite restrictive and irritating. You might not be able to save files, or even open programs or the internet if there is no space left. If this happens you have a couple of options to get more space: the easiest being adding another hard drive or solid state drive. However this may not be an option for you, or you may need or want to replace your drive with a bigger one!</description>
-    </item>
-    <item>
-      <title>Designing a space for technology enthusiasts</title>
-      <link>https://strangelabs.io/wip/designing-a-space-for-technology-enthusiasts/</link>
-      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/designing-a-space-for-technology-enthusiasts/</guid>
-      <description>From 2017 to 2020, I had a physical shop, the idea was to convert it from a boring PC repair shop into a social space where programmers could meet to work on projects. This was a post made part way through that development. For the last pics before I closed, go to the end&#xA;We are half way through a refurbishment in store. So far, the first half has been very successful I would say, both in it&amp;rsquo;s own aesthetic, and how it reflects the computer enthusiasm nature of the space.</description>
-    </item>
-    <item>
-      <title>Beginners guide to Windows 10</title>
-      <link>https://strangelabs.io/wip/guides/beginners-guide-to-windows-10/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/beginners-guide-to-windows-10/</guid>
-      <description>Introduction I have been asked many times for some help in getting started and achieving a basic understanding of the Windows 10 operating system (OS). Windows 10 came out on the 29th July 2015 but still people have some trouble finding their way around. This is, by definition, the result of substandard user experience and not necessarily Windows user’s own fault for not getting it. Of course a basic understanding of any computer system will help, but Windows 10 doesn’t make it as easy as it could be thanks to layers of abstraction built on what is essentially a combination of previous Windows versions underneath.</description>
     </item>
     <item>
       <title>Interesting Easter Eggs on your PC or Mac</title>
@@ -72,20 +30,6 @@
       <description>Last updated: August 2024&#xA;Introduction When I was a teenager, at around 2003, I rebelled against the mobile phone. I don&amp;rsquo;t know what it was about it but I just didn&amp;rsquo;t want one. Without really thinking too much about it then, I believe I foresaw a future of increasing social connections and as a result, imagined each connection becoming weaker. It may have been a bit of that, but it was definitely a bit of relunctance to being able to be contacted 24/7.</description>
     </item>
     <item>
-      <title>Sick of Windows 10? Try Linux!</title>
-      <link>https://strangelabs.io/wip/guides/sick-of-windows-10-try-linux/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/sick-of-windows-10-try-linux/</guid>
-      <description>Since Windows 10 free upgrade, our customers have complained about the sneaky tactics used by Microsoft to install their latest OS. They&amp;rsquo;ve complained about further updates breaking their systems. They&amp;rsquo;ve complained about the lack of various driver support for wifi, printers, bluetooth and more in Windows 10. They&amp;rsquo;ve complained about the abstracted ways to use the PC becoming confusing and unnecessary! It doesn&amp;rsquo;t seem like Windows 10 is winning many hearts!</description>
-    </item>
-    <item>
-      <title>How to avoid the bait and not get phished!</title>
-      <link>https://strangelabs.io/wip/dont-get-phished/</link>
-      <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/dont-get-phished/</guid>
-      <description>One of the most common way to get scammed or hacked is through a method called “Phishing”. It is very easy to fall foul of this type of con and can result in loss of control over your data and identity to the hackers. The following is a guest article by Techwarn which goes some way to help you avoid this sort of attack and educate yourselves in this method of cybercrime.</description>
-    </item>
-    <item>
       <title>EGX Rezzed 2019 - Our most interesting picks!</title>
       <link>https://strangelabs.io/wip/egx-rezzed-2019-best-of-the-bunch/</link>
       <pubDate>Sat, 06 Jul 2019 00:00:00 +0000</pubDate>
@@ -93,25 +37,11 @@
       <description>EGX Rezzed, London’s biggest gaming event, concluded a week ago. Strange Labs was in attendance and amongst the various qualities of cosplayers wandering around, excellent merchandise and endless games to play, there were also some pretty cool talks from the developers themselves. We managed to get to a few (annoyingly everything inevitably overlaps at these sorts of events) and thought we would share our favourite picks of brand new, up and coming games.</description>
     </item>
     <item>
-      <title>Speeding up Windows 10 startup</title>
-      <link>https://strangelabs.io/wip/guides/speeding-up-windows-10-startup/</link>
-      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/speeding-up-windows-10-startup/</guid>
-      <description>Hardware So the first and easiest method (though unfortunately most expensive) is to upgrade the hardware. Adding a Solid State Drive (SSD) will greatly speed up the load times of Windows and all programs and files. An SSD has no moving parts, unlike traditional mechanical Hard Disk Drives and the read and write times are ten fold faster. NVMe SSDs are faster still as they no longer use the slower SATA protocol.</description>
-    </item>
-    <item>
       <title>BSOD scams on windows 10</title>
       <link>https://strangelabs.io/wip/bsod-scams-on-windows-10/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/wip/bsod-scams-on-windows-10/</guid>
       <description>Getting scammed is a growing threat in our connected world. Here are a couple of old BSOD examples that try to scare you into giving away control or money.&#xA;If you&amp;rsquo;ve been using Windows for a long time, you&amp;rsquo;ve probably heard of or witnessed the infamous Blue Screen of Death, or BSOD for short.&#xA;It was a problem that set windows apart from other OS&amp;rsquo;s in the tech fail arena, and even occurred on a live demo by Bill Gates himself of Windows 98</description>
-    </item>
-    <item>
-      <title>Troubleshooting keyboard and mouse issues with laptops on Windows 10</title>
-      <link>https://strangelabs.io/wip/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</link>
-      <pubDate>Sun, 24 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</guid>
-      <description>Windows 10 isn&amp;rsquo;t the most robust Operating System out there. Often, the updates can break the computer in some way or another. They can clash with manufacturer updates, specifically they can attempt to replace the drivers installed by manufacturers with their own versions. Wi-Fi, optical drives and other devices can be affected, but today we will cover the keyboard and mouse - probably the most irritating of devices to fail on your laptop!</description>
     </item>
     <item>
       <title>Louqe Ghost S1 - Case Review</title>
@@ -126,13 +56,6 @@
       <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/wip/imagining-with-deep-dream/</guid>
       <description>Google&amp;rsquo;s Deep Dream shows us how simple pattern play in visuals, with some iterative dynamics, can create experiences which previously felt exclusively human, spiritual and deeply conscious. This reinforces the idea of our mind as a complex network of networks and ultimately recreatable by technology.&#xA;I think I am late to the party here, but better late than never! I read the recently released white paper by Google: PathNet: Evolution Channels Gradient Descent in Super Neural Networks and became fascinated on the conceptual simplicity of the underpinning algorithms which build narrow artificial intelligence.</description>
-    </item>
-    <item>
-      <title>Forgotten your Windows 7 password?</title>
-      <link>https://strangelabs.io/wip/guides/forgotten-your-windows-password/</link>
-      <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/guides/forgotten-your-windows-password/</guid>
-      <description>It is every Windows users nightmare: one day you try to log in and every attempt is denied. Whether you have forgotten your password or it has been changed or you need to get in and don&amp;rsquo;t have the password, there is a way to break in.&#xA;The Backdoor Take the battery out if you have a laptop and plug in the mains&#xA;Start windows and then whilst it is starting up, pull the power out to force an automatic startup repair on the next boot.</description>
     </item>
   </channel>
 </rss>

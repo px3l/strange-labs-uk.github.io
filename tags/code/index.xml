@@ -6,14 +6,14 @@
     <description>Recent content in Code on Strange Labs Computers</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 02 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://strangelabs.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Designing a space for technology enthusiasts</title>
-      <link>https://strangelabs.io/wip/designing-a-space-for-technology-enthusiasts/</link>
-      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/designing-a-space-for-technology-enthusiasts/</guid>
-      <description>From 2017 to 2020, I had a physical shop, the idea was to convert it from a boring PC repair shop into a social space where programmers could meet to work on projects. This was a post made part way through that development. For the last pics before I closed, go to the end&#xA;We are half way through a refurbishment in store. So far, the first half has been very successful I would say, both in it&amp;rsquo;s own aesthetic, and how it reflects the computer enthusiasm nature of the space.</description>
+      <title>Designing A Space For Technology Enthusiasts</title>
+      <link>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</guid>
+      <description>Introduction From 2017 to 2020, I embarked on an exciting project to transform my traditional PC repair shop into a dynamic social space where programmers could meet, collaborate, and work on projects. Midway through this transformation, I shared an update on the progress. Now, as we close the chapter on this journey, I’m reflecting on the design process and what we achieved. For the final look before closing, be sure to check out the photos at the end.</description>
     </item>
     <item>
       <title>Imagining with Deep Dream</title>
@@ -23,7 +23,7 @@
       <description>Google&amp;rsquo;s Deep Dream shows us how simple pattern play in visuals, with some iterative dynamics, can create experiences which previously felt exclusively human, spiritual and deeply conscious. This reinforces the idea of our mind as a complex network of networks and ultimately recreatable by technology.&#xA;I think I am late to the party here, but better late than never! I read the recently released white paper by Google: PathNet: Evolution Channels Gradient Descent in Super Neural Networks and became fascinated on the conceptual simplicity of the underpinning algorithms which build narrow artificial intelligence.</description>
     </item>
     <item>
-      <title>Arguing for Open Source</title>
+      <title>Arguing For Open Source</title>
       <link>https://strangelabs.io/blog/arguing-for-open-source/</link>
       <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/blog/arguing-for-open-source/</guid>

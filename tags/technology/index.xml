@@ -23,11 +23,11 @@
       <description>Introduction Imagine designing a country&amp;rsquo;s system of governance from the ground up, leveraging all available technological resources and integrating lessons learned from history. How would such a system function? What principles would guide its operations?&#xA;Future-proof is a think-tank dedicated to exploring these questions and more. We do not profess to have definitive answers but aim to stimulate thoughtful discussion. Founded by technologists with expertise in software development and systems design, Futureproof aspires to build a diverse community of thinkers.</description>
     </item>
     <item>
-      <title>How to Think in a World of Cybercrime</title>
+      <title>How To Think In A World Of Cybercrime</title>
       <link>https://strangelabs.io/blog/how-to-think-in-a-world-of-cybercrime/</link>
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/blog/how-to-think-in-a-world-of-cybercrime/</guid>
-      <description>As technology and networking become increasingly integrated into our lives, the threat of cybercrime will only grow. It&amp;rsquo;s a scary reality, and if you find yourself feeling paranoid, you&amp;rsquo;re probably justified. In this article, I&amp;rsquo;ll share how I approach this complex digital landscape and offer some advice on how you might want to think about it too. Be warned, though—this perspective isn&amp;rsquo;t for the faint of heart.&#xA;The Escalating Cyber Threat In recent years, we’ve been bombarded with news about cyber attacks, ransomware infections, and data breaches.</description>
+      <description>Introduction As technology and networking become increasingly integrated into our lives, the threat of cybercrime will only grow. It&amp;rsquo;s a scary reality, and if you find yourself feeling paranoid, you&amp;rsquo;re probably justified. In this article, I&amp;rsquo;ll share how I approach this complex digital landscape and offer some advice on how you might want to think about it too. Be warned, though—this perspective isn&amp;rsquo;t for the faint of heart.&#xA;The Escalating Cyber Threat In recent years, we’ve been bombarded with news about cyber attacks, ransomware infections, and data breaches.</description>
     </item>
     <item>
       <title>Is Data Worth Storing?</title>
@@ -35,13 +35,6 @@
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/blog/is-data-worth-storing/</guid>
       <description>Introduction The storage and preservation of digital data have become critical concerns in an age where information is increasingly digitized. A Tedium article on disc rot prompted a reflection on two personal experiences related to data loss and long-term storage, leading to profound questions about the feasibility and necessity of preserving digital data indefinitely. This post explores the complexities of long-term data storage, considers the implications of evolving file types, and delves into the philosophical question of whether all data should be preserved.</description>
-    </item>
-    <item>
-      <title>Designing a space for technology enthusiasts</title>
-      <link>https://strangelabs.io/wip/designing-a-space-for-technology-enthusiasts/</link>
-      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/designing-a-space-for-technology-enthusiasts/</guid>
-      <description>From 2017 to 2020, I had a physical shop, the idea was to convert it from a boring PC repair shop into a social space where programmers could meet to work on projects. This was a post made part way through that development. For the last pics before I closed, go to the end&#xA;We are half way through a refurbishment in store. So far, the first half has been very successful I would say, both in it&amp;rsquo;s own aesthetic, and how it reflects the computer enthusiasm nature of the space.</description>
     </item>
     <item>
       <title>Interesting Easter Eggs on your PC or Mac</title>
@@ -65,7 +58,14 @@
       <description>EGX Rezzed, London’s biggest gaming event, concluded a week ago. Strange Labs was in attendance and amongst the various qualities of cosplayers wandering around, excellent merchandise and endless games to play, there were also some pretty cool talks from the developers themselves. We managed to get to a few (annoyingly everything inevitably overlaps at these sorts of events) and thought we would share our favourite picks of brand new, up and coming games.</description>
     </item>
     <item>
-      <title>Code, Data and Understanding Each Other in a Digital World</title>
+      <title>Designing A Space For Technology Enthusiasts</title>
+      <link>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://strangelabs.io/blog/designing-a-space-for-technology-enthusiasts/</guid>
+      <description>Introduction From 2017 to 2020, I embarked on an exciting project to transform my traditional PC repair shop into a dynamic social space where programmers could meet, collaborate, and work on projects. Midway through this transformation, I shared an update on the progress. Now, as we close the chapter on this journey, I’m reflecting on the design process and what we achieved. For the final look before closing, be sure to check out the photos at the end.</description>
+    </item>
+    <item>
+      <title>Code, Data And Understanding Each Other In A Digital World</title>
       <link>https://strangelabs.io/blog/code-data-and-understanding-each-other/</link>
       <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/blog/code-data-and-understanding-each-other/</guid>
