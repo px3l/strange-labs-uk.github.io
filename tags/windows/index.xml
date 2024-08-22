@@ -30,11 +30,11 @@
       <description>Introduction In today&amp;rsquo;s world, the internet is essential for daily life. It&amp;rsquo;s so integral to our society that the UN has declared internet access a human right. We rely on it for work, entertainment, socializing, and research, so when a slow, intermittent, or non-existent connection disrupts our access, it can be incredibly frustrating. Fortunately, Strange Labs has some solutions to help you get back online!&#xA;Is it the router or the PC?</description>
     </item>
     <item>
-      <title>Easily replace your boot drive on any computer without losing data.</title>
+      <title>Easily Replace Your Boot Drive Without Losing Data</title>
       <link>https://strangelabs.io/guides/replace-your-boot-drive/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/guides/replace-your-boot-drive/</guid>
-      <description>Introduction If you have run out of space on your boot drive, using your PC can become quite restrictive and irritating. You might not be able to save files, or even open programs or the internet if there is no space left. If this happens you have a couple of options to get more space: the easiest being adding another hard drive or solid state drive. However this may not be an option for you, or you may need or want to replace your drive with a bigger one!</description>
+      <description>Introduction If your boot drive is running out of space, using your PC can quickly become frustrating and limiting. You might struggle to save files, or even open programs or access the internet if there&amp;rsquo;s no space left. When this happens, you have a few options to free up more space. The simplest solution is to add another hard drive or solid-state drive. However, this might not be feasible for everyone, especially if you&amp;rsquo;re dealing with a laptop that lacks expansion slots, or if you specifically need to use the C: drive for optimal performance.</description>
     </item>
     <item>
       <title>The Art Behind Default OS Wallpapers</title>
@@ -48,7 +48,7 @@
       <link>https://strangelabs.io/guides/beginners-guide-to-windows-10/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/guides/beginners-guide-to-windows-10/</guid>
-      <description>Introduction I have been asked many times for some help in getting started and achieving a basic understanding of the Windows 10 operating system (OS). Windows 10 came out on the 29th July 2015 but still people have some trouble finding their way around. This is, by definition, the result of substandard user experience and not necessarily Windows user’s own fault for not getting it. Of course a basic understanding of any computer system will help, but Windows 10 doesn’t make it as easy as it could be thanks to layers of abstraction built on what is essentially a combination of previous Windows versions underneath.</description>
+      <description>Introduction Many people have asked for help in getting started with Windows 10 and achieving a basic understanding of the operating system (OS). Although Windows 10 was released on July 29, 2015, some users still struggle to find their way around. This difficulty often stems from a less-than-ideal user experience rather than any fault of the users themselves. While a basic understanding of computers can be helpful, Windows 10 can be challenging due to its layered interface, which builds upon previous versions of Windows.</description>
     </item>
     <item>
       <title>Interesting Easter Eggs on your PC or Mac</title>
@@ -62,7 +62,7 @@
       <link>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/guides/sick-of-windows-10-try-linux/</guid>
-      <description>Since Windows 10 free upgrade, our customers have complained about the sneaky tactics used by Microsoft to install their latest OS. They&amp;rsquo;ve complained about further updates breaking their systems. They&amp;rsquo;ve complained about the lack of various driver support for wifi, printers, bluetooth and more in Windows 10. They&amp;rsquo;ve complained about the abstracted ways to use the PC becoming confusing and unnecessary! It doesn&amp;rsquo;t seem like Windows 10 is winning many hearts!</description>
+      <description>Introduction Since the free Windows 10 upgrade, many of our customers have expressed frustration with Microsoft&amp;rsquo;s tactics for pushing their latest OS. They&amp;rsquo;ve encountered issues with subsequent updates that have disrupted their systems, along with a lack of driver support for essential components like Wi-Fi, printers, and Bluetooth. Additionally, the increasingly abstract and convoluted user interface has left many feeling confused and frustrated. It&amp;rsquo;s clear that Windows 10 isn&amp;rsquo;t winning many fans.</description>
     </item>
     <item>
       <title>How To Avoid The Bait And Not Get Phished</title>
@@ -79,11 +79,11 @@
       <description>EGX Rezzed, London’s biggest gaming event, concluded a week ago. Strange Labs was in attendance and amongst the various qualities of cosplayers wandering around, excellent merchandise and endless games to play, there were also some pretty cool talks from the developers themselves. We managed to get to a few (annoyingly everything inevitably overlaps at these sorts of events) and thought we would share our favourite picks of brand new, up and coming games.</description>
     </item>
     <item>
-      <title>Speeding up Windows 10 startup</title>
+      <title>How to Speed Up Your Windows 10 Startup</title>
       <link>https://strangelabs.io/guides/speeding-up-windows-10-startup/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/guides/speeding-up-windows-10-startup/</guid>
-      <description>Hardware So the first and easiest method (though unfortunately most expensive) is to upgrade the hardware. Adding a Solid State Drive (SSD) will greatly speed up the load times of Windows and all programs and files. An SSD has no moving parts, unlike traditional mechanical Hard Disk Drives and the read and write times are ten fold faster. NVMe SSDs are faster still as they no longer use the slower SATA protocol.</description>
+      <description>Hardware Upgrades The easiest, though often most expensive, method to boost your PC&amp;rsquo;s performance is by upgrading the hardware. One of the most impactful upgrades you can make is adding a Solid State Drive (SSD). Unlike traditional mechanical Hard Disk Drives (HDDs), SSDs have no moving parts and offer read and write speeds that are significantly faster. Opting for an NVMe SSD can further enhance speed, as these drives utilize a faster interface than the standard SATA protocol.</description>
     </item>
     <item>
       <title>BSOD scams on windows 10</title>
@@ -93,18 +93,18 @@
       <description>Getting scammed is a growing threat in our connected world. Here are a couple of old BSOD examples that try to scare you into giving away control or money.&#xA;If you&amp;rsquo;ve been using Windows for a long time, you&amp;rsquo;ve probably heard of or witnessed the infamous Blue Screen of Death, or BSOD for short.&#xA;It was a problem that set windows apart from other OS&amp;rsquo;s in the tech fail arena, and even occurred on a live demo by Bill Gates himself of Windows 98</description>
     </item>
     <item>
-      <title>Troubleshooting keyboard and mouse issues with laptops on Windows 10</title>
+      <title>Troubleshooting Keyboard and Mouse Issues in Windows 10</title>
       <link>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</link>
       <pubDate>Sun, 24 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</guid>
-      <description>Windows 10 isn&amp;rsquo;t the most robust Operating System out there. Often, the updates can break the computer in some way or another. They can clash with manufacturer updates, specifically they can attempt to replace the drivers installed by manufacturers with their own versions. Wi-Fi, optical drives and other devices can be affected, but today we will cover the keyboard and mouse - probably the most irritating of devices to fail on your laptop!</description>
+      <description>Introduction Windows 10, while popular, isn&amp;rsquo;t the most reliable operating system out there. Often, updates can cause unexpected issues, including conflicts with manufacturer updates. These updates may attempt to replace the drivers installed by manufacturers with their own versions, potentially affecting devices like Wi-Fi, optical drives, and, as we&amp;rsquo;ll cover today, the keyboard and mouse—two of the most frustrating devices to fail on a laptop!&#xA;Note: You may need a USB mouse and/or keyboard to follow these suggestions.</description>
     </item>
     <item>
-      <title>Forgotten your Windows 7 password?</title>
+      <title>Forgotten Your Windows 7 Password?</title>
       <link>https://strangelabs.io/guides/forgotten-your-windows-password/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/guides/forgotten-your-windows-password/</guid>
-      <description>It is every Windows users nightmare: one day you try to log in and every attempt is denied. Whether you have forgotten your password or it has been changed or you need to get in and don&amp;rsquo;t have the password, there is a way to break in.&#xA;The Backdoor Take the battery out if you have a laptop and plug in the mains&#xA;Start windows and then whilst it is starting up, pull the power out to force an automatic startup repair on the next boot.</description>
+      <description>It’s every Windows user’s worst nightmare: you try to log in one day, and every attempt is denied. Whether you’ve forgotten your password, it’s been changed, or you need access without knowing the password, there’s a way to break back in.&#xA;The Backdoor Warning: This method involves interrupting your system&amp;rsquo;s startup process, which can be harmful to your hard drive. Use it only if absolutely necessary.&#xA;Step 1: Prepare Your Laptop (If Applicable)</description>
     </item>
   </channel>
 </rss>

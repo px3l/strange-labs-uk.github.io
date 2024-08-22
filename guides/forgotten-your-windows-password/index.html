@@ -114,7 +114,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                       <div class="post-title">
-    Forgotten your Windows 7 password?
+    Forgotten Your Windows 7 Password?
   </div>
   <br />
   <hr />
@@ -122,7 +122,7 @@
     <strong>Posted:</strong> Monday, October 30, 2017
   </div>
   <div class="post-date">
-    <strong>Last updated:</strong> 
+    <strong>Last updated:</strong> Thursday, August 22, 2024
   </div>
   <div class="post-author">
     <strong>Author:</strong> Strange Labs
@@ -130,32 +130,47 @@
   <br/>
   <hr />
   <div class="post-content">
-    <p>It is every Windows users nightmare: one day you try to log in and every attempt is denied. Whether you have forgotten your password or it has been changed or you need to get in and don&rsquo;t have the password, there is a way to break in.</p>
-<h2 id="the-backdoor">The Backdoor</h2>
-<p>Take the battery out if you have a laptop and plug in the mains</p>
-<p>Start windows and then whilst it is starting up, pull the power out to force an automatic startup repair on the next boot. Note - this is not very good for the hard drive, so be warned. Only follow this if you absolutely need to get back into your Windows 7 machine!</p>
-<p>When it restarts you will see the Windows Error Recovery</p>
-<p><img src="/images/blog/win7-password-1.png" alt="image1"> - If you see a screen which gives you the safe boot options, just keep trying and eventually it will give you the above screen</p>
-<p>Select <strong>Launch Startup Repair (recommended)</strong></p>
-<p>Windows will then load files and begin the startup repair service</p>
-<p><img src="/images/blog/win7-password-2.jpeg" alt="image2">  - Wait for a few minutes, sometimes it can take a while, for a box to pop up saying &ldquo;<em>Do you want to restore your computer using System Restore?</em>&rdquo; and then click <strong>Cancel</strong></p>
-<p>Wait for another 5 to 10 minutes for a pop up to appear saying &ldquo;<em>Startup Repair cannot repair this computer automatically</em>**&rdquo;**</p>
-<p>Click on <strong>View problem details</strong></p>
-<p>Select the final .txt link, usually addressed <code>X:\windows\system32\en-US\erofflps.txt</code></p>
-<p>Then, on notepad (viewing the .txt), go to File &gt; Open</p>
-<p>Go to <code>C:\Windows\System32</code></p>
-<p>Change <em>Files of type:</em> to <strong>All Files</strong></p>
-<p>Find <code>sethc.exe</code> amongst the files</p>
-<p>Rename it to <code>sethc1</code></p>
-<p>Then find <code>cmd</code></p>
-<p>Right click on <code>cmd</code> and select <strong>copy</strong>, then rename <code>cmd-copy</code> to <code>sethc</code></p>
-<p>Close notepad and press cancel on Startup Repair to restart Windows</p>
-<p>Let Windows start normally and wait until you see your user profile log on screen</p>
-<p>Press shift 5 times quickly to open your renamed cmd.exe - now you can use the command prompt before logging on</p>
-<p>In cmd, type <code>net user</code> to see a list of users</p>
-<p>Choose your user and reset their password by typing <code>net user USERNAME *</code> (where USERNAME is the username taken from the list)</p>
-<p>Type a new password for the user or just leave blank and press enter</p>
-<p>Hopefully, you&rsquo;re in! Welcome back to Windows!</p>
+    <p>It’s every Windows user’s worst nightmare: you try to log in one day, and every attempt is denied. Whether you’ve forgotten your password, it’s been changed, or you need access without knowing the password, there’s a way to break back in.</p>
+<hr>
+<h3 id="the-backdoor"><strong>The Backdoor</strong></h3>
+<p><strong>Warning:</strong> This method involves interrupting your system&rsquo;s startup process, which can be harmful to your hard drive. Use it only if absolutely necessary.</p>
+<p><strong>Step 1: Prepare Your Laptop (If Applicable)</strong></p>
+<p>If you’re using a laptop, remove the battery and plug it into the mains.</p>
+<p><strong>Step 2: Force a Startup Repair</strong></p>
+<ol>
+<li>Start Windows as usual.</li>
+<li>While it’s booting up, unplug the power to force an automatic startup repair on the next boot.</li>
+</ol>
+<p><img src="/images/blog/win7-password-1.png" alt="image1"></p>
+<p><strong>Note:</strong> This may take a few attempts. If you see a screen with safe boot options instead, keep trying until you reach the Windows Error Recovery screen.</p>
+<ol start="3">
+<li>Once you see the Windows Error Recovery screen, select Launch Startup Repair (recommended).</li>
+</ol>
+<p><img src="/images/blog/win7-password-2.jpeg" alt="image2"></p>
+<p>Windows will then begin loading files and initiate the startup repair process.</p>
+<p><strong>Step 3: Trigger the Command Prompt</strong></p>
+<ol>
+<li>Wait a few minutes. A pop-up will appear asking, &ldquo;Do you want to restore your computer using System Restore?&rdquo; Click <em>Cancel</em>.</li>
+<li>After another 5 to 10 minutes, a message will appear saying, &ldquo;Startup Repair cannot repair this computer automatically.&rdquo;</li>
+<li>Click on <em>View problem details</em>.</li>
+<li>In the details window, look for the final .txt link, usually addressed as <code>X:\windows\system32\en-US\erofflps.txt</code>. Click on this link to open Notepad.</li>
+<li>In Notepad, go to <em>File &gt; Open</em>.</li>
+<li>Navigate to <code>C:\Windows\System32</code>.</li>
+<li>Change the <em>Files of type</em> dropdown to <em>All Files</em>.</li>
+<li>Locate <code>sethc.exe</code>, right-click on it, and rename it to <code>sethc1</code>.</li>
+<li>Find <code>cmd.exe</code>, right-click on it, and select <em>Copy</em>. Then, rename the copied file to <code>sethc</code>.</li>
+<li>Close Notepad and press <em>Cancel</em> on the Startup Repair window to restart Windows.</li>
+</ol>
+<p><strong>Step 4: Reset Your Password</strong></p>
+<ol>
+<li>Let Windows start normally and wait until the user profile login screen appears.</li>
+<li>Press the <em>Shift</em> key five times quickly. This will open the Command Prompt, thanks to the renamed <code>cmd.exe</code>.</li>
+<li>In the Command Prompt, type <code>net user</code> and press <em>Enter</em> to see a list of users.</li>
+<li>Identify your user from the list. To reset their password, type: <code>net user USERNAME *</code> (Replace <code>USERNAME</code> with the actual username from the list.)</li>
+<li>Enter a new password for the user, or leave it blank and press <em>Enter</em>.</li>
+</ol>
+<p><strong>Step 5: Log Back In</strong></p>
+<p>You should now be able to log back into your account with the new password. Welcome back to Windows!</p>
 
   </div>
   <hr />

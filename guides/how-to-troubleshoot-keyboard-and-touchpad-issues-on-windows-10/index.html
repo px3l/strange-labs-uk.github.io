@@ -114,7 +114,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                       <div class="post-title">
-    Troubleshooting keyboard and mouse issues with laptops on Windows 10
+    Troubleshooting Keyboard and Mouse Issues in Windows 10
   </div>
   <br />
   <hr />
@@ -122,7 +122,7 @@
     <strong>Posted:</strong> Sunday, June 24, 2018
   </div>
   <div class="post-date">
-    <strong>Last updated:</strong> 
+    <strong>Last updated:</strong> Thursday, August 22, 2024
   </div>
   <div class="post-author">
     <strong>Author:</strong> Strange Labs
@@ -130,31 +130,61 @@
   <br/>
   <hr />
   <div class="post-content">
-    <p><img src="/images/blog/keyboard-issues-1.png" alt="whyYouNoWork"></p>
-<p>Windows 10 isn&rsquo;t the most robust Operating System out there. Often, the updates can break the computer in some way or another. They can clash with manufacturer updates, specifically they can attempt to replace the drivers installed by manufacturers with their own versions. Wi-Fi, optical drives and other devices can be affected, but today we will cover the keyboard and mouse - probably the most irritating of devices to fail on your laptop! Be warned, you may need a USB mouse and/or keyboard to complete this suggestions. If your cursor is working, no need to edit the mouse settings. If your keyboard is working, no need to edit your keyboard settings. Just follow the steps for the device(s) which are not working.</p>
-<h2 id="first-some-background">First some background</h2>
-<p>A driver is a piece of software which allows the operating system to communicate with hardware devices. You can think of a driver like a translator, taking commands from the operating system and relaying them to the hardware in the language that hardware speaks.</p>
-<p>If any device stops working randomly, the first place to check is the device manager. To do so, right click on the start menu and select Device Manager from the list.</p>
-<p>You will likely be presented with one of a few scenarios.</p>
+    <h3 id="introduction"><strong>Introduction</strong></h3>
+<p>Windows 10, while popular, isn&rsquo;t the most reliable operating system out there. Often, updates can cause unexpected issues, including conflicts with manufacturer updates. These updates may attempt to replace the drivers installed by manufacturers with their own versions, potentially affecting devices like Wi-Fi, optical drives, and, as we&rsquo;ll cover today, the keyboard and mouse—two of the most frustrating devices to fail on a laptop!</p>
+<p><img src="/images/blog/keyboard-issues-1.png" alt="whyYouNoWork"></p>
+<p><strong>Note:</strong> You may need a USB mouse and/or keyboard to follow these suggestions. If your cursor or keyboard is working, there&rsquo;s no need to adjust those settings. Just focus on the device that isn’t working.</p>
+<hr>
+<h3 id="understanding-the-problem"><strong>Understanding the Problem</strong></h3>
+<p><strong>What Is a Driver?</strong></p>
+<p>A driver is a piece of software that enables the operating system to communicate with hardware devices. You can think of a driver as a translator, converting commands from the operating system into a language the hardware can understand.</p>
+<p><strong>Checking the Device Manager</strong></p>
+<p>If your keyboard or mouse stops working unexpectedly, the first place to check is the Device Manager:</p>
 <ol>
-<li>The device is not listed at all</li>
-<li>The device is listed with a yellow !</li>
-<li>The device is listed with no warnings</li>
-<li>Multiple devices are listed, with or without warnings</li>
+<li>Right-click on the <em>Start menu</em>.</li>
+<li>Select <em>Device Manager</em> from the list.</li>
 </ol>
-<h2 id="lets-fix-the-keyboard-and-mouse">Let&rsquo;s fix the Keyboard and Mouse</h2>
-<p>If there is no listing for the keyboard or mouse, or if there is a listing for the keyboard and mouse, but with a yellow warning sign, then we need to work out the error. Right click on the device and go to properties. You will see a message hopefully containing an error code. The common codes are code 10, code 12 and code 43. To fix them follow this procedure.</p>
-<p><strong>1. Uninstall and delete the drivers.</strong></p>
-<p>Right click on the device and go to &ldquo;Uninstall device&rdquo;. If you get the option to delete the driver software, check the box and delete it. Click &ldquo;Ok&rdquo;. This might be enough to fix the problems. Restart the laptop and check to see if the keyboard or mouse works. If not, move on to 2.</p>
-<p><strong>2. Install the latest drivers.</strong></p>
-<p>If that hasn&rsquo;t worked, see if there are updated drivers from Windows Update or the manufacturers website. If that doesn&rsquo;t work, move on to 3.</p>
-<p><strong>3. Locate the registry entries.</strong></p>
-<p>Press Windows+r to open the Run prompt. Enter <code>regedit</code> and click &ldquo;Ok&rdquo;. Once the registry editor is open, find the following entries.</p>
+<p>You might encounter one of the following scenarios:</p>
+<ol>
+<li>The device is not listed at all.</li>
+<li>The device is listed with a yellow warning icon (!).</li>
+<li>The device is listed with no warnings.</li>
+<li>Multiple devices are listed, with or without warnings.</li>
+</ol>
+<h3 id="fixing-the-keyboard-and-mouse"><strong>Fixing the Keyboard and Mouse</strong></h3>
+<p>If your keyboard or mouse is not listed, or if it’s listed with a yellow warning sign, you’ll need to diagnose the error. Right-click on the device and go to <em>Properties</em>. Look for an error code, such as <code>code 10</code>, <code>code 12</code>, or <code>code 43</code>. Follow these steps to resolve the issue:</p>
+<p><strong>1. Uninstall and Delete the Drivers</strong></p>
+<ul>
+<li>Right-click on the device and select Uninstall device.</li>
+<li>If prompted, check the box to delete the driver software and click OK.</li>
+<li>Restart your laptop to see if the keyboard or mouse now works. If not, proceed to the next step.</li>
+</ul>
+<p><strong>2. Install the Latest Drivers</strong></p>
+<ul>
+<li>Check for updated drivers through Windows Update or the manufacturer’s website.</li>
+<li>If updating the drivers doesn’t solve the problem, move on to the next step.</li>
+</ul>
+<p><strong>3. Locate the Registry Entries</strong></p>
+<ul>
+<li>Press <code>Windows + R</code> to open the Run prompt.</li>
+<li>Type <code>regedit</code> and click OK to open the Registry Editor.</li>
+<li>Navigate to the following entries:</li>
+</ul>
 <p><strong>Keyboard:</strong> <code>HKEY_LOCAL_MACHINES\System\CurrentControlSet\Control\Class\</code></p>
 <p><strong>Mouse:</strong> <code>HKEY_LOCAL_MACHINES\System\CurrentControlSet\Control\Class\</code></p>
-<p>On either of them, click on the entry and on the right window, you should see the registry value files. If you see UpperFilters or/and LowerFilters, delete them. Restart the laptop and see if the keyboard and mouse work. If not, move onto 4.</p>
-<p><strong>4. Re-enter the registry values.</strong></p>
-<p>Open regedit again and find the above entries. This time, we are going to manually add the UpperFilters values back into them. With the entries selected, right click on the empty space in the right window. Click &ldquo;new&rdquo; &ldquo;Multi-String Value&rdquo;. Call the value &ldquo;UpperFilters&rdquo; and give it the value &ldquo;mouclass&rdquo; for the mouse, and &ldquo;kbdclass&rdquo;. Restart the laptop and see if the keyboard and mouse work.</p>
+<ul>
+<li>Click on the relevant entry. In the right window, look for <code>UpperFilters</code> and/or <code>LowerFilters</code>. If they are present, delete them.</li>
+<li>Restart your laptop to see if the keyboard and mouse now work. If not, move on to the final step.</li>
+</ul>
+<p><strong>4. Re-Enter the Registry Values</strong></p>
+<ul>
+<li>Open <code>regedit</code> again and navigate to the same entries as above.</li>
+<li>This time, manually add the UpperFilters values back:</li>
+<li>With the entry selected, right-click on the empty space in the right window.</li>
+<li>Click New &gt; Multi-String Value.</li>
+<li>Name the value UpperFilters and set it to mouclass for the mouse or kbdclass for the keyboard.</li>
+<li>Restart your laptop and check if the keyboard and mouse are now functioning properly.</li>
+</ul>
 
   </div>
   <hr />

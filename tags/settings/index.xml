@@ -34,14 +34,14 @@
       <link>https://strangelabs.io/guides/beginners-guide-to-windows-10/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/guides/beginners-guide-to-windows-10/</guid>
-      <description>Introduction I have been asked many times for some help in getting started and achieving a basic understanding of the Windows 10 operating system (OS). Windows 10 came out on the 29th July 2015 but still people have some trouble finding their way around. This is, by definition, the result of substandard user experience and not necessarily Windows user’s own fault for not getting it. Of course a basic understanding of any computer system will help, but Windows 10 doesn’t make it as easy as it could be thanks to layers of abstraction built on what is essentially a combination of previous Windows versions underneath.</description>
+      <description>Introduction Many people have asked for help in getting started with Windows 10 and achieving a basic understanding of the operating system (OS). Although Windows 10 was released on July 29, 2015, some users still struggle to find their way around. This difficulty often stems from a less-than-ideal user experience rather than any fault of the users themselves. While a basic understanding of computers can be helpful, Windows 10 can be challenging due to its layered interface, which builds upon previous versions of Windows.</description>
     </item>
     <item>
-      <title>Troubleshooting keyboard and mouse issues with laptops on Windows 10</title>
+      <title>Troubleshooting Keyboard and Mouse Issues in Windows 10</title>
       <link>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</link>
       <pubDate>Sun, 24 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/guides/how-to-troubleshoot-keyboard-and-touchpad-issues-on-windows-10/</guid>
-      <description>Windows 10 isn&amp;rsquo;t the most robust Operating System out there. Often, the updates can break the computer in some way or another. They can clash with manufacturer updates, specifically they can attempt to replace the drivers installed by manufacturers with their own versions. Wi-Fi, optical drives and other devices can be affected, but today we will cover the keyboard and mouse - probably the most irritating of devices to fail on your laptop!</description>
+      <description>Introduction Windows 10, while popular, isn&amp;rsquo;t the most reliable operating system out there. Often, updates can cause unexpected issues, including conflicts with manufacturer updates. These updates may attempt to replace the drivers installed by manufacturers with their own versions, potentially affecting devices like Wi-Fi, optical drives, and, as we&amp;rsquo;ll cover today, the keyboard and mouse—two of the most frustrating devices to fail on a laptop!&#xA;Note: You may need a USB mouse and/or keyboard to follow these suggestions.</description>
     </item>
   </channel>
 </rss>

@@ -9,18 +9,18 @@
     <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://strangelabs.io/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Easily replace your boot drive on any computer without losing data.</title>
+      <title>Easily Replace Your Boot Drive Without Losing Data</title>
       <link>https://strangelabs.io/guides/replace-your-boot-drive/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/guides/replace-your-boot-drive/</guid>
-      <description>Introduction If you have run out of space on your boot drive, using your PC can become quite restrictive and irritating. You might not be able to save files, or even open programs or the internet if there is no space left. If this happens you have a couple of options to get more space: the easiest being adding another hard drive or solid state drive. However this may not be an option for you, or you may need or want to replace your drive with a bigger one!</description>
+      <description>Introduction If your boot drive is running out of space, using your PC can quickly become frustrating and limiting. You might struggle to save files, or even open programs or access the internet if there&amp;rsquo;s no space left. When this happens, you have a few options to free up more space. The simplest solution is to add another hard drive or solid-state drive. However, this might not be feasible for everyone, especially if you&amp;rsquo;re dealing with a laptop that lacks expansion slots, or if you specifically need to use the C: drive for optimal performance.</description>
     </item>
     <item>
-      <title>Speeding up Windows 10 startup</title>
+      <title>How to Speed Up Your Windows 10 Startup</title>
       <link>https://strangelabs.io/guides/speeding-up-windows-10-startup/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://strangelabs.io/guides/speeding-up-windows-10-startup/</guid>
-      <description>Hardware So the first and easiest method (though unfortunately most expensive) is to upgrade the hardware. Adding a Solid State Drive (SSD) will greatly speed up the load times of Windows and all programs and files. An SSD has no moving parts, unlike traditional mechanical Hard Disk Drives and the read and write times are ten fold faster. NVMe SSDs are faster still as they no longer use the slower SATA protocol.</description>
+      <description>Hardware Upgrades The easiest, though often most expensive, method to boost your PC&amp;rsquo;s performance is by upgrading the hardware. One of the most impactful upgrades you can make is adding a Solid State Drive (SSD). Unlike traditional mechanical Hard Disk Drives (HDDs), SSDs have no moving parts and offer read and write speeds that are significantly faster. Opting for an NVMe SSD can further enhance speed, as these drives utilize a faster interface than the standard SATA protocol.</description>
     </item>
     <item>
       <title>Louqe Ghost S1 - Case Review</title>
