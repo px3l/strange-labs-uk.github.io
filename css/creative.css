@@ -318,6 +318,10 @@ header .header-content .header-content-inner p {
     margin: 50px auto 0;
     max-width: 400px;
 }
+#footer{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
 @media(min-width:992px) {
     .service-box {
         margin: 20px auto 0;
