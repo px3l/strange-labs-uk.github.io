@@ -65,11 +65,11 @@
       <description>Hardware Upgrades The easiest, though often most expensive, method to boost your PC&amp;rsquo;s performance is by upgrading the hardware. One of the most impactful upgrades you can make is adding a Solid State Drive (SSD). Unlike traditional mechanical Hard Disk Drives (HDDs), SSDs have no moving parts and offer read and write speeds that are significantly faster. Opting for an NVMe SSD can further enhance speed, as these drives utilise a faster interface than the standard SATA protocol.</description>
     </item>
     <item>
-      <title>BSOD scams on windows 10</title>
-      <link>https://strangelabs.io/wip/bsod-scams-on-windows-10/</link>
+      <title>Blue Screen Of Death Scams On Windows</title>
+      <link>https://strangelabs.io/blog/bsod-scams-on-windows-10/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://strangelabs.io/wip/bsod-scams-on-windows-10/</guid>
-      <description>Getting scammed is a growing threat in our connected world. Here are a couple of old BSOD examples that try to scare you into giving away control or money.&#xA;If you&amp;rsquo;ve been using Windows for a long time, you&amp;rsquo;ve probably heard of or witnessed the infamous Blue Screen of Death, or BSOD for short.&#xA;It was a problem that set windows apart from other OS&amp;rsquo;s in the tech fail arena, and even occurred on a live demo by Bill Gates himself of Windows 98</description>
+      <guid>https://strangelabs.io/blog/bsod-scams-on-windows-10/</guid>
+      <description>Introduction In our increasingly connected world, scams have become a growing threat to computer users. One particularly insidious tactic involves exploiting the notorious Blue Screen of Death (BSOD) - a symbol of ultimate computer error that has long been associated with Windows operating systems.&#xA;The Evolution of the BSOD For long-time Windows users, the BSOD is a familiar sight. This error screen gained infamy over the years, setting Windows apart from other operating systems in terms of visible system failures.</description>
     </item>
     <item>
       <title>Troubleshooting Keyboard and Mouse Issues in Windows 10</title>
