@@ -743,3 +743,22 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
     height: 100%;
     position: fixed;
 }
+
+
+/* TRUMPSHITE */
+
+#trumpquote {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
+#trumpdate {
+    font-weight: 900;
+    font-style: italic;
+}
+#trumpplace {
+    font-style: italic;
+}
+#trumplink {
+    font-style: normal;
+}
