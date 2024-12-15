@@ -735,16 +735,6 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
     padding: 5px;
 }
 
-/* ==========================================================================
-   8. End of file. Animations should be the last thing here.
-   ========================================================================== */
-
-#particles-js {
-    height: 100%;
-    position: fixed;
-}
-
-
 /* TRUMPSHITE */
 
 #trumpquote {
@@ -761,4 +751,14 @@ input[type=email], input[type=number], input[type=text], input[type=checkbox], i
 }
 #trumplink {
     font-style: normal;
+}
+
+
+/* ==========================================================================
+   8. End of file. Animations should be the last thing here.
+   ========================================================================== */
+
+#particles-js {
+    height: 100%;
+    position: fixed;
 }

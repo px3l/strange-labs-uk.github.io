@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://strangelabs.io/guides/</loc>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/tags/macos/</loc>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/guides/secret-things-in-modern-operating-systems/</loc>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/tags/settings/</loc>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://strangelabs.io/</loc>
-    <lastmod>2024-10-31T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/tags/</loc>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://strangelabs.io/tags/windows/</loc>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/trump/</loc>
     <lastmod>2024-10-31T00:00:00+00:00</lastmod>
@@ -12,9 +30,6 @@
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/blog/i-used-ai-to-write-an-academic-article/</loc>
-    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://strangelabs.io/tags/</loc>
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/tags/technology/</loc>
@@ -35,19 +50,10 @@
     <loc>https://strangelabs.io/blog/futureproofing-governance/</loc>
     <lastmod>2024-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://strangelabs.io/guides/</loc>
-    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://strangelabs.io/tags/help/</loc>
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/guides/installing-windows-11-without-account/</loc>
-    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://strangelabs.io/tags/settings/</loc>
-    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://strangelabs.io/tags/windows/</loc>
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://strangelabs.io/terms/</loc>
