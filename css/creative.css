@@ -416,12 +416,13 @@ header .header-content .header-content-inner p {
    ========================================================================== */
 
 .modal-content {
-    background: linear-gradient(-60deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    /* background: linear-gradient(-60deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    background: linear-gradient(-60deg, #000000, #0d0d0d, #000000, #171717);
     background-size: 100% 100%;
     color: #fff;
 }
 .gallery {
-    padding: 5%;
+    padding: 2%;
 }
 .btn-gallery {
     position: fixed;
